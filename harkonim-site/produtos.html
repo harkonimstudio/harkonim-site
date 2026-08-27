@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todos os Produtos — Harkonim Studio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="logo"><img src="images/logo-harkonim.png" alt="Harkonim Studio"></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Início</a>
+      <div class="nav-dropdown" id="navDropdown">
+        <button class="nav-dropdown-trigger" id="dropdownTrigger">Ver Todos Produtos <span class="caret">⌄</span></button>
+        <div class="nav-dropdown-panel" id="dropdownPanel"></div>
+      </div>
+      <a href="fale-com-a-gente.html">Fale com a gente</a>
+      <a href="quem-somos.html">Quem Somos</a>
+      <a href="trocas-devolucoes.html">Trocas e Devoluções</a>
+      <a href="#" id="navEncomenda" class="nav-cta">Faça sua encomenda</a>
+      <a href="parcerias.html">Parcerias</a>
+      <a href="fila-producao.html">Fila de Produção</a>
+    </nav>
+  </div>
+</header>
+
+<div class="produtos-header">
+  <div class="breadcrumb"><a href="index.html">Início</a> / <span>Produtos</span></div>
+  <h1 id="tituloListagem">Produtos</h1>
+</div>
+
+<div class="produtos-wrap">
+  <aside class="produtos-sidebar">
+    <div class="sidebar-section">
+      <h4>Categorias</h4>
+      <div id="listaCategorias"></div>
+    </div>
+
+    <div class="sidebar-section">
+      <h4>Conteúdo</h4>
+      <label class="filter-check">
+        <input type="checkbox" id="filtroNsfw">
+        Versão NSFW (18+)
+      </label>
+    </div>
+
+    <div class="sidebar-section">
+      <h4>Preço</h4>
+      <div class="price-range">
+        <input type="number" id="precoDe" placeholder="De">
+        <span>—</span>
+        <input type="number" id="precoAte" placeholder="Até">
+      </div>
+    </div>
+  </aside>
+
+  <div>
+    <div class="produtos-toolbar">
+      <span id="contagemResultados"></span>
+      <select class="sort-select" id="ordenarPor">
+        <option value="recentes">Mais recentes</option>
+        <option value="menor-preco">Menor preço</option>
+        <option value="maior-preco">Maior preço</option>
+      </select>
+    </div>
+    <div class="product-grid" id="productGrid"></div>
+  </div>
+</div>
+
+<footer>
+  Harkonim Studio — figures colecionáveis em resina, pintadas à mão, sob encomenda.
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/produtos.js"></script>
+</body>
+</html>
