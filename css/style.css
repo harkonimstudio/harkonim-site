@@ -7,10 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
 
 :root {
-  --bg: #0a0a0a;
-  --surface: #151515;
-  --surface-raised: #1e1e1e;
-  --line: #2a2a2a;
+  --bg: #1c1c1c;
+  --surface: #242424;
+  --surface-raised: #2c2c2c;
+  --line: #383838;
 
   --text: #f5f5f5;
   --text-muted: #969696;
@@ -51,18 +51,22 @@ img { max-width: 100%; display: block; }
 /* ---------- Header / nav ---------- */
 
 .site-header {
-  position: sticky;
-  top: 0;
+  position: absolute;
+  top: 0; left: 0; right: 0;
   z-index: 20;
-  background: rgba(22, 20, 15, 0.92);
-  backdrop-filter: blur(8px);
+  background: transparent;
+}
+
+body:not(.tem-hero) .site-header {
+  position: sticky;
+  background: var(--bg);
   border-bottom: 1px solid var(--line);
 }
 
 .nav-wrap {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 20px 0 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -94,11 +98,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   gap: 22px;
   flex-wrap: nowrap;
-  overflow-x: auto;
-  scrollbar-width: none;
 }
-
-.nav-links::-webkit-scrollbar { display: none; }
 
 .nav-links a {
   font-family: var(--font-body);
@@ -592,17 +592,18 @@ img { max-width: 100%; display: block; }
 
 .status-banner {
   margin-top: 12px;
-  padding: 11px 14px;
+  padding: 12px 14px;
   border-radius: var(--radius);
-  font-size: 0.82rem;
+  font-size: 0.85rem;
+  font-weight: 600;
   text-align: center;
   border: 1px solid var(--line);
 }
 
 .status-banner.sob-encomenda {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: var(--line);
-  color: var(--text);
+  background: #f4c430;
+  border-color: #f4c430;
+  color: #16140a;
 }
 
 .status-banner.pronta-entrega {
@@ -763,6 +764,57 @@ footer {
   color: var(--text-muted);
 }
 
+/* ---------- Rodapé completo (redes sociais + links + copyright) ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 20px;
+}
+
+.footer-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 46px 24px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.footer-social h4, .footer-links h4 {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  margin: 0 0 14px;
+}
+
+.social-icons { display: flex; gap: 10px; }
+
+.social-icons a {
+  width: 38px; height: 38px;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--text);
+  transition: all 0.15s ease;
+}
+
+.social-icons a:hover { border-color: var(--amber-bright); color: var(--amber-bright); }
+
+.footer-links { display: flex; flex-direction: column; gap: 8px; }
+.footer-links a { font-size: 0.85rem; color: var(--text-muted); }
+.footer-links a:hover { color: var(--amber-bright); }
+
+.footer-bottom {
+  border-top: 1px solid var(--line);
+  padding: 16px 24px;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
 @media (max-width: 760px) {
   .product-wrap { grid-template-columns: 1fr; gap: 28px; }
   .nav-wrap { flex-wrap: wrap; height: auto; padding: 14px 20px; }
@@ -778,25 +830,27 @@ footer {
 }
 
 .featured-tile {
+  display: block;
+}
+
+.tile-media {
   position: relative;
   aspect-ratio: 3 / 4;
   overflow: hidden;
   background: linear-gradient(155deg, #1c1c1c 0%, #0e0e0e 100%);
 }
 
-.featured-tile img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
-.featured-tile:hover img { transform: scale(1.04); }
+.tile-media img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
+.featured-tile:hover .tile-media img { transform: scale(1.04); }
 
-.featured-tile .tile-overlay {
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  padding: 28px 26px;
-  background: linear-gradient(to top, rgba(0,0,0,0.88) 10%, transparent 100%);
+.tile-info {
+  padding: 14px 4px 0;
+  text-align: center;
 }
 
-.featured-tile .tile-cat {
+.tile-cat {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--text-muted);
@@ -804,12 +858,20 @@ footer {
   margin-bottom: 4px;
 }
 
-.featured-tile .tile-name {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.7rem;
-  text-transform: uppercase;
-  line-height: 1;
+.tile-name {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--text);
+  display: block;
+}
+
+.tile-price {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  display: block;
+  margin-top: 4px;
 }
 
 @media (max-width: 900px) {
@@ -987,3 +1049,142 @@ footer {
 .static-page { max-width: 760px; margin: 50px auto 100px; padding: 0 24px; }
 .static-page h1 { font-family: var(--font-display); font-size: 2rem; margin-bottom: 18px; }
 .static-page p { color: var(--text-muted); margin-bottom: 16px; }
+
+/* ---------- Banner principal — só a imagem, com fade de entrada ---------- */
+
+.hero-full {
+  width: 100%;
+  height: 100vh;
+  max-height: 900px;
+  min-height: 520px;
+  overflow: hidden;
+  opacity: 0;
+  animation: heroFadeIn 1.1s ease forwards;
+}
+
+.hero-full img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes heroFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ---------- Dropdown "Ver Todos Produtos" — abre no hover, suave ---------- */
+
+.nav-dropdown-panel {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s;
+  display: grid !important;
+  pointer-events: none;
+}
+
+.nav-dropdown:hover .nav-dropdown-panel,
+.nav-dropdown.open .nav-dropdown-panel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* ---------- Troca de imagem no hover (produtos com 2ª foto) ---------- */
+
+.card-media, .tile-media { position: relative; }
+
+.img-base, .img-hover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.35s ease;
+}
+
+.img-hover { opacity: 0; }
+
+.card:hover .img-hover,
+.featured-tile:hover .img-hover { opacity: 1; }
+
+/* ---------- Fade-in ao rolar a página ---------- */
+
+.fade-in-item {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-item.visivel {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- Botão flutuante de WhatsApp (canto inferior direito) ---------- */
+
+.float-whatsapp {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--verdigris);
+  color: #0f1512;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 13px 18px;
+  border-radius: 999px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.float-whatsapp:hover {
+  background: var(--verdigris-bright);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .float-whatsapp span { display: none; }
+  .float-whatsapp { padding: 14px; }
+}
+
+/* ---------- Blocos de destaque (usado em Quem Somos) ---------- */
+
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.about-features .feature h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin: 0 0 8px;
+}
+
+.about-features .feature p {
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+/* ---------- Espaçamento entre banner e faixas de produtos ---------- */
+
+.strip-block {
+  padding-top: 50px;
+}
+
+.strip-title {
+  max-width: 1400px;
+  margin: 0 auto 20px;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.strip-title .section-head { justify-content: center; }
+.strip-title .section-head > div { text-align: center; }
