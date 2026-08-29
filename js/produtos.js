@@ -1,6 +1,3 @@
-document.getElementById("navEncomenda").href =
-  "https://api.whatsapp.com/send?phone=" + WHATSAPP_NUMERO +
-  "&text=" + encodeURIComponent("Olá! Gostaria de fazer uma encomenda personalizada.");
 
 const params = new URLSearchParams(window.location.search);
 let filtroCategoria = params.get("cat") || null;
@@ -77,8 +74,8 @@ function criarCard(p) {
   card.innerHTML = `
     <div class="card-media">
       ${p.nsfw ? '<span class="badge-nsfw">18+</span>' : ""}
-      <span class="tag-mold">ESC. ${p.escala}</span>
-      <img src="images/${p.imagens[0]}" alt="${p.nome}" onerror="this.remove()">
+      <img class="img-base" src="images/${p.imagens[0]}" alt="${p.nome}" onerror="this.remove()">
+      ${p.imagens[1] ? `<img class="img-hover" src="images/${p.imagens[1]}" alt="" onerror="this.remove()">` : ""}
       <span class="fallback-name">${p.nome}</span>
     </div>
     <div class="card-body">
@@ -96,7 +93,9 @@ function renderizar() {
 
   if (filtroCategoria) lista = lista.filter(p => (p.categoria || "Todos os Produtos") === filtroCategoria);
   if (filtroSubcategoria) lista = lista.filter(p => (p.subcategoria || "Todos os Produtos") === filtroSubcategoria);
-  if (document.getElementById("filtroNsfw").checked) lista = lista.filter(p => p.nsfw);
+
+  // Conteúdo +18 fica escondido por padrão — só aparece se a pessoa marcar o filtro
+  if (!document.getElementById("filtroNsfw").checked) lista = lista.filter(p => !p.nsfw);
 
   const de = parseFloat(document.getElementById("precoDe").value);
   const ate = parseFloat(document.getElementById("precoAte").value);

@@ -8,21 +8,20 @@
 
 const PRODUTOS = [
   {
-    "id": "malenia-elden-ring-diorama-8808",
-    "nome": "Malenia Elden ring diorama",
-    "categoria": "Elden ring",
+    "id": "lucia-caminos-figure-colecionavel-gta-0207",
+    "nome": "Lucia caminos - figure colecionavel GTA",
+    "categoria": "Games",
     "subcategoria": "",
-    "preco": 1200,
+    "preco": 650,
     "escala": "1:6",
     "material": "100% Resina",
-    "altura": "Aproxidamente 28cm",
+    "altura": "Aproximadamente 28cm",
     "status": "sob-encomenda",
-    "prazo": "Novembro de 2026",
     "destaque": true,
     "destaque2": false,
     "promocao": false,
     "nsfw": false,
-    "descricao": "Uma das figures mais impressionantes que já passaram no nosso site! malenia em toda sua gloria! \ncom aproxidamente 28cm de altura feita inteiramente em resina, com pintura a mão!",
+    "descricao": "Ambas as versões disponiveis!",
     "cuidados": [
       "Produto delicado — não é brinquedo",
       "Evitar quedas e impactos",
@@ -33,10 +32,16 @@ const PRODUTOS = [
       "Produto artesanal e exclusivo"
     ],
     "imagens": [
-      "malenia-elden-ring-diorama-1.jpg",
-      "malenia-elden-ring-diorama-2.jpg",
-      "malenia-elden-ring-diorama-3.jpg",
-      "malenia-elden-ring-diorama-4.jpg"
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-1.jpg",
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-2.jpg",
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-3.jpg",
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-4.jpg",
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-5.jpg",
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-6.jpg",
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-7.jpg",
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-8.jpg",
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-9.jpg",
+      "lucia-caminos-figure-colecionavel-gta-uaizan69-10.jpg"
     ]
   }
 ];
@@ -46,7 +51,7 @@ const WHATSAPP_NUMERO = "5511980443553";
 
 // Mensagem padrão enviada ao clicar em "Encomendar via WhatsApp"
 function mensagemWhatsApp(produto) {
-  const linkProduto = window.location.origin + window.location.pathname.replace(/[^/]*$/, "") + "product.html?id=" + produto.id;
+  const linkProduto = window.location.href.replace(/[^/]*$/, "") + "product.html?id=" + produto.id;
   return "Olá! Tenho interesse na figure " + produto.nome + " e gostaria de fazer uma encomenda.\n\n" +
          "Pode me passar mais informações sobre:\n" +
          "• valor final com frete\n" +

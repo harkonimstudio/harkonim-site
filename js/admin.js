@@ -1,6 +1,11 @@
 // Cópia local do catálogo (não mexe no data.js original até você exportar)
 let produtosState = JSON.parse(JSON.stringify(PRODUTOS));
 let imagensAtuais = []; // [{file, nomeSugerido, url}] pro produto sendo editado no formulário
+let sessionImageId = gerarSessionId(); // identificador único da "sessão" de edição atual — evita nomes repetidos entre produtos diferentes
+
+function gerarSessionId() {
+  return Date.now().toString(36).slice(-5) + Math.random().toString(36).slice(2, 5);
+}
 
 document.getElementById("fWhatsapp").value = WHATSAPP_NUMERO;
 
@@ -66,7 +71,7 @@ imageDrop.addEventListener("drop", e => {
 imageInput.addEventListener("change", () => adicionarImagens(imageInput.files));
 
 function adicionarImagens(fileList) {
-  const nomeBase = slugify(document.getElementById("fNome").value || "produto");
+  const nomeBase = slugify(document.getElementById("fNome").value || "produto") + "-" + sessionImageId;
   Array.from(fileList).forEach((file, idx) => {
     const ext = file.name.split(".").pop();
     const nomeSugerido = `${nomeBase}-${imagensAtuais.length + 1}.${ext}`;
@@ -95,13 +100,35 @@ function renderPreviews() {
       imagensAtuais.splice(parseInt(a.dataset.remove), 1);
       renderPreviews();
     }));
+
+  const btnZip = document.getElementById("btnBaixarTodasFotos");
+  btnZip.style.display = imagensAtuais.length >= 2 ? "block" : "none";
 }
+
+document.getElementById("btnBaixarTodasFotos").addEventListener("click", async () => {
+  const btn = document.getElementById("btnBaixarTodasFotos");
+  btn.textContent = "Preparando .zip...";
+  btn.disabled = true;
+
+  const zip = new JSZip();
+  imagensAtuais.forEach(img => zip.file(img.nomeSugerido, img.file));
+
+  const nomeBase = slugify(document.getElementById("fNome").value || "produto");
+  const conteudo = await zip.generateAsync({ type: "blob" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(conteudo);
+  a.download = nomeBase + "-fotos.zip";
+  a.click();
+
+  btn.textContent = "⬇ Baixar todas as fotos (.zip)";
+  btn.disabled = false;
+});
 
 // ---------- Formulário: salvar / editar / limpar ----------
 function limparForm() {
   document.getElementById("editIndex").value = -1;
   document.getElementById("formTitle").textContent = "Novo produto";
-  ["fNome","fCategoria","fSubcategoria","fEscala","fPreco","fPrecoAntigo","fMaterial","fAltura","fPrazo"].forEach(id => document.getElementById(id).value = "");
+  ["fNome","fCategoria","fSubcategoria","fEscala","fPreco","fPrecoAntigo","fMaterial","fAltura"].forEach(id => document.getElementById(id).value = "");
   document.getElementById("fEscala").value = "1:6";
   document.getElementById("fMaterial").value = "100% Resina";
   document.getElementById("fStatus").value = "sob-encomenda";
@@ -113,6 +140,7 @@ function limparForm() {
   document.getElementById("fCuidados").value = "Produto delicado — não é brinquedo\nEvitar quedas e impactos\nLimpeza apenas com pano seco ou levemente úmido";
   document.getElementById("fInformacoes").value = "Peça indicada para exposição\nProduto artesanal e exclusivo";
   imagensAtuais = [];
+  sessionImageId = gerarSessionId();
   renderPreviews();
 }
 
@@ -129,7 +157,6 @@ function carregarNoForm(i) {
   document.getElementById("fMaterial").value = p.material;
   document.getElementById("fAltura").value = p.altura;
   document.getElementById("fStatus").value = p.status;
-  document.getElementById("fPrazo").value = p.prazo || "";
   document.getElementById("fDestaque").checked = !!p.destaque;
   document.getElementById("fDestaque2").checked = !!p.destaque2;
   document.getElementById("fPromocao").checked = !!p.promocao;
@@ -140,6 +167,7 @@ function carregarNoForm(i) {
   // Observação: fotos já salvas anteriormente precisam ser re-anexadas se quiser trocar,
   // já que o navegador não tem acesso ao arquivo original depois de fechar a página.
   imagensAtuais = [];
+  sessionImageId = gerarSessionId();
   renderPreviews();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -163,7 +191,6 @@ document.getElementById("btnSalvarProduto").addEventListener("click", () => {
     material: document.getElementById("fMaterial").value.trim(),
     altura: document.getElementById("fAltura").value.trim(),
     status: document.getElementById("fStatus").value,
-    prazo: document.getElementById("fPrazo").value.trim(),
     destaque: document.getElementById("fDestaque").checked,
     destaque2: document.getElementById("fDestaque2").checked,
     promocao: document.getElementById("fPromocao").checked,
@@ -212,7 +239,7 @@ const WHATSAPP_NUMERO = "${numero}";
 
 // Mensagem padrão enviada ao clicar em "Encomendar via WhatsApp"
 function mensagemWhatsApp(produto) {
-  const linkProduto = window.location.origin + window.location.pathname.replace(/[^/]*$/, "") + "product.html?id=" + produto.id;
+  const linkProduto = window.location.href.replace(/[^/]*$/, "") + "product.html?id=" + produto.id;
   return "Olá! Tenho interesse na figure " + produto.nome + " e gostaria de fazer uma encomenda.\\n\\n" +
          "Pode me passar mais informações sobre:\\n" +
          "• valor final com frete\\n" +
@@ -243,6 +270,7 @@ document.getElementById("cfgTitulo").value = SITE_CONFIG.heroTitulo;
 document.getElementById("cfgTituloDestaque").value = SITE_CONFIG.heroTituloDestaque;
 document.getElementById("cfgSubtitulo").value = SITE_CONFIG.heroSubtitulo;
 document.getElementById("cfgBotaoTexto").value = SITE_CONFIG.heroBotaoTexto;
+document.getElementById("cfgPrazoEntrega").value = SITE_CONFIG.prazoEntregaPadrao;
 
 let novaImagemHero = null; // { file, nomeSugerido, url }
 let novaImagemLogo = null;
@@ -283,6 +311,7 @@ document.getElementById("btnExportarConfig").addEventListener("click", () => {
     heroTituloDestaque: document.getElementById("cfgTituloDestaque").value,
     heroSubtitulo: document.getElementById("cfgSubtitulo").value,
     heroBotaoTexto: document.getElementById("cfgBotaoTexto").value,
+    prazoEntregaPadrao: document.getElementById("cfgPrazoEntrega").value,
     heroImagem: novaImagemHero ? novaImagemHero.nomeSugerido : SITE_CONFIG.heroImagem,
     logoImagem: novaImagemLogo ? novaImagemLogo.nomeSugerido : SITE_CONFIG.logoImagem
   };
@@ -308,3 +337,134 @@ const SITE_CONFIG = ${JSON.stringify(config, null, 2)};
   }
   alert(aviso);
 });
+
+// =====================================================================
+// FILA DE PRODUÇÃO
+// =====================================================================
+
+let filaState = JSON.parse(JSON.stringify(FILA_PRODUCAO));
+
+const ORDEM_ETAPAS = ["aguardando", "impressao", "acabamento", "pintura", "embalagem", "enviado"];
+
+function renderFilaLista() {
+  const list = document.getElementById("filaList");
+  document.getElementById("countFila").textContent = filaState.length;
+  list.innerHTML = "";
+
+  const nomesEtapa = {
+    aguardando: "Aguardando Impressão", impressao: "Em Impressão",
+    acabamento: "Em Acabamento", pintura: "Pintura",
+    embalagem: "Embalagem", enviado: "Enviado"
+  };
+
+  filaState.forEach((item, i) => {
+    const posicao = ORDEM_ETAPAS.indexOf(item.etapa);
+    const proximaEtapa = ORDEM_ETAPAS[posicao + 1];
+
+    const el = document.createElement("div");
+    el.className = "plist-item";
+    el.innerHTML = `
+      <div class="plist-thumb"></div>
+      <div class="plist-info">
+        <div class="n">${item.nome}</div>
+        <div class="c">${item.codigo} • ${nomesEtapa[item.etapa] || item.etapa}</div>
+      </div>
+      <div class="plist-actions">
+        ${proximaEtapa ? `<button data-action="avancar" data-i="${i}" title="Mover para: ${nomesEtapa[proximaEtapa]}">Avançar →</button>` : ""}
+        <button data-action="edit" data-i="${i}">Editar</button>
+        <button data-action="del" data-i="${i}">Excluir</button>
+      </div>
+    `;
+    list.appendChild(el);
+  });
+
+  list.querySelectorAll("button[data-action='avancar']").forEach(btn =>
+    btn.addEventListener("click", () => {
+      const i = parseInt(btn.dataset.i);
+      const posicao = ORDEM_ETAPAS.indexOf(filaState[i].etapa);
+      filaState[i].etapa = ORDEM_ETAPAS[posicao + 1];
+      renderFilaLista();
+    }));
+  list.querySelectorAll("button[data-action='edit']").forEach(btn =>
+    btn.addEventListener("click", () => carregarFilaNoForm(parseInt(btn.dataset.i))));
+  list.querySelectorAll("button[data-action='del']").forEach(btn =>
+    btn.addEventListener("click", () => {
+      if (confirm("Excluir este item da fila?")) {
+        filaState.splice(parseInt(btn.dataset.i), 1);
+        renderFilaLista();
+      }
+    }));
+}
+
+function limparFilaForm() {
+  document.getElementById("filaEditIndex").value = -1;
+  document.getElementById("filaFormTitle").textContent = "Novo item";
+  document.getElementById("filaNome").value = "";
+  document.getElementById("filaCodigo").value = "";
+  document.getElementById("filaEtapa").value = "aguardando";
+}
+
+function carregarFilaNoForm(i) {
+  const item = filaState[i];
+  document.getElementById("filaEditIndex").value = i;
+  document.getElementById("filaFormTitle").textContent = "Editando: " + item.nome;
+  document.getElementById("filaNome").value = item.nome;
+  document.getElementById("filaCodigo").value = item.codigo;
+  document.getElementById("filaEtapa").value = item.etapa;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function gerarCodigoFila() {
+  const numero = (filaState.length + 1).toString().padStart(3, "0");
+  const letra = String.fromCharCode(65 + Math.floor(Math.random() * 26));
+  return "HKM-" + letra + numero;
+}
+
+document.getElementById("btnLimparFilaForm").addEventListener("click", limparFilaForm);
+
+document.getElementById("btnSalvarFila").addEventListener("click", () => {
+  const nome = document.getElementById("filaNome").value.trim();
+  if (!nome) { alert("Preencha ao menos o nome da peça."); return; }
+
+  const editIndex = parseInt(document.getElementById("filaEditIndex").value);
+  const codigoDigitado = document.getElementById("filaCodigo").value.trim();
+
+  const novoItem = {
+    nome,
+    codigo: codigoDigitado || gerarCodigoFila(),
+    etapa: document.getElementById("filaEtapa").value
+  };
+
+  if (editIndex >= 0) {
+    filaState[editIndex] = novoItem;
+  } else {
+    filaState.push(novoItem);
+  }
+
+  renderFilaLista();
+  limparFilaForm();
+});
+
+document.getElementById("btnExportarFila").addEventListener("click", () => {
+  const hoje = new Date().toLocaleDateString("pt-BR");
+  const conteudo = `/*
+  FILA DE PRODUÇÃO
+  =================
+  Gerado pelo painel admin.html, aba "Fila de Produção".
+*/
+
+const FILA_PRODUCAO = ${JSON.stringify(filaState, null, 2)};
+
+const ULTIMA_ATUALIZACAO_FILA = "${hoje}";
+`;
+
+  const blob = new Blob([conteudo], { type: "text/javascript" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "fila-data.js";
+  a.click();
+
+  alert("Baixado! No GitHub, substitua js/fila-data.js por este arquivo.");
+});
+
+renderFilaLista();

@@ -22,7 +22,7 @@
 const FILA_PRODUCAO = [
   { nome: "Asuka Langley", codigo: "HKM-A001", etapa: "pintura" },
   { nome: "Marika", codigo: "HKM-A002", etapa: "impressao" },
-  { nome: "Vegeta Super Saiyajin", codigo: "HKM-A003", etapa: "aguardando" }
+  { nome: "Thragg Invencível", codigo: "HKM-A003", etapa: "aguardando" }
 ];
 
 const ULTIMA_ATUALIZACAO_FILA = "25/08/2026";

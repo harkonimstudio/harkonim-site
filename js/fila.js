@@ -1,6 +1,3 @@
-document.getElementById("navEncomenda").href =
-  "https://api.whatsapp.com/send?phone=" + WHATSAPP_NUMERO +
-  "&text=" + encodeURIComponent("Olá! Gostaria de fazer uma encomenda personalizada.");
 
 document.getElementById("ultimaAtualizacao").textContent = ULTIMA_ATUALIZACAO_FILA;
 

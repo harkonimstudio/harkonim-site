@@ -28,7 +28,7 @@ document.getElementById("informacoesList").innerHTML =
 const banner = document.getElementById("statusBanner");
 if (produto.status === "sob-encomenda") {
   banner.className = "status-banner sob-encomenda";
-  banner.textContent = "Produto disponível sob encomenda • entrega prevista para " + produto.prazo;
+  banner.textContent = "Produto disponível sob encomenda • entrega prevista para " + SITE_CONFIG.prazoEntregaPadrao;
 } else {
   banner.className = "status-banner pronta-entrega";
   banner.textContent = "Produto pronto — envio imediato após confirmação do pagamento";
@@ -61,9 +61,6 @@ btn.addEventListener("click", () => {
 });
 
 // Link de "Faça sua encomenda" do topo
-document.getElementById("navEncomenda").href =
-  "https://api.whatsapp.com/send?phone=" + WHATSAPP_NUMERO +
-  "&text=" + encodeURIComponent("Olá! Gostaria de fazer uma encomenda personalizada.");
 
 // ---- Calculadora de frete ----
 // IMPORTANTE: isso é um placeholder. Calcular o valor real dos Correios
@@ -79,7 +76,7 @@ document.getElementById("btnCalcularFrete").addEventListener("click", () => {
     resultEl.textContent = "Digite um CEP válido (8 números).";
     return;
   }
-  resultEl.textContent = "Prazo e valor exatos são calculados na hora da encomenda — clique em \"Encomendar via WhatsApp\" e informe esse CEP.";
+  resultEl.textContent = "Estimativa: R$ 30 via PAC, R$ 60 via Sedex (varia por região). O valor exato é calculado com precisão na hora da compra — clique em \"Encomendar via WhatsApp\" e informe esse CEP.";
 });
 
 // ---- Compartilhamento social ----
