@@ -71,17 +71,6 @@ body:not(.tem-hero) .site-header {
   align-items: center;
   justify-content: space-between;
   height: 68px;
-  gap: 24px;
-}
-
-.nav-wrap {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 68px;
   gap: 20px;
 }
 
@@ -180,7 +169,8 @@ body:not(.tem-hero) .site-header {
 .dropdown-group a:hover { color: var(--amber-bright); }
 
 @media (max-width: 760px) {
-  .nav-dropdown-panel { position: static; min-width: 0; box-shadow: none; margin-top: 12px; }
+  .nav-dropdown-panel { position: static; min-width: 0; box-shadow: none; margin-top: 12px; display: none !important; }
+  .nav-dropdown.open .nav-dropdown-panel { display: grid !important; }
 }
 
 .nav-cta {
@@ -818,7 +808,7 @@ footer {
 @media (max-width: 760px) {
   .product-wrap { grid-template-columns: 1fr; gap: 28px; }
   .nav-wrap { flex-wrap: wrap; height: auto; padding: 14px 20px; }
-  .nav-links { width: 100%; overflow-x: auto; gap: 18px; padding-bottom: 4px; }
+  .nav-links { width: 100%; flex-wrap: wrap; gap: 14px 18px; padding-bottom: 4px; }
 }
 
 /* ---------- Faixa "Em Destaque" full-bleed (3 blocos grandes) ---------- */
@@ -1188,3 +1178,18 @@ footer {
 
 .strip-title .section-head { justify-content: center; }
 .strip-title .section-head > div { text-align: center; }
+
+/* ---------- Correção definitiva: no mobile, o painel do dropdown
+   precisa realmente sair do layout quando fechado (display: none),
+   não só ficar invisível — senão ele quebra o menu ocupando espaço
+   escondido. Usa mais uma classe no seletor pra ganhar de propósito
+   da regra "sempre grid" declarada mais acima, sem depender de
+   :not() complexo (que navegador mobile antigo pode não suportar). ---------- */
+@media (max-width: 760px) {
+  .nav-dropdown .nav-dropdown-panel {
+    display: none !important;
+  }
+  .nav-dropdown.open .nav-dropdown-panel {
+    display: grid !important;
+  }
+}
