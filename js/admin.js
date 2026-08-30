@@ -9,6 +9,58 @@ function gerarSessionId() {
 
 document.getElementById("fWhatsapp").value = WHATSAPP_NUMERO;
 
+// =====================================================================
+// CONEXÃO COM A PASTA DO PROJETO
+// =====================================================================
+
+function atualizarUiConexaoPasta() {
+  const status = document.getElementById("statusConexaoPasta");
+  const btnConectar = document.getElementById("btnConectarPasta");
+  const btnDesconectar = document.getElementById("btnDesconectarPasta");
+  const avisoFotos = document.getElementById("avisoFotos");
+
+  if (!fsDisponivel()) {
+    status.textContent = "Disponível só no Chrome ou Edge (no computador). Nesse navegador, continua funcionando do jeito de baixar arquivo mesmo.";
+    btnConectar.style.display = "none";
+    btnDesconectar.style.display = "none";
+    return;
+  }
+
+  if (fsPastaConectada()) {
+    status.innerHTML = `✓ Conectado em <strong>${fsNomePasta()}</strong> — produtos, fotos e configurações agora salvam direto aqui.`;
+    btnConectar.style.display = "none";
+    btnDesconectar.style.display = "inline-block";
+    if (avisoFotos) avisoFotos.style.display = "none";
+  } else {
+    status.textContent = "Não conectado — os arquivos continuam baixando normalmente, como sempre.";
+    btnConectar.style.display = "inline-block";
+    btnDesconectar.style.display = "none";
+    if (avisoFotos) avisoFotos.style.display = "block";
+  }
+}
+
+document.getElementById("btnConectarPasta").addEventListener("click", async () => {
+  try {
+    await fsConectar();
+    atualizarUiConexaoPasta();
+  } catch (e) {
+    // pessoa cancelou o seletor de pasta — não faz nada
+  }
+});
+
+document.getElementById("btnDesconectarPasta").addEventListener("click", () => {
+  fsDesconectar();
+  atualizarUiConexaoPasta();
+});
+
+(async () => {
+  atualizarUiConexaoPasta();
+  if (fsDisponivel()) {
+    await fsTentarRestaurar();
+    atualizarUiConexaoPasta();
+  }
+})();
+
 function slugify(str) {
   return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 }
@@ -174,7 +226,7 @@ function carregarNoForm(i) {
 
 document.getElementById("btnLimparForm").addEventListener("click", limparForm);
 
-document.getElementById("btnSalvarProduto").addEventListener("click", () => {
+document.getElementById("btnSalvarProduto").addEventListener("click", async () => {
   const nome = document.getElementById("fNome").value.trim();
   if (!nome) { alert("Preencha ao menos o nome do produto."); return; }
 
@@ -205,6 +257,24 @@ document.getElementById("btnSalvarProduto").addEventListener("click", () => {
   const precoAntigo = document.getElementById("fPrecoAntigo").value;
   if (precoAntigo) novoProduto.precoAntigo = Number(precoAntigo);
 
+  // Se a pasta do projeto está conectada, já escreve as fotos novas
+  // direto em images/ antes de limpar o formulário (que apaga imagensAtuais).
+  if (fsPastaConectada() && imagensAtuais.length) {
+    const btn = document.getElementById("btnSalvarProduto");
+    const textoOriginal = btn.textContent;
+    btn.textContent = "Salvando fotos...";
+    btn.disabled = true;
+    try {
+      for (const img of imagensAtuais) {
+        await fsEscrever("images/" + img.nomeSugerido, img.file);
+      }
+    } catch (e) {
+      alert("Não consegui salvar as fotos na pasta (" + e.message + "). Elas continuam disponíveis pra baixar manualmente nos links abaixo.");
+    }
+    btn.textContent = textoOriginal;
+    btn.disabled = false;
+  }
+
   if (editIndex >= 0) {
     produtosState[editIndex] = novoProduto;
   } else {
@@ -213,10 +283,20 @@ document.getElementById("btnSalvarProduto").addEventListener("click", () => {
 
   renderLista();
   limparForm();
+
+  // Com a pasta conectada, o catálogo inteiro (js/data.js) também já
+  // é reescrito sozinho a cada produto salvo — sem precisar clicar em
+  // "Baixar data.js" à parte.
+  if (fsPastaConectada()) {
+    try {
+      await fsEscrever("js/data.js", gerarConteudoDataJs());
+    } catch (e) {
+      alert("Produto salvo na lista, mas não consegui atualizar js/data.js na pasta (" + e.message + "). Use o botão \"Baixar data.js\" pra pegar manualmente.");
+    }
+  }
 });
 
-// ---------- Exportar data.js ----------
-document.getElementById("btnExportar").addEventListener("click", () => {
+function gerarConteudoDataJs() {
   const numero = document.getElementById("fWhatsapp").value.trim() || WHATSAPP_NUMERO;
 
   const produtosLimpos = produtosState.map(p => {
@@ -224,7 +304,7 @@ document.getElementById("btnExportar").addEventListener("click", () => {
     return resto;
   });
 
-  const conteudo = `/*
+  return `/*
   CATÁLOGO DE PRODUTOS
   =====================
   Gerado pelo painel admin.html — pra editar de novo, abra admin.html
@@ -248,6 +328,21 @@ function mensagemWhatsApp(produto) {
          linkProduto;
 }
 `;
+}
+
+// ---------- Exportar data.js ----------
+document.getElementById("btnExportar").addEventListener("click", async () => {
+  const conteudo = gerarConteudoDataJs();
+
+  if (fsPastaConectada()) {
+    try {
+      await fsEscrever("js/data.js", conteudo);
+      alert("Salvo direto em js/data.js na pasta do projeto! Se adicionou fotos nesta sessão que ainda não foram salvas com um produto, use \"Baixar todas as fotos\" antes de sair.");
+      return;
+    } catch (e) {
+      alert("Não consegui escrever na pasta (" + e.message + "). Baixando o arquivo normalmente.");
+    }
+  }
 
   const blob = new Blob([conteudo], { type: "text/javascript" });
   const a = document.createElement("a");
@@ -304,7 +399,7 @@ function configurarUploadUnico(dropId, inputId, previewId, nomeFixo, onSalvar) {
 configurarUploadUnico("heroImageDrop", "heroImageInput", "heroImagePreview", "hero-banner.jpg", (item) => { novaImagemHero = item; });
 configurarUploadUnico("logoImageDrop", "logoImageInput", "logoImagePreview", "logo.svg", (item) => { novaImagemLogo = item; });
 
-document.getElementById("btnExportarConfig").addEventListener("click", () => {
+document.getElementById("btnExportarConfig").addEventListener("click", async () => {
   const config = {
     heroEyebrow: document.getElementById("cfgEyebrow").value,
     heroTitulo: document.getElementById("cfgTitulo").value,
@@ -324,6 +419,18 @@ document.getElementById("btnExportarConfig").addEventListener("click", () => {
 
 const SITE_CONFIG = ${JSON.stringify(config, null, 2)};
 `;
+
+  if (fsPastaConectada()) {
+    try {
+      await fsEscrever("js/site-config.js", conteudo);
+      if (novaImagemHero) await fsEscrever("images/" + novaImagemHero.nomeSugerido, novaImagemHero.file);
+      if (novaImagemLogo) await fsEscrever("images/" + novaImagemLogo.nomeSugerido, novaImagemLogo.file);
+      alert("Salvo direto na pasta do projeto (js/site-config.js" + (novaImagemHero || novaImagemLogo ? " + imagens novas" : "") + ")!");
+      return;
+    } catch (e) {
+      alert("Não consegui escrever na pasta (" + e.message + "). Baixando o arquivo normalmente.");
+    }
+  }
 
   const blob = new Blob([conteudo], { type: "text/javascript" });
   const a = document.createElement("a");
@@ -445,7 +552,7 @@ document.getElementById("btnSalvarFila").addEventListener("click", () => {
   limparFilaForm();
 });
 
-document.getElementById("btnExportarFila").addEventListener("click", () => {
+document.getElementById("btnExportarFila").addEventListener("click", async () => {
   const hoje = new Date().toLocaleDateString("pt-BR");
   const conteudo = `/*
   FILA DE PRODUÇÃO
@@ -457,6 +564,16 @@ const FILA_PRODUCAO = ${JSON.stringify(filaState, null, 2)};
 
 const ULTIMA_ATUALIZACAO_FILA = "${hoje}";
 `;
+
+  if (fsPastaConectada()) {
+    try {
+      await fsEscrever("js/fila-data.js", conteudo);
+      alert("Salvo direto em js/fila-data.js na pasta do projeto!");
+      return;
+    } catch (e) {
+      alert("Não consegui escrever na pasta (" + e.message + "). Baixando o arquivo normalmente.");
+    }
+  }
 
   const blob = new Blob([conteudo], { type: "text/javascript" });
   const a = document.createElement("a");
