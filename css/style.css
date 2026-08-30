@@ -253,11 +253,6 @@ body:not(.tem-hero) .site-header {
 
 .hero-media img { width: 100%; height: 100%; object-fit: cover; }
 
-@media (max-width: 760px) {
-  .hero { grid-template-columns: 1fr; min-height: unset; }
-  .hero-media { height: 280px; }
-}
-
 /* ---------- Category quick-nav (after hero) ---------- */
 
 .cat-nav {
@@ -1052,6 +1047,14 @@ footer {
   animation: heroFadeIn 1.1s ease forwards;
 }
 
+@media (max-width: 760px) {
+  .hero-full {
+    height: 60vh;
+    min-height: 340px;
+    max-height: 520px;
+  }
+}
+
 .hero-full img {
   width: 100%;
   height: 100%;
@@ -1191,5 +1194,19 @@ footer {
   }
   .nav-dropdown.open .nav-dropdown-panel {
     display: grid !important;
+  }
+}
+
+/* ---------- Banner principal — altura menor no celular ----------
+   Fica no final do arquivo de propósito: a definição original do
+   .hero-full (altura 100vh) vem mais acima, e como as duas regras
+   têm a mesma especificidade, quem vem por último no arquivo ganha.
+   Sem isso, no celular a tela fica muito mais alta que larga, e a
+   imagem (larga) acaba cortando quase tudo pra caber. */
+@media (max-width: 760px) {
+  .hero-full {
+    height: 46vh;
+    min-height: 320px;
+    max-height: 480px;
   }
 }
