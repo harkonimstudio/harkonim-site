@@ -312,6 +312,10 @@ body:not(.tem-hero) .site-header {
   margin: 0;
 }
 
+.strip-title .section-head h2 {
+  font-size: 1.8rem;
+}
+
 .section-head .section-eyebrow {
   font-family: var(--font-mono);
   font-size: 0.7rem;
@@ -529,6 +533,7 @@ body:not(.tem-hero) .site-header {
 
 .gallery-thumbs {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
