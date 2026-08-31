@@ -76,7 +76,6 @@ function criarCard(p) {
       ${p.nsfw ? '<span class="badge-nsfw">18+</span>' : ""}
       <img class="img-base" src="images/${p.imagens[0]}" alt="${p.nome}" onerror="this.remove()">
       ${p.imagens[1] ? `<img class="img-hover" src="images/${p.imagens[1]}" alt="" onerror="this.remove()">` : ""}
-      <span class="fallback-name">${p.nome}</span>
     </div>
     <div class="card-body">
       <span class="card-cat">${p.categoria}</span>
@@ -95,7 +94,10 @@ function renderizar() {
   if (filtroSubcategoria) lista = lista.filter(p => (p.subcategoria || "Todos os Produtos") === filtroSubcategoria);
 
   // Conteúdo +18 fica escondido por padrão — só aparece se a pessoa marcar o filtro
-  if (!document.getElementById("filtroNsfw").checked) lista = lista.filter(p => !p.nsfw);
+  // Por padrão, +18 fica escondido. Marcando o filtro, mostra SÓ os +18
+  // (não mistura com o resto do catálogo).
+  const quer18 = document.getElementById("filtroNsfw").checked;
+  lista = lista.filter(p => quer18 ? p.nsfw : !p.nsfw);
 
   const de = parseFloat(document.getElementById("precoDe").value);
   const ate = parseFloat(document.getElementById("precoAte").value);

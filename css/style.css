@@ -313,7 +313,10 @@ body:not(.tem-hero) .site-header {
 }
 
 .strip-title .section-head h2 {
-  font-size: 1.8rem;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-muted);
 }
 
 .section-head .section-eyebrow {
