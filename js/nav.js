@@ -28,6 +28,24 @@ function montarBotaoFlutuante() {
 }
 montarBotaoFlutuante();
 
+// ---- Menu hambúrguer (mobile) ----
+const mobileBtn = document.getElementById("mobileMenuBtn");
+const navLinksEl = document.getElementById("navLinks");
+if (mobileBtn && navLinksEl) {
+  mobileBtn.addEventListener("click", () => {
+    const aberto = navLinksEl.classList.toggle("mobile-aberto");
+    mobileBtn.textContent = aberto ? "✕" : "☰";
+  });
+  // Fecha o menu ao clicar em qualquer link dentro dele (exceto o próprio
+  // gatilho do dropdown "Ver Todos Produtos", que só abre o submenu)
+  navLinksEl.querySelectorAll("a:not(#dropdownTrigger)").forEach(a => {
+    a.addEventListener("click", () => {
+      navLinksEl.classList.remove("mobile-aberto");
+      mobileBtn.textContent = "☰";
+    });
+  });
+}
+
 function montarDropdownCategorias() {
   const panel = document.getElementById("dropdownPanel");
   const trigger = document.getElementById("dropdownTrigger");
