@@ -89,17 +89,6 @@ body:not(.tem-hero) .site-header {
   flex-wrap: nowrap;
 }
 
-.mobile-menu-btn {
-  display: none;
-  background: none;
-  border: none;
-  color: var(--text);
-  font-size: 1.5rem;
-  line-height: 1;
-  cursor: pointer;
-  padding: 6px;
-}
-
 .nav-links a {
   font-family: var(--font-body);
   font-weight: 500;
@@ -813,36 +802,8 @@ footer {
 
 @media (max-width: 760px) {
   .product-wrap { grid-template-columns: 1fr; gap: 28px; }
-  .nav-wrap { flex-wrap: nowrap; height: 64px; padding: 0 16px; }
-  .mobile-menu-btn { display: block; }
-
-  .nav-links {
-    display: none;
-    position: fixed;
-    top: 64px; left: 0; right: 0;
-    bottom: 0;
-    background: var(--bg);
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 24px 20px;
-    gap: 20px;
-    overflow-y: auto;
-    z-index: 50;
-  }
-
-  .nav-links.mobile-aberto { display: flex; }
-
-  .nav-dropdown { width: 100%; }
-  .nav-dropdown-trigger { width: 100%; justify-content: space-between; }
-  .nav-dropdown-panel {
-    position: static !important;
-    min-width: 0;
-    box-shadow: none;
-    margin-top: 12px;
-    width: 100%;
-    grid-template-columns: 1fr;
-  }
+  .nav-wrap { flex-wrap: wrap; height: auto; padding: 14px 20px; }
+  .nav-links { width: 100%; flex-wrap: wrap; gap: 14px 18px; padding-bottom: 4px; }
 }
 
 /* ---------- Faixa "Em Destaque" full-bleed (3 blocos grandes) ---------- */
@@ -1084,6 +1045,14 @@ footer {
   overflow: hidden;
   opacity: 0;
   animation: heroFadeIn 1.1s ease forwards;
+}
+
+@media (max-width: 760px) {
+  .hero-full {
+    height: 60vh;
+    min-height: 340px;
+    max-height: 520px;
+  }
 }
 
 .hero-full img {
