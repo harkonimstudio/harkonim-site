@@ -1,28 +1,45 @@
 /*
   FILA DE PRODUÇÃO
   =================
-  Cada item é uma peça em andamento. Pra mover de etapa, é só trocar
-  o campo "etapa" (as opções válidas estão listadas abaixo) — o item
-  pula sozinho pro bloco certo na página.
-
-  Etapas, na ordem do processo:
-  "aguardando"  → Aguardando Impressão
-  "impressao"   → Em Impressão
-  "acabamento"  → Em Acabamento
-  "pintura"     → Pintura
-  "embalagem"   → Embalagem
-  "enviado"     → Enviado
-
-  Campos:
-  - nome: nome da peça/personagem
-  - codigo: código do pedido (o padrão que você usar, ex: "HKM-A001")
-  - etapa: uma das opções acima
+  Gerado pelo painel admin.html, aba "Fila de Produção".
 */
 
 const FILA_PRODUCAO = [
-  { nome: "Asuka Langley", codigo: "HKM-A001", etapa: "pintura" },
-  { nome: "Marika", codigo: "HKM-A002", etapa: "impressao" },
-  { nome: "Thragg Invencível", codigo: "HKM-A003", etapa: "aguardando" }
+  {
+    "nome": "Yani neko diorama",
+    "codigo": "0001",
+    "etapa": "impressao"
+  },
+  {
+    "nome": "Yani neko diorama",
+    "codigo": "0002",
+    "etapa": "impressao"
+  },
+  {
+    "nome": "Violet evergarden",
+    "codigo": "0003",
+    "etapa": "pintura"
+  },
+  {
+    "nome": "Springtrap",
+    "codigo": "0005",
+    "etapa": "embalagem"
+  },
+  {
+    "nome": "Yani neko diorama + Sitted",
+    "codigo": "0006",
+    "etapa": "acabamento"
+  },
+  {
+    "nome": "Yani neko diorama",
+    "codigo": "0008",
+    "etapa": "impressao"
+  },
+  {
+    "nome": "Yani neko diorama",
+    "codigo": "0009",
+    "etapa": "aguardando"
+  }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "25/08/2026";
+const ULTIMA_ATUALIZACAO_FILA = "02/09/2026";

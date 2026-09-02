@@ -1,9 +1,7 @@
-// Incluído em index.html, product.html e produtos.html
-// (sempre depois de data.js). Monta o dropdown "Ver Todos Produtos"
-// agrupando categoria -> subcategorias, a partir de PRODUTOS.
-// Se um produto não tem subcategoria definida, ele entra no grupo
-// genérico "Todos os Produtos" dentro da categoria dele.
-// Também injeta o botão flutuante de WhatsApp, presente em todas as páginas.
+// Incluído em todas as páginas (sempre depois de data.js).
+// Cuida do botão flutuante de WhatsApp e do menu hambúrguer no celular.
+// A navegação por categorias fica só na página produtos.html agora —
+// não existe mais um pop-up de categorias no menu de cima.
 
 function montarBotaoFlutuante() {
   if (document.getElementById("botaoFlutuanteWpp")) return;
@@ -36,73 +34,10 @@ if (mobileBtn && navLinksEl) {
     const aberto = navLinksEl.classList.toggle("mobile-aberto");
     mobileBtn.textContent = aberto ? "✕" : "☰";
   });
-  // Fecha o menu ao clicar em qualquer link dentro dele (exceto o próprio
-  // gatilho do dropdown "Ver Todos Produtos", que só abre o submenu)
-  navLinksEl.querySelectorAll("a:not(#dropdownTrigger)").forEach(a => {
+  navLinksEl.querySelectorAll("a").forEach(a => {
     a.addEventListener("click", () => {
       navLinksEl.classList.remove("mobile-aberto");
       mobileBtn.textContent = "☰";
     });
   });
 }
-
-function montarDropdownCategorias() {
-  const panel = document.getElementById("dropdownPanel");
-  const trigger = document.getElementById("dropdownTrigger");
-  const wrapper = document.getElementById("navDropdown");
-  if (!panel || !trigger || !wrapper) return;
-
-  const grupos = {};
-  PRODUTOS.forEach(p => {
-    const cat = p.categoria || "Todos os Produtos";
-    if (!grupos[cat]) grupos[cat] = new Set();
-    grupos[cat].add(p.subcategoria || "Todos os Produtos");
-  });
-
-  panel.innerHTML = "";
-  Object.keys(grupos).forEach(categoria => {
-    const col = document.createElement("div");
-    col.className = "dropdown-group";
-
-    const subs = [...grupos[categoria]];
-    const subLinks = subs.map(sub =>
-      `<a href="produtos.html?cat=${encodeURIComponent(categoria)}&sub=${encodeURIComponent(sub)}">${sub}</a>`
-    ).join("");
-
-    col.innerHTML = `
-      <h4><a href="produtos.html?cat=${encodeURIComponent(categoria)}" style="color:inherit; text-transform:none; padding:0;">${categoria}</a></h4>
-      ${subLinks}
-    `;
-    panel.appendChild(col);
-  });
-
-  // Desktop: abre no mouseenter, fecha no mouseleave com uma pequena
-  // margem de tempo — assim dá pra mover o mouse do link até o painel
-  // sem ele fechar no meio do caminho.
-  let timeoutFechar = null;
-  wrapper.addEventListener("mouseenter", () => {
-    clearTimeout(timeoutFechar);
-    wrapper.classList.add("open");
-  });
-  wrapper.addEventListener("mouseleave", () => {
-    timeoutFechar = setTimeout(() => wrapper.classList.remove("open"), 300);
-  });
-
-  // Touch (sem hover): primeiro toque abre o painel; toque fora fecha.
-  let travadoPorToque = false;
-  wrapper.addEventListener("touchstart", (e) => {
-    if (!wrapper.classList.contains("open")) {
-      e.preventDefault();
-      wrapper.classList.add("open");
-      travadoPorToque = true;
-    }
-  }, { passive: false });
-  document.addEventListener("click", (e) => {
-    if (travadoPorToque && !wrapper.contains(e.target)) {
-      wrapper.classList.remove("open");
-      travadoPorToque = false;
-    }
-  });
-}
-
-montarDropdownCategorias();

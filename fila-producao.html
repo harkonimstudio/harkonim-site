@@ -26,10 +26,7 @@
     <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menu">☰</button>
     <nav class="nav-links" id="navLinks">
       <a href="index.html">Início</a>
-      <div class="nav-dropdown" id="navDropdown">
-        <a href="produtos.html" class="nav-dropdown-trigger" id="dropdownTrigger">Ver Todos Produtos <span class="caret">⌄</span></a>
-        <div class="nav-dropdown-panel" id="dropdownPanel"></div>
-      </div>
+      <a href="produtos.html">Ver Todos Produtos</a>
       <a href="fale-com-a-gente.html">Fale com a gente</a>
       <a href="quem-somos.html">Quem Somos</a>
       <a href="parcerias.html">Parcerias</a>
@@ -38,12 +35,18 @@
   </div>
 </header>
 
-<div class="fila-hero"><h1>Fila de Produção</h1></div>
+<div class="fila-hero" id="filaHero"><h1>Fila de Produção</h1></div>
 
 <div class="fila-wrap">
-  <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:30px;">
-    Acompanhe em qual etapa sua encomenda está. Última atualização: <span id="ultimaAtualizacao"></span>
-  </p>
+  <div class="fila-intro">
+    <p>Esta página é atualizada periodicamente pra você acompanhar em qual fase a sua encomenda está. Última atualização: <span id="ultimaAtualizacao"></span></p>
+  </div>
+
+  <div class="fila-como-buscar">
+    <h3>Como encontrar o seu pedido</h3>
+    <p>Localize pelo nome da figure e pelo código informado no momento da encomenda, na lista abaixo, dentro da etapa correspondente. Não achou ou ficou com dúvida? Fala com a gente pelo WhatsApp.</p>
+  </div>
+
   <div id="filaConteudo"></div>
 </div>
 
@@ -75,6 +78,7 @@
 </footer>
 
 <script src="js/data.js"></script>
+<script src="js/site-config.js"></script>
 <script src="js/nav.js"></script>
 <script src="js/fila-data.js"></script>
 <script src="js/fila.js"></script>

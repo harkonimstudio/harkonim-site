@@ -1,14 +1,21 @@
-
 const params = new URLSearchParams(window.location.search);
 let filtroCategoria = params.get("cat") || null;
 let filtroSubcategoria = params.get("sub") || null;
 
+// "Sem categoria" é o marcador de produto "fantasma" — existe no catálogo
+// (o link direto funciona normalmente), mas nunca aparece navegando por
+// categoria nem na lista geral sem filtro.
+const PRODUTOS_VISIVEIS = PRODUTOS.filter(p => (p.categoria || "Sem categoria") !== "Sem categoria");
+
 // ---- Monta a árvore de categorias > subcategorias na sidebar ----
+// Só entra subcategoria real (não vazia). Uma categoria só ganha submenu
+// se tiver 2 ou mais subcategorias diferentes de verdade — senão clicar
+// no nome da categoria já mostra tudo, e o submenu seria redundante.
 const grupos = {};
-PRODUTOS.forEach(p => {
-  const cat = p.categoria || "Todos os Produtos";
+PRODUTOS_VISIVEIS.forEach(p => {
+  const cat = p.categoria;
   if (!grupos[cat]) grupos[cat] = new Set();
-  grupos[cat].add(p.subcategoria || "Todos os Produtos");
+  if (p.subcategoria) grupos[cat].add(p.subcategoria);
 });
 
 const listaCategorias = document.getElementById("listaCategorias");
@@ -34,10 +41,11 @@ function montarSidebar() {
     if (filtroCategoria === cat) a.classList.add("active");
     div.appendChild(a);
 
-    if (filtroCategoria === cat) {
+    const subs = [...grupos[cat]];
+    if (filtroCategoria === cat && subs.length >= 2) {
       const subList = document.createElement("div");
       subList.className = "sidebar-sub-list";
-      [...grupos[cat]].forEach(sub => {
+      subs.forEach(sub => {
         const subA = document.createElement("a");
         subA.href = "produtos.html?cat=" + encodeURIComponent(cat) + "&sub=" + encodeURIComponent(sub);
         subA.textContent = sub;
@@ -88,12 +96,11 @@ function criarCard(p) {
 }
 
 function renderizar() {
-  let lista = [...PRODUTOS];
+  let lista = [...PRODUTOS_VISIVEIS];
 
-  if (filtroCategoria) lista = lista.filter(p => (p.categoria || "Todos os Produtos") === filtroCategoria);
-  if (filtroSubcategoria) lista = lista.filter(p => (p.subcategoria || "Todos os Produtos") === filtroSubcategoria);
+  if (filtroCategoria) lista = lista.filter(p => p.categoria === filtroCategoria);
+  if (filtroSubcategoria) lista = lista.filter(p => p.subcategoria === filtroSubcategoria);
 
-  // Conteúdo +18 fica escondido por padrão — só aparece se a pessoa marcar o filtro
   // Por padrão, +18 fica escondido. Marcando o filtro, mostra SÓ os +18
   // (não mistura com o resto do catálogo).
   const quer18 = document.getElementById("filtroNsfw").checked;

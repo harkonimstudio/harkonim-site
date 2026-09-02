@@ -1028,38 +1028,103 @@ footer {
 /* ---------- Página Fila de Produção ---------- */
 
 .fila-hero {
-  height: 160px;
+  height: 220px;
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
   background: linear-gradient(120deg, #0a0a0a 0%, #161616 100%);
   border-bottom: 1px solid var(--line);
 }
 
-.fila-hero h1 {
-  font-family: var(--font-display);
-  font-size: 1.8rem;
+.fila-hero img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.55;
 }
 
-.fila-wrap { max-width: 800px; margin: 40px auto 90px; padding: 0 24px; }
+.fila-hero h1 {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  padding: 0 24px 22px;
+}
 
-.fila-stage { margin-bottom: 34px; }
+.fila-wrap { max-width: 720px; margin: 0 auto 90px; padding: 0 24px; }
 
-.fila-stage h3 {
+.fila-intro {
+  padding: 26px 0 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.fila-como-buscar {
+  padding: 16px 20px;
+  margin: 10px 0 40px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.fila-como-buscar h3 {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--text);
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  margin: 0 0 8px;
+}
+
+.fila-como-buscar p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.fila-stage {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 16px;
+}
+
+.fila-stage-num {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.fila-stage-body { flex: 1; min-width: 0; }
+
+.fila-stage h3 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  margin: 4px 0 4px;
+}
+
+.fila-stage-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0 0 12px;
 }
 
 .fila-item {
-  padding: 10px 0;
-  border-bottom: 1px solid var(--line);
-  font-size: 0.9rem;
+  padding: 9px 0;
+  border-top: 1px solid var(--line);
+  font-size: 0.88rem;
   display: flex;
   justify-content: space-between;
   gap: 12px;
@@ -1068,7 +1133,7 @@ footer {
 .fila-item .codigo {
   color: var(--text-muted);
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   white-space: nowrap;
 }
 

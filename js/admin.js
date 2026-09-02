@@ -369,6 +369,8 @@ document.getElementById("cfgPrazoEntrega").value = SITE_CONFIG.prazoEntregaPadra
 
 let novaImagemHero = null; // { file, nomeSugerido, url }
 let novaImagemLogo = null;
+let novaImagemFila = null;
+let removerImagemFila = false;
 
 function configurarUploadUnico(dropId, inputId, previewId, nomeFixo, onSalvar) {
   const drop = document.getElementById(dropId);
@@ -398,6 +400,13 @@ function configurarUploadUnico(dropId, inputId, previewId, nomeFixo, onSalvar) {
 
 configurarUploadUnico("heroImageDrop", "heroImageInput", "heroImagePreview", "hero-banner.jpg", (item) => { novaImagemHero = item; });
 configurarUploadUnico("logoImageDrop", "logoImageInput", "logoImagePreview", "logo.svg", (item) => { novaImagemLogo = item; });
+configurarUploadUnico("filaImageDrop", "filaImageInput", "filaImagePreview", "fila-banner.jpg", (item) => { novaImagemFila = item; removerImagemFila = false; });
+
+document.getElementById("btnRemoverFilaImagem").addEventListener("click", () => {
+  novaImagemFila = null;
+  removerImagemFila = true;
+  document.getElementById("filaImagePreview").innerHTML = "";
+});
 
 document.getElementById("btnExportarConfig").addEventListener("click", async () => {
   const config = {
@@ -408,7 +417,8 @@ document.getElementById("btnExportarConfig").addEventListener("click", async () 
     heroBotaoTexto: document.getElementById("cfgBotaoTexto").value,
     prazoEntregaPadrao: document.getElementById("cfgPrazoEntrega").value,
     heroImagem: novaImagemHero ? novaImagemHero.nomeSugerido : SITE_CONFIG.heroImagem,
-    logoImagem: novaImagemLogo ? novaImagemLogo.nomeSugerido : SITE_CONFIG.logoImagem
+    logoImagem: novaImagemLogo ? novaImagemLogo.nomeSugerido : SITE_CONFIG.logoImagem,
+    filaImagem: removerImagemFila ? "" : (novaImagemFila ? novaImagemFila.nomeSugerido : SITE_CONFIG.filaImagem)
   };
 
   const conteudo = `/*
@@ -425,6 +435,7 @@ const SITE_CONFIG = ${JSON.stringify(config, null, 2)};
       await fsEscrever("js/site-config.js", conteudo);
       if (novaImagemHero) await fsEscrever("images/" + novaImagemHero.nomeSugerido, novaImagemHero.file);
       if (novaImagemLogo) await fsEscrever("images/" + novaImagemLogo.nomeSugerido, novaImagemLogo.file);
+      if (novaImagemFila) await fsEscrever("images/" + novaImagemFila.nomeSugerido, novaImagemFila.file);
       alert("Salvo direto na pasta do projeto (js/site-config.js" + (novaImagemHero || novaImagemLogo ? " + imagens novas" : "") + ")!");
       return;
     } catch (e) {
@@ -554,6 +565,7 @@ document.getElementById("btnSalvarFila").addEventListener("click", () => {
 
 document.getElementById("btnExportarFila").addEventListener("click", async () => {
   const hoje = new Date().toLocaleDateString("pt-BR");
+  const dataInformada = document.getElementById("filaUltimaAtualizacao").value.trim() || hoje;
   const conteudo = `/*
   FILA DE PRODUÇÃO
   =================
@@ -562,7 +574,7 @@ document.getElementById("btnExportarFila").addEventListener("click", async () =>
 
 const FILA_PRODUCAO = ${JSON.stringify(filaState, null, 2)};
 
-const ULTIMA_ATUALIZACAO_FILA = "${hoje}";
+const ULTIMA_ATUALIZACAO_FILA = "${dataInformada}";
 `;
 
   if (fsPastaConectada()) {
@@ -584,4 +596,5 @@ const ULTIMA_ATUALIZACAO_FILA = "${hoje}";
   alert("Baixado! No GitHub, substitua js/fila-data.js por este arquivo.");
 });
 
+document.getElementById("filaUltimaAtualizacao").value = ULTIMA_ATUALIZACAO_FILA;
 renderFilaLista();

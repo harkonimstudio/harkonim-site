@@ -254,9 +254,18 @@ Produto artesanal e exclusivo</textarea>
       <div class="image-previews" id="logoImagePreview"></div>
     </div>
 
+    <h2 style="margin-top: 34px;">Banner da Fila de Produção</h2>
+    <div class="field">
+      <label>Imagem pequena no topo da página "Fila de Produção" (opcional)</label>
+      <div class="image-drop" id="filaImageDrop">Clique aqui ou arraste uma imagem</div>
+      <input type="file" id="filaImageInput" accept="image/*" style="display:none">
+      <div class="image-previews" id="filaImagePreview"></div>
+      <button class="btn-secondary" id="btnRemoverFilaImagem" style="margin-top:10px; font-size:0.8rem;">Remover imagem (deixar sem banner)</button>
+    </div>
+
     <button class="btn-primary" id="btnExportarConfig" style="margin-top:10px;">⬇ Baixar site-config.js</button>
     <p style="font-size:0.8rem; color:var(--text-muted); margin-top:10px;">
-      Depois de baixar: substitua <code>js/site-config.js</code> no repositório. Se trocou a imagem do banner ou o logo, baixe-os pelos links "Baixar renomeada" acima e coloque em <code>images/</code> com o mesmo nome que aparece nos campos (<code>hero-banner.jpg</code> e <code>logo.svg</code> por padrão).
+      Depois de baixar: substitua <code>js/site-config.js</code> no repositório. Se trocou alguma imagem, baixe-a pelo link "Baixar renomeada" acima e coloque em <code>images/</code> com o mesmo nome que aparece nos campos.
     </p>
   </div>
   </div> <!-- fim #tabConfig -->
@@ -305,6 +314,10 @@ Produto artesanal e exclusivo</textarea>
   </div>
 
   <div class="export-bar">
+    <div>
+      <label style="display:block; font-family: var(--font-mono); font-size: 0.68rem; text-transform: uppercase; color: var(--text-muted); margin-bottom:4px;">Última atualização (mostrado no site)</label>
+      <input type="text" id="filaUltimaAtualizacao" style="background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px 10px; color: var(--text);" placeholder="Ex: 25/08/2026">
+    </div>
     <p>Depois de ajustar tudo: baixe o arquivo e substitua <code>js/fila-data.js</code> no repositório.</p>
     <button class="btn-primary" id="btnExportarFila">⬇ Baixar fila-data.js atualizado</button>
   </div>
