@@ -10,7 +10,8 @@ const SITE_CONFIG = {
   "heroTituloDestaque": "",
   "heroSubtitulo": "",
   "heroBotaoTexto": "",
-  "prazoEntregaPadrao": "Novembro de 2026",
+  "prazoEntregaPadrao": "Outubro de 2026",
   "heroImagem": "hero-banner.jpg",
-  "logoImagem": "logo.svg"
+  "logoImagem": "logo.svg",
+  "filaImagem": "fila-banner.jpg"
 };

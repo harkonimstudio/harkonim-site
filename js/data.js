@@ -1308,37 +1308,6 @@ const PRODUTOS = [
     ]
   },
   {
-    "id": "harley-queen-topless-figuer-colecionavel-3619",
-    "nome": "Harley queen topless - Figuer colecionavel",
-    "categoria": "Filmes",
-    "subcategoria": "",
-    "preco": 550,
-    "escala": "1:9",
-    "material": "100% Resina",
-    "altura": "Aproximadamente 24cm",
-    "status": "sob-encomenda",
-    "destaque": false,
-    "destaque2": false,
-    "promocao": false,
-    "nsfw": true,
-    "descricao": "",
-    "cuidados": [
-      "Produto delicado — não é brinquedo",
-      "Evitar quedas e impactos",
-      "Limpeza apenas com pano seco ou levemente úmido"
-    ],
-    "informacoes": [
-      "Peça indicada para exposição",
-      "Produto artesanal e exclusivo"
-    ],
-    "imagens": [
-      "produto-msey4mfk-4.jpg",
-      "produto-msey4mfk-2.jpg",
-      "produto-msey4mfk-3.jpg",
-      "produto-msey4mfk-4.jpg"
-    ]
-  },
-  {
     "id": "bayonetta-and-the-wings-figure-colecionavel-0360",
     "nome": "Bayonetta and the wings - Figure colecionavel",
     "categoria": "Games",
@@ -1679,6 +1648,418 @@ const PRODUTOS = [
       "produto-oic7x2jc-7.jpg",
       "produto-oic7x2jc-8.jpg",
       "produto-oic7x2jc-9.jpg"
+    ]
+  },
+  {
+    "id": "atsu-ghost-of-yotei-figure-colecionavel-8863",
+    "nome": "Atsu Ghost of yotei - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 600,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-sh7v9spz-1.jpg",
+      "atsu-ghost-of-yotei-figure-colecionavel-sh7v9spz-2.jpg",
+      "atsu-ghost-of-yotei-figure-colecionavel-sh7v9spz-3.jpg",
+      "atsu-ghost-of-yotei-figure-colecionavel-sh7v9spz-4.jpg",
+      "atsu-ghost-of-yotei-figure-colecionavel-sh7v9spz-5.jpg",
+      "atsu-ghost-of-yotei-figure-colecionavel-sh7v9spz-6.jpg",
+      "atsu-ghost-of-yotei-figure-colecionavel-sh7v9spz-7.jpg",
+      "atsu-ghost-of-yotei-figure-colecionavel-sh7v9spz-8.jpg"
+    ]
+  },
+  {
+    "id": "the-ghoul-fallout-figure-colecionavel-3615",
+    "nome": "The ghoul - Fallout Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Fallout",
+    "preco": 580,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 23cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-si77sly8-1.jpg",
+      "produto-si77sly8-2.jpg",
+      "produto-si77sly8-4.jpg",
+      "produto-si77sly8-5.jpg",
+      "produto-si77sly8-6.jpg",
+      "produto-si77sly8-7.jpg",
+      "produto-si77sly8-7.jpg"
+    ]
+  },
+  {
+    "id": "wandinha-familia-addams-colecionavel-7771",
+    "nome": "Wandinha - Familia addams colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-sj5li7cw-1.jpg",
+      "produto-sj5li7cw-2.jpg",
+      "produto-sj5li7cw-3.jpg",
+      "produto-sj5li7cw-4.jpg",
+      "produto-sj5li7cw-5.jpg",
+      "produto-sj5li7cw-6.jpg",
+      "produto-sj5li7cw-7.jpg",
+      "produto-sj5li7cw-8.jpg",
+      "wandinha-familia-addams-colecionavel-sj5li7cw-9.jpg"
+    ]
+  },
+  {
+    "id": "wandinha-addams-nsfw-figure-colecionavel-3315",
+    "nome": "Wandinha addams nsfw - figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "",
+    "preco": 550,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "Versão de bikini e nua disponiveis!",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-sm15sy67-2.jpg",
+      "produto-sm15sy67-3.jpg",
+      "produto-sm15sy67-4.jpg",
+      "produto-sm15sy67-5.jpg",
+      "produto-sm15sy67-6.jpg",
+      "produto-sm15sy67-6.jpg"
+    ]
+  },
+  {
+    "id": "pyramid-head-wicked-figure-colecionavel-1709",
+    "nome": "Pyramid head Wicked - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "Figure extremamente detalhada do pyramid head! modelo faz par com o james do mesmo estudio para criar não só uma cena unica, mas ter uma coleção ainda mais impressionante!",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-1.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-2.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-3.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-4.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-5.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-6.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-7.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-8.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-9.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-10.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-11.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-12.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-13.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-14.jpg",
+      "pyramid-head-wicked-figure-colecionavel-sopu1bnu-15.jpg"
+    ]
+  },
+  {
+    "id": "diorama-silent-hill-2-figure-colecionavel-1178",
+    "nome": "Diorama Silent hill 2 - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 1600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 32cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "Um diorama completo baseado em silent hill 2! modelo criado com o maximo possivel de detalhes em cada canto possivel! uma verdadeira obra de arte para a sua coleção!",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-t1ruo84s-1.jpg",
+      "produto-t1ruo84s-2.jpg",
+      "produto-t1ruo84s-3.jpg",
+      "produto-t1ruo84s-4.jpg",
+      "produto-t1ruo84s-5.jpg",
+      "produto-t1ruo84s-6.jpg",
+      "produto-t1ruo84s-7.jpg",
+      "produto-t1ruo84s-8.jpg",
+      "produto-t1ruo84s-9.jpg",
+      "produto-t1ruo84s-10.jpg",
+      "produto-t1ruo84s-11.jpg",
+      "produto-t1ruo84s-12.jpg"
+    ]
+  },
+  {
+    "id": "ellie-williams-wicked-figure-colecionavel-0391",
+    "nome": "Ellie williams wicked - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 780,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-t3gykcx4-1.jpg",
+      "produto-t3gykcx4-2.jpg",
+      "produto-t3gykcx4-3.jpg",
+      "produto-t3gykcx4-4.jpg",
+      "produto-t3gykcx4-5.jpg",
+      "produto-t3gykcx4-6.jpg",
+      "produto-t3gykcx4-7.jpg",
+      "produto-t3gykcx4-8.jpg",
+      "produto-t3gykcx4-9.jpg"
+    ]
+  },
+  {
+    "id": "joel-miller-wicked-figure-colecionavel-4996",
+    "nome": "Joel Miller wicked - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-t6vmgdkn-1.jpg",
+      "produto-t6vmgdkn-2.jpg",
+      "produto-t6vmgdkn-3.jpg",
+      "produto-t6vmgdkn-4.jpg",
+      "produto-t6vmgdkn-5.jpg",
+      "produto-t6vmgdkn-6.jpg",
+      "produto-t6vmgdkn-7.jpg",
+      "produto-t6vmgdkn-8.jpg",
+      "produto-t6vmgdkn-9.jpg",
+      "produto-t6vmgdkn-10.jpg"
+    ]
+  },
+  {
+    "id": "gta-6-cover-girl-figure-colecionavel-6297",
+    "nome": "Gta 6 Cover girl - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Rockstar",
+    "preco": 600,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-t7u6981p-1.png",
+      "produto-t7u6981p-2.png",
+      "produto-t7u6981p-3.png",
+      "produto-t7u6981p-4.png",
+      "produto-t7u6981p-5.png",
+      "produto-t7u6981p-6.png",
+      "produto-t7u6981p-7.png",
+      "produto-t7u6981p-8.png"
+    ]
+  },
+  {
+    "id": "peach-stuck-nsfw-figure-colecionavel-8944",
+    "nome": "Peach stuck nsfw - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "",
+    "preco": 400,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 23cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-thalpks3-1.jpg"
+    ]
+  },
+  {
+    "id": "zelda-on-a-box-nsfw-figure-colecionavel-5302",
+    "nome": "Zelda on a box nsfw - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "",
+    "preco": 400,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-thz86umo-1.jpg"
+    ]
+  },
+  {
+    "id": "frieren-black-lingerie-figure-colecionavel-2644",
+    "nome": "Frieren black lingerie - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "",
+    "preco": 400,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 20cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-tijk9b9a-1.jpg",
+      "produto-tijk9b9a-2.png"
     ]
   }
 ];

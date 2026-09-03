@@ -65,7 +65,29 @@ document.getElementById("tituloListagem").textContent =
   filtroSubcategoria || filtroCategoria || "Todos os Produtos";
 
 // ---- Filtros adicionais (NSFW, preço) ----
-document.getElementById("filtroNsfw").addEventListener("change", renderizar);
+// Ativar o filtro +18 pede confirmação antes, com o fundo borrado.
+// Desativar (desmarcar) não precisa — sai direto.
+const checkboxNsfw = document.getElementById("filtroNsfw");
+const modalNsfw = document.getElementById("modalNsfw");
+
+checkboxNsfw.addEventListener("change", () => {
+  if (checkboxNsfw.checked) {
+    checkboxNsfw.checked = false; // só marca de verdade depois da confirmação
+    modalNsfw.classList.add("aberto");
+  } else {
+    renderizar();
+  }
+});
+
+document.getElementById("btnNsfwConfirmar").addEventListener("click", () => {
+  checkboxNsfw.checked = true;
+  modalNsfw.classList.remove("aberto");
+  renderizar();
+});
+
+document.getElementById("btnNsfwCancelar").addEventListener("click", () => {
+  modalNsfw.classList.remove("aberto");
+});
 document.getElementById("precoDe").addEventListener("input", renderizar);
 document.getElementById("precoAte").addEventListener("input", renderizar);
 document.getElementById("ordenarPor").addEventListener("change", renderizar);
