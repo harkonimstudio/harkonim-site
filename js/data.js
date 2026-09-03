@@ -2061,6 +2061,39 @@ const PRODUTOS = [
       "produto-tijk9b9a-1.jpg",
       "produto-tijk9b9a-2.png"
     ]
+  },
+  {
+    "id": "chun-li-esmonster-bikini-figure-colecionavel-2407",
+    "nome": "Chun-li Esmonster bikini - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-1.jpg",
+      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-2.jpg",
+      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-3.png",
+      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-4.jpg",
+      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-5.jpg",
+      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-6.jpg"
+    ]
   }
 ];
 
