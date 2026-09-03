@@ -2094,6 +2094,474 @@ const PRODUTOS = [
       "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-5.jpg",
       "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-6.jpg"
     ]
+  },
+  {
+    "id": "tifa-lockhart-posing-figure-colecionavel-0404",
+    "nome": "Tifa lockhart posing - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 550,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-freovmvi-1.png",
+      "produto-freovmvi-2.png",
+      "produto-freovmvi-3.png",
+      "produto-freovmvi-4.png",
+      "produto-freovmvi-5.png",
+      "produto-freovmvi-6.png",
+      "produto-freovmvi-7.png",
+      "produto-freovmvi-8.png"
+    ]
+  },
+  {
+    "id": "tifa-and-the-wave-figure-colecionavel-4445",
+    "nome": "Tifa and the wave - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-fshvkh4d-2.jpg",
+      "produto-fshvkh4d-2.jpg",
+      "produto-fshvkh4d-3.jpg",
+      "produto-fshvkh4d-4.jpg",
+      "produto-fshvkh4d-5.jpg",
+      "produto-fshvkh4d-6.jpg",
+      "produto-fshvkh4d-7.jpg"
+    ]
+  },
+  {
+    "id": "aerith-in-the-red-dress-figure-colecionavel-7898",
+    "nome": "Aerith in the red dress - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 560,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 17cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-ftfnwtgn-1.jpg",
+      "produto-ftfnwtgn-2.jpg",
+      "produto-ftfnwtgn-3.jpg",
+      "produto-ftfnwtgn-4.jpg",
+      "produto-ftfnwtgn-5.jpg"
+    ]
+  },
+  {
+    "id": "doom-slayer-the-dark-ages-figure-colecionavel-5936",
+    "nome": "Doom slayer the dark ages - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm ou 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-fud2kvpq-1.jpg",
+      "produto-fud2kvpq-2.jpg",
+      "produto-fud2kvpq-3.jpg",
+      "produto-fud2kvpq-4.jpg",
+      "produto-fud2kvpq-5.jpg",
+      "produto-fud2kvpq-6.jpg",
+      "produto-fud2kvpq-7.jpg",
+      "produto-fud2kvpq-8.jpg",
+      "produto-fud2kvpq-9.jpg",
+      "produto-fud2kvpq-10.jpg"
+    ]
+  },
+  {
+    "id": "hinako-in-the-stair-figure-colecionavel-5334",
+    "nome": "Hinako in the stair - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 550,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 21cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-g049ogp9-1.jpg",
+      "produto-g049ogp9-2.jpg",
+      "produto-g049ogp9-3.jpg",
+      "produto-g049ogp9-4.jpg",
+      "produto-g049ogp9-5.jpg",
+      "produto-g049ogp9-6.jpg",
+      "produto-g049ogp9-7.jpg",
+      "produto-g049ogp9-8.jpg"
+    ]
+  },
+  {
+    "id": "astronaut-girl-figure-colecionavel-2052",
+    "nome": "Astronaut girl - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "",
+    "preco": 550,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 18cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-g1dz5a3u-1.png",
+      "produto-g1dz5a3u-2.png",
+      "produto-g1dz5a3u-3.png",
+      "produto-g1dz5a3u-4.png"
+    ]
+  },
+  {
+    "id": "kaine-nier-figure-colecionavel-2366",
+    "nome": "Kaine - Nier figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nier",
+    "preco": 680,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 31cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-g2t4y924-1.png",
+      "produto-g2t4y924-2.png",
+      "produto-g2t4y924-3.png",
+      "produto-g2t4y924-4.png",
+      "produto-g2t4y924-5.png",
+      "produto-g2t4y924-6.png",
+      "produto-g2t4y924-7.png",
+      "produto-g2t4y924-8.png"
+    ]
+  },
+  {
+    "id": "tifa-and-the-burst-sword-7868",
+    "nome": "Tifa and the burst sword",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-g3wdt9qh-1.png",
+      "produto-g3wdt9qh-2.png",
+      "produto-g3wdt9qh-3.png"
+    ]
+  },
+  {
+    "id": "tifa-beach-2-versoes-figure-colecionavel-4554",
+    "nome": "Tifa beach - 2 versões Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 550,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-g77n22ju-1.png",
+      "produto-g77n22ju-2.png",
+      "produto-g77n22ju-3.jpg",
+      "produto-g77n22ju-4.png",
+      "produto-g77n22ju-5.jpg"
+    ]
+  },
+  {
+    "id": "zero-nier-figure-colecionavel-3859",
+    "nome": "Zero Nier - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nier",
+    "preco": 650,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-g94x7isv-1.jpg",
+      "produto-g94x7isv-2.jpg",
+      "produto-g94x7isv-3.jpg",
+      "produto-g94x7isv-4.jpg",
+      "produto-g94x7isv-5.jpg",
+      "produto-g94x7isv-6.jpg"
+    ]
+  },
+  {
+    "id": "lunch-ca3d-figure-colecionavel-8570",
+    "nome": "Lunch ca3d - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 750,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 18cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-gakjtp9w-1.png",
+      "produto-gakjtp9w-2.png",
+      "produto-gakjtp9w-3.png",
+      "produto-gakjtp9w-4.png",
+      "produto-gakjtp9w-5.png",
+      "produto-gakjtp9w-6.png"
+    ]
+  },
+  {
+    "id": "shampoo-ranma-1-2-figure-colecionavel-6039",
+    "nome": "Shampoo! Ranma 1/2 - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 580,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-gc62wlo2-1.png",
+      "produto-gc62wlo2-2.png",
+      "produto-gc62wlo2-3.png",
+      "produto-gc62wlo2-4.png",
+      "produto-gc62wlo2-5.png",
+      "produto-gc62wlo2-6.png",
+      "produto-gc62wlo2-7.png"
+    ]
+  },
+  {
+    "id": "guts-and-the-band-figure-colecionavel-3825",
+    "nome": "Guts and the band - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Berserk",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-gpu2kvwk-1.jpg",
+      "produto-gpu2kvwk-2.jpg",
+      "produto-gpu2kvwk-3.jpg",
+      "produto-gpu2kvwk-4.jpg",
+      "produto-gpu2kvwk-5.jpg",
+      "produto-gpu2kvwk-6.jpg"
+    ]
+  },
+  {
+    "id": "griffith-the-white-hawk-figure-colecionavel-1655",
+    "nome": "Griffith the white hawk - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Berserk",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 24cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-gquspepy-1.jpg",
+      "produto-gquspepy-2.jpg",
+      "produto-gquspepy-3.jpg",
+      "produto-gquspepy-4.jpg",
+      "produto-gquspepy-5.jpg",
+      "produto-gquspepy-6.jpg",
+      "produto-gquspepy-7.jpg"
+    ]
   }
 ];
 
