@@ -66,21 +66,35 @@ document.getElementById("tituloListagem").textContent =
 
 // ---- Filtros adicionais (NSFW, preço) ----
 // Ativar o filtro +18 pede confirmação antes, com o fundo borrado.
-// Desativar (desmarcar) não precisa — sai direto.
+// Depois de confirmado uma vez, fica lembrado enquanto a aba do
+// navegador estiver aberta — não pede de novo ao trocar de categoria.
+// Fecha a aba (ou passa muito tempo), pede confirmação de novo.
 const checkboxNsfw = document.getElementById("filtroNsfw");
 const modalNsfw = document.getElementById("modalNsfw");
 
+if (sessionStorage.getItem("nsfwAtivo") === "1") {
+  checkboxNsfw.checked = true;
+}
+
 checkboxNsfw.addEventListener("change", () => {
   if (checkboxNsfw.checked) {
-    checkboxNsfw.checked = false; // só marca de verdade depois da confirmação
-    modalNsfw.classList.add("aberto");
+    if (sessionStorage.getItem("nsfwVerificado") === "1") {
+      sessionStorage.setItem("nsfwAtivo", "1");
+      renderizar();
+    } else {
+      checkboxNsfw.checked = false; // só marca de verdade depois da confirmação
+      modalNsfw.classList.add("aberto");
+    }
   } else {
+    sessionStorage.setItem("nsfwAtivo", "0");
     renderizar();
   }
 });
 
 document.getElementById("btnNsfwConfirmar").addEventListener("click", () => {
   checkboxNsfw.checked = true;
+  sessionStorage.setItem("nsfwVerificado", "1");
+  sessionStorage.setItem("nsfwAtivo", "1");
   modalNsfw.classList.remove("aberto");
   renderizar();
 });

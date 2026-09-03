@@ -2562,6 +2562,249 @@ const PRODUTOS = [
       "produto-gquspepy-6.jpg",
       "produto-gquspepy-7.jpg"
     ]
+  },
+  {
+    "id": "chel-from-eldorado-figure-colecionavel-7392",
+    "nome": "Chel from eldorado - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "",
+    "preco": 580,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 13cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-h7saceaf-1.png",
+      "produto-h7saceaf-2.png",
+      "produto-h7saceaf-3.png",
+      "produto-h7saceaf-4.png",
+      "produto-h7saceaf-5.png",
+      "produto-h7saceaf-6.png"
+    ]
+  },
+  {
+    "id": "casca-and-the-band-figure-colecionavel-0620",
+    "nome": "Casca and the band - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Berserk",
+    "preco": 560,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 24cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "casca-and-the-band-figure-colecionavel-haox26qx-1.jpg",
+      "casca-and-the-band-figure-colecionavel-haox26qx-2.jpg",
+      "casca-and-the-band-figure-colecionavel-haox26qx-3.jpg",
+      "casca-and-the-band-figure-colecionavel-haox26qx-4.jpg",
+      "casca-and-the-band-figure-colecionavel-haox26qx-5.jpg",
+      "casca-and-the-band-figure-colecionavel-haox26qx-6.jpg",
+      "casca-and-the-band-figure-colecionavel-haox26qx-7.jpg",
+      "casca-and-the-band-figure-colecionavel-haox26qx-8.jpg"
+    ]
+  },
+  {
+    "id": "jill-valentine-resident-evil-2002-figure-colecionavel-0684",
+    "nome": "Jill Valentine (Resident Evil, 2002) - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 580,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "AProximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-hatzrdpg-1.png",
+      "produto-hatzrdpg-2.png",
+      "produto-hatzrdpg-3.png",
+      "produto-hatzrdpg-4.png",
+      "produto-hatzrdpg-5.png"
+    ]
+  },
+  {
+    "id": "shinobu-kochou-figure-colecionavel-9274",
+    "nome": "Shinobu Kochou - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Demon slayer",
+    "preco": 680,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 18cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-hfnihcfg-1.png",
+      "produto-hfnihcfg-2.png",
+      "produto-hfnihcfg-3.png",
+      "produto-hfnihcfg-4.png",
+      "produto-hfnihcfg-5.png",
+      "produto-hfnihcfg-6.png",
+      "produto-hfnihcfg-7.png",
+      "produto-hfnihcfg-8.png",
+      "produto-hfnihcfg-9.png"
+    ]
+  },
+  {
+    "id": "frieren-and-the-chest-figure-colecionavel-1386",
+    "nome": "Frieren and the chest - figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 580,
+    "escala": "1:10",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 13cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-hiuj5te0-1.png",
+      "produto-hiuj5te0-2.png",
+      "produto-hiuj5te0-3.png",
+      "produto-hiuj5te0-4.png",
+      "produto-hiuj5te0-5.png",
+      "produto-hiuj5te0-6.png",
+      "produto-hiuj5te0-7.png",
+      "produto-hiuj5te0-8.png",
+      "produto-hiuj5te0-9.png",
+      "produto-hiuj5te0-10.png",
+      "produto-hiuj5te0-11.png"
+    ]
+  },
+  {
+    "id": "iris-fire-force-figure-colecionavel-6676",
+    "nome": "Iris - Fire Force Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 480,
+    "escala": "1:10",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 10cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "iris-fire-force-figure-colecionavel-hktwn24a-1.png",
+      "iris-fire-force-figure-colecionavel-hktwn24a-2.png",
+      "iris-fire-force-figure-colecionavel-hktwn24a-3.png",
+      "iris-fire-force-figure-colecionavel-hktwn24a-4.png",
+      "iris-fire-force-figure-colecionavel-hktwn24a-5.png",
+      "iris-fire-force-figure-colecionavel-hktwn24a-6.png",
+      "iris-fire-force-figure-colecionavel-hktwn24a-7.png",
+      "iris-fire-force-figure-colecionavel-hktwn24a-8.png"
+    ]
+  },
+  {
+    "id": "noir-goddess-of-victory-nikke-9997",
+    "nome": "Noir - GODDESS OF VICTORY: NIKKE",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 580,
+    "escala": "1:10",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 10cm de altura",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "noir-goddess-of-victory-nikke-hm80cf6s-1.png",
+      "noir-goddess-of-victory-nikke-hm80cf6s-2.png",
+      "noir-goddess-of-victory-nikke-hm80cf6s-3.png",
+      "noir-goddess-of-victory-nikke-hm80cf6s-4.png",
+      "noir-goddess-of-victory-nikke-hm80cf6s-5.png",
+      "noir-goddess-of-victory-nikke-hm80cf6s-6.png",
+      "noir-goddess-of-victory-nikke-hm80cf6s-7.png"
+    ]
   }
 ];
 
