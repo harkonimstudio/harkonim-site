@@ -18,11 +18,13 @@ function atualizarUiConexaoPasta() {
   const btnConectar = document.getElementById("btnConectarPasta");
   const btnDesconectar = document.getElementById("btnDesconectarPasta");
   const avisoFotos = document.getElementById("avisoFotos");
+  const blocoCompressao = document.getElementById("blocoCompressao");
 
   if (!fsDisponivel()) {
     status.textContent = "Disponível só no Chrome ou Edge (no computador). Nesse navegador, continua funcionando do jeito de baixar arquivo mesmo.";
     btnConectar.style.display = "none";
     btnDesconectar.style.display = "none";
+    blocoCompressao.style.display = "none";
     return;
   }
 
@@ -31,13 +33,34 @@ function atualizarUiConexaoPasta() {
     btnConectar.style.display = "none";
     btnDesconectar.style.display = "inline-block";
     if (avisoFotos) avisoFotos.style.display = "none";
+    blocoCompressao.style.display = "flex";
   } else {
     status.textContent = "Não conectado — os arquivos continuam baixando normalmente, como sempre.";
     btnConectar.style.display = "inline-block";
     btnDesconectar.style.display = "none";
     if (avisoFotos) avisoFotos.style.display = "block";
+    blocoCompressao.style.display = "none";
   }
 }
+
+document.getElementById("btnComprimirTudo").addEventListener("click", async () => {
+  const btn = document.getElementById("btnComprimirTudo");
+  const status = document.getElementById("statusCompressao");
+  btn.disabled = true;
+
+  try {
+    const resultado = await comprimirPastaImagensInteira((msg) => { status.textContent = msg; });
+    const economizado = resultado.totalAntes - resultado.totalDepois;
+    const pct = resultado.totalAntes ? Math.round((economizado / resultado.totalAntes) * 100) : 0;
+    status.textContent = `Concluído! ${resultado.processados} foto(s) comprimida(s)` +
+      (resultado.pulados ? `, ${resultado.pulados} já estavam pequenas (puladas)` : "") +
+      `. Economizou ${formatarBytes(economizado)} (${pct}% menor).`;
+  } catch (e) {
+    status.textContent = "Deu erro comprimindo: " + e.message;
+  }
+
+  btn.disabled = false;
+});
 
 document.getElementById("btnConectarPasta").addEventListener("click", async () => {
   try {
@@ -122,15 +145,33 @@ imageDrop.addEventListener("drop", e => {
 });
 imageInput.addEventListener("change", () => adicionarImagens(imageInput.files));
 
-function adicionarImagens(fileList) {
+async function adicionarImagens(fileList) {
   const nomeBase = slugify(document.getElementById("fNome").value || "produto") + "-" + sessionImageId;
-  Array.from(fileList).forEach((file, idx) => {
-    const ext = file.name.split(".").pop();
+  const arquivos = Array.from(fileList);
+  const statusEl = document.getElementById("statusUploadFotos");
+
+  for (let idx = 0; idx < arquivos.length; idx++) {
+    const fileOriginal = arquivos[idx];
+    if (statusEl) statusEl.textContent = `Comprimindo foto ${idx + 1}/${arquivos.length}...`;
+
+    let arquivoFinal = fileOriginal;
+    try {
+      arquivoFinal = await comprimirImagem(fileOriginal);
+    } catch (e) {
+      console.error("Falha ao comprimir, usando o arquivo original:", e);
+    }
+
+    const foiConvertidoParaJpeg = arquivoFinal !== fileOriginal && arquivoFinal.type === "image/jpeg";
+    const extOriginal = fileOriginal.name.split(".").pop();
+    const ext = foiConvertidoParaJpeg ? "jpg" : extOriginal;
+
     const nomeSugerido = `${nomeBase}-${imagensAtuais.length + 1}.${ext}`;
-    const url = URL.createObjectURL(file);
-    imagensAtuais.push({ file, nomeSugerido, url });
-  });
-  renderPreviews();
+    const url = URL.createObjectURL(arquivoFinal);
+    imagensAtuais.push({ file: arquivoFinal, nomeSugerido, url });
+    renderPreviews();
+  }
+
+  if (statusEl) statusEl.textContent = "";
 }
 
 function renderPreviews() {
@@ -372,7 +413,7 @@ let novaImagemLogo = null;
 let novaImagemFila = null;
 let removerImagemFila = false;
 
-function configurarUploadUnico(dropId, inputId, previewId, nomeFixo, onSalvar) {
+function configurarUploadUnico(dropId, inputId, previewId, nomeFixo, onSalvar, comprimir = true) {
   const drop = document.getElementById(dropId);
   const input = document.getElementById(inputId);
   const preview = document.getElementById(previewId);
@@ -383,10 +424,21 @@ function configurarUploadUnico(dropId, inputId, previewId, nomeFixo, onSalvar) {
   drop.addEventListener("drop", e => { e.preventDefault(); drop.style.borderColor = "var(--line)"; processar(e.dataTransfer.files[0]); });
   input.addEventListener("change", () => processar(input.files[0]));
 
-  function processar(file) {
+  async function processar(file) {
     if (!file) return;
-    const url = URL.createObjectURL(file);
-    const item = { file, nomeSugerido: nomeFixo, url };
+
+    let arquivoFinal = file;
+    if (comprimir) {
+      preview.innerHTML = `<p style="font-size:0.8rem; color:var(--text-muted);">Comprimindo...</p>`;
+      try {
+        arquivoFinal = await comprimirImagem(file);
+      } catch (e) {
+        console.error("Falha ao comprimir, usando o arquivo original:", e);
+      }
+    }
+
+    const url = URL.createObjectURL(arquivoFinal);
+    const item = { file: arquivoFinal, nomeSugerido: nomeFixo, url };
     onSalvar(item);
     preview.innerHTML = `
       <div class="image-preview">
@@ -399,7 +451,7 @@ function configurarUploadUnico(dropId, inputId, previewId, nomeFixo, onSalvar) {
 }
 
 configurarUploadUnico("heroImageDrop", "heroImageInput", "heroImagePreview", "hero-banner.jpg", (item) => { novaImagemHero = item; });
-configurarUploadUnico("logoImageDrop", "logoImageInput", "logoImagePreview", "logo.svg", (item) => { novaImagemLogo = item; });
+configurarUploadUnico("logoImageDrop", "logoImageInput", "logoImagePreview", "logo.svg", (item) => { novaImagemLogo = item; }, false);
 configurarUploadUnico("filaImageDrop", "filaImageInput", "filaImagePreview", "fila-banner.jpg", (item) => { novaImagemFila = item; removerImagemFila = false; });
 
 document.getElementById("btnRemoverFilaImagem").addEventListener("click", () => {

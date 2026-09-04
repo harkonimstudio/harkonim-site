@@ -75,6 +75,22 @@ async function fsEscrever(caminhoRelativo, conteudo) {
   await writable.close();
 }
 
+// Lista os arquivos dentro de uma pasta relativa (ex: "images"), pra
+// poder varrer e processar tudo que já está salvo lá.
+async function fsListarPasta(caminhoRelativo) {
+  if (!fsDirHandle) throw new Error("Nenhuma pasta conectada.");
+  const partes = caminhoRelativo.split("/").filter(Boolean);
+  let pastaAtual = fsDirHandle;
+  for (const parte of partes) {
+    pastaAtual = await pastaAtual.getDirectoryHandle(parte, { create: true });
+  }
+  const arquivos = [];
+  for await (const [nome, handle] of pastaAtual.entries()) {
+    if (handle.kind === "file") arquivos.push({ nome, handle });
+  }
+  return arquivos;
+}
+
 // ---------- Guarda o handle da pasta no IndexedDB pra lembrar entre sessões ----------
 
 function fsSalvarHandleNoIndexedDB(handle) {

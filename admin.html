@@ -86,6 +86,14 @@
     </div>
   </div>
 
+  <div style="background: var(--surface-raised); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 26px; display:none; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;" id="blocoCompressao">
+    <div>
+      <strong style="font-size:0.88rem;">🗜️ Comprimir fotos já salvas na pasta</strong>
+      <p style="font-size:0.8rem; color:var(--text-muted); margin:4px 0 0;" id="statusCompressao">Varre a pasta images/ e reduz o tamanho de cada foto de produto/banner que já está lá, sem mexer no logo/favicon. Sobrescreve os arquivos na hora.</p>
+    </div>
+    <button class="btn-primary" id="btnComprimirTudo">Comprimir agora</button>
+  </div>
+
   <div id="tabProdutos" class="admin-tab-panel">
   <div class="admin-grid">
     <!-- FORMULÁRIO -->
@@ -170,9 +178,10 @@ Produto artesanal e exclusivo</textarea>
       </div>
 
       <div class="field">
-        <label>Fotos</label>
+        <label>Fotos <span style="color:var(--text-muted); font-weight:400; text-transform:none;">(comprimidas automaticamente ao adicionar)</span></label>
         <div class="image-drop" id="imageDrop">Clique aqui ou arraste as fotos do produto</div>
         <input type="file" id="imageInput" accept="image/*" multiple style="display:none">
+        <p id="statusUploadFotos" style="font-size:0.78rem; color:var(--amber-bright); margin:8px 0 0; min-height:1em;"></p>
         <button type="button" class="btn-secondary" id="btnBaixarTodasFotos" style="margin-top:10px; display:none;">⬇ Baixar todas as fotos (.zip)</button>
         <div class="image-previews" id="imagePreviews"></div>
       </div>
@@ -328,6 +337,7 @@ Produto artesanal e exclusivo</textarea>
 <script src="js/site-config.js"></script>
 <script src="js/fila-data.js"></script>
 <script src="js/admin-fs.js"></script>
+<script src="js/admin-compress.js"></script>
 <script src="js/admin.js"></script>
 <script>
 document.querySelectorAll(".admin-tab-btn").forEach(btn => {
