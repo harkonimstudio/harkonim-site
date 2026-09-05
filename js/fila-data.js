@@ -21,11 +21,6 @@ const FILA_PRODUCAO = [
     "etapa": "pintura"
   },
   {
-    "nome": "Springtrap",
-    "codigo": "0005",
-    "etapa": "embalagem"
-  },
-  {
     "nome": "Yani neko diorama + Sitted",
     "codigo": "0006",
     "etapa": "acabamento"
@@ -42,4 +37,4 @@ const FILA_PRODUCAO = [
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "02/09/2026";
+const ULTIMA_ATUALIZACAO_FILA = "04/09/2026";
