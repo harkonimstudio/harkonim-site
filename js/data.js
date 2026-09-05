@@ -2805,6 +2805,381 @@ const PRODUTOS = [
       "noir-goddess-of-victory-nikke-hm80cf6s-6.png",
       "noir-goddess-of-victory-nikke-hm80cf6s-7.png"
     ]
+  },
+  {
+    "id": "ganyu-genshim-impact-figure-colecionavel-7612",
+    "nome": "Ganyu Genshim impact - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "",
+    "preco": 750,
+    "escala": "1:10",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 11cm de altura e 20 de largura",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-dq1hsxkm-1.jpg",
+      "produto-dq1hsxkm-2.jpg",
+      "produto-dq1hsxkm-3.jpg",
+      "produto-dq1hsxkm-4.jpg",
+      "produto-dq1hsxkm-5.jpg",
+      "produto-dq1hsxkm-6.jpg",
+      "produto-dq1hsxkm-7.jpg",
+      "produto-dq1hsxkm-8.jpg"
+    ]
+  },
+  {
+    "id": "chun-li-juri-kimberly-street-fighter-9610",
+    "nome": "Chun-Li, Juri & Kimberly - Street Fighter",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 1300,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 20cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-dykzu15x-1.jpg",
+      "chun-li-juri-kimberly-street-fighter-dykzu15x-2.jpg",
+      "chun-li-juri-kimberly-street-fighter-dykzu15x-3.jpg",
+      "chun-li-juri-kimberly-street-fighter-dykzu15x-4.jpg",
+      "chun-li-juri-kimberly-street-fighter-dykzu15x-5.jpg",
+      "chun-li-juri-kimberly-street-fighter-dykzu15x-6.jpg",
+      "chun-li-juri-kimberly-street-fighter-dykzu15x-7.jpg",
+      "chun-li-juri-kimberly-street-fighter-dykzu15x-8.jpg",
+      "chun-li-juri-kimberly-street-fighter-dykzu15x-9.jpg"
+    ]
+  },
+  {
+    "id": "princess-peach-figure-colecionavel-9633",
+    "nome": "Princess Peach - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 680,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 23cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "princess-peach-figure-colecionavel-e0me0sw5-1.jpg",
+      "princess-peach-figure-colecionavel-e0me0sw5-2.jpg",
+      "princess-peach-figure-colecionavel-e0me0sw5-3.jpg",
+      "princess-peach-figure-colecionavel-e0me0sw5-4.jpg",
+      "princess-peach-figure-colecionavel-e0me0sw5-5.jpg"
+    ]
+  },
+  {
+    "id": "aerith-and-the-flowers-figure-colecionavel-4027",
+    "nome": "Aerith and the flowers - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 560,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 16cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-e0rloiuz-1.jpg",
+      "produto-e0rloiuz-2.jpg",
+      "produto-e0rloiuz-3.jpg",
+      "produto-e0rloiuz-4.jpg",
+      "produto-e0rloiuz-5.jpg",
+      "produto-e0rloiuz-6.jpg",
+      "produto-e0rloiuz-7.jpg",
+      "produto-e0rloiuz-8.jpg"
+    ]
+  },
+  {
+    "id": "kuchiki-rukia-figure-colecionavel-8133",
+    "nome": "Kuchiki Rukia - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Bleach",
+    "preco": 540,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-e1pz8cu4-1.jpg",
+      "produto-e1pz8cu4-2.jpg",
+      "produto-e1pz8cu4-3.jpg",
+      "produto-e1pz8cu4-4.jpg",
+      "produto-e1pz8cu4-5.jpg"
+    ]
+  },
+  {
+    "id": "pyramid-head-woman-figure-colecionavel-4085",
+    "nome": "Pyramid head woman - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 780,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-e2g131rl-1.jpg",
+      "produto-e2g131rl-2.jpg",
+      "produto-e2g131rl-3.jpg",
+      "produto-e2g131rl-4.jpg",
+      "produto-e2g131rl-5.jpg",
+      "produto-e2g131rl-6.jpg",
+      "produto-e2g131rl-7.jpg",
+      "produto-e2g131rl-8.jpg",
+      "produto-e2g131rl-9.jpg",
+      "produto-e2g131rl-10.jpg",
+      "produto-e2g131rl-11.jpg"
+    ],
+    "precoAntigo": 900
+  },
+  {
+    "id": "lying-figure-silent-hill-2-figure-colecionavel-9931",
+    "nome": "Lying figure - Silent hill 2 Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 480,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 22cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-e3fya4tc-1.jpg",
+      "produto-e3fya4tc-2.jpg",
+      "produto-e3fya4tc-3.jpg"
+    ]
+  },
+  {
+    "id": "pyramid-girl-figure-colecionavel-8473",
+    "nome": "Pyramid Girl - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-e4707zwu-1.jpg",
+      "produto-e4707zwu-2.jpg",
+      "produto-e4707zwu-3.jpg",
+      "produto-e4707zwu-4.jpg",
+      "produto-e4707zwu-5.jpg",
+      "produto-e4707zwu-6.jpg",
+      "produto-e4707zwu-7.jpg"
+    ]
+  },
+  {
+    "id": "nurse-on-the-silent-hill-figure-colecionavel-3899",
+    "nome": "Nurse on the silent hill - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 23cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-e5139bay-1.jpg",
+      "produto-e5139bay-2.jpg",
+      "produto-e5139bay-3.jpg",
+      "produto-e5139bay-4.jpg"
+    ]
+  },
+  {
+    "id": "red-pyramid-thing-figure-colecionavel-7883",
+    "nome": "Red pyramid thing - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 32cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-e5zvgz30-1.jpg",
+      "produto-e5zvgz30-2.jpg",
+      "produto-e5zvgz30-3.jpg",
+      "produto-e5zvgz30-4.jpg",
+      "produto-e5zvgz30-5.jpg"
+    ]
+  },
+  {
+    "id": "red-pyramid-thing-and-the-nurse-figure-colecionavel-7111",
+    "nome": "Red pyramid thing and the nurse - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 1100,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-e6xvud0e-1.jpg",
+      "produto-e6xvud0e-2.jpg",
+      "produto-e6xvud0e-3.jpg",
+      "produto-e6xvud0e-4.jpg",
+      "produto-e6xvud0e-5.jpg",
+      "produto-e6xvud0e-6.jpg",
+      "produto-e6xvud0e-7.jpg",
+      "produto-e6xvud0e-8.jpg",
+      "produto-e6xvud0e-9.jpg",
+      "produto-e6xvud0e-10.jpg",
+      "produto-e6xvud0e-11.jpg",
+      "produto-e6xvud0e-12.jpg"
+    ]
   }
 ];
 

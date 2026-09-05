@@ -39,6 +39,38 @@ PRODUTOS.filter(p => p.destaque2).slice(0, 3)
 PRODUTOS.filter(p => p.promocao).slice(0, 3)
   .forEach(p => document.getElementById("featuredStripPromo").appendChild(criarTile(p)));
 
+// ---- Adicionados Recentemente: últimos itens do catálogo, sem NSFW ----
+function criarCardCompacto(p) {
+  const card = document.createElement("a");
+  card.className = "card fade-in-item";
+  card.href = "product.html?id=" + p.id;
+  const statusLabel = p.status === "sob-encomenda" ? "Sob encomenda" : "Pronta entrega";
+  const precoHtml = p.precoAntigo
+    ? `<span class="price-old">R$ ${p.precoAntigo.toLocaleString("pt-BR")}</span>R$ ${p.preco.toLocaleString("pt-BR")}`
+    : `R$ ${p.preco.toLocaleString("pt-BR")}`;
+
+  card.innerHTML = `
+    <div class="card-media">
+      <img class="img-base" src="images/${p.imagens[0]}" alt="${p.nome}" onerror="this.remove()">
+      ${p.imagens[1] ? `<img class="img-hover" src="images/${p.imagens[1]}" alt="" onerror="this.remove()">` : ""}
+    </div>
+    <div class="card-body">
+      <span class="card-cat">${p.categoria}</span>
+      <span class="card-name">${p.nome}</span>
+      <span class="card-status">${statusLabel}</span>
+      <span class="card-price">${precoHtml}</span>
+    </div>
+  `;
+  return card;
+}
+
+const NOVIDADES_QUANTIDADE = 10;
+PRODUTOS
+  .filter(p => !p.nsfw && (p.categoria || "Sem categoria") !== "Sem categoria")
+  .slice(-NOVIDADES_QUANTIDADE)
+  .reverse()
+  .forEach(p => document.getElementById("novidadesScroll").appendChild(criarCardCompacto(p)));
+
 // ---- Fade-in suave conforme o usuário rola a página ----
 const observador = new IntersectionObserver((entradas) => {
   entradas.forEach(entrada => {
