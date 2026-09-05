@@ -38,7 +38,8 @@ const PRODUTOS = [
       "produto-9nry1gwt-4.jpg",
       "produto-9nry1gwt-5.jpg",
       "produto-9nry1gwt-6.jpg"
-    ]
+    ],
+    "precoAntigo": 750
   },
   {
     "id": "dante-and-the-reaper-figure-colecionavel-devil-may-cry-6420",
@@ -321,7 +322,8 @@ const PRODUTOS = [
       "produto-4p7422ma-11.jpg",
       "produto-4p7422ma-12.jpg",
       "produto-4p7422ma-13.jpg"
-    ]
+    ],
+    "precoAntigo": 1199
   },
   {
     "id": "fury-darksiders-figure-colecionavel-2669",
@@ -407,7 +409,7 @@ const PRODUTOS = [
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
-    "promocao": true,
+    "promocao": false,
     "nsfw": false,
     "descricao": "",
     "cuidados": [
@@ -3489,7 +3491,7 @@ const PRODUTOS = [
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
-    "promocao": false,
+    "promocao": true,
     "nsfw": false,
     "descricao": "",
     "cuidados": [
@@ -3512,7 +3514,8 @@ const PRODUTOS = [
       "produto-y2sdibm9-8.jpg",
       "produto-y2sdibm9-9.jpg",
       "produto-y2sdibm9-10.jpg"
-    ]
+    ],
+    "precoAntigo": 650
   },
   {
     "id": "ash-and-the-lapras-diorama-figure-colecionavel-1271",
