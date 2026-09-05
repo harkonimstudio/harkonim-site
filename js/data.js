@@ -3344,6 +3344,407 @@ const PRODUTOS = [
       "produto-wrsu4ev1-2.jpg",
       "produto-wrsu4ev1-3.jpg"
     ]
+  },
+  {
+    "id": "lucy-on-the-motorbike-figure-colecionavel-6409",
+    "nome": "Lucy on the motorbike - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Cyberpunk",
+    "preco": 900,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-xz94d0ja-1.jpg",
+      "produto-xz94d0ja-2.jpg",
+      "produto-xz94d0ja-3.jpg",
+      "produto-xz94d0ja-4.jpg",
+      "produto-xz94d0ja-5.jpg",
+      "produto-xz94d0ja-6.jpg",
+      "produto-xz94d0ja-7.jpg",
+      "produto-xz94d0ja-8.jpg"
+    ]
+  },
+  {
+    "id": "lucy-statue-figure-colecionavel-7217",
+    "nome": "Lucy Statue - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Cyberpunk",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y0av87kh-1.jpg",
+      "produto-y0av87kh-2.jpg",
+      "produto-y0av87kh-3.jpg",
+      "produto-y0av87kh-4.jpg",
+      "produto-y0av87kh-5.jpg"
+    ]
+  },
+  {
+    "id": "talia-yang-cyberpunk-figure-colecionavel-3511",
+    "nome": "Talia yang - Cyberpunk figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Cyberpunk",
+    "preco": 670,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y1llbjcd-1.jpg",
+      "produto-y1llbjcd-2.jpg",
+      "produto-y1llbjcd-3.jpg",
+      "produto-y1llbjcd-4.jpg",
+      "produto-y1llbjcd-5.jpg"
+    ]
+  },
+  {
+    "id": "astarion-figure-colecionavel-2604",
+    "nome": "Astarion - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Baldurs gate",
+    "preco": 580,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "AProximadamente 24cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y25v65mm-1.jpg",
+      "produto-y25v65mm-2.jpg",
+      "produto-y25v65mm-3.jpg",
+      "produto-y25v65mm-4.jpg",
+      "produto-y25v65mm-5.jpg",
+      "produto-y25v65mm-6.jpg"
+    ]
+  },
+  {
+    "id": "zelda-and-the-torch-figure-colecionavel-4995",
+    "nome": "Zelda and the torch - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Zelda",
+    "preco": 550,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 20cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y2sdibm9-1.jpg",
+      "produto-y2sdibm9-2.jpg",
+      "produto-y2sdibm9-3.jpg",
+      "produto-y2sdibm9-4.jpg",
+      "produto-y2sdibm9-5.jpg",
+      "produto-y2sdibm9-6.jpg",
+      "produto-y2sdibm9-7.jpg",
+      "produto-y2sdibm9-8.jpg",
+      "produto-y2sdibm9-9.jpg",
+      "produto-y2sdibm9-10.jpg"
+    ]
+  },
+  {
+    "id": "ash-and-the-lapras-diorama-figure-colecionavel-1271",
+    "nome": "Ash and the lapras diorama - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Pokemon",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y3pchjmv-1.jpg",
+      "produto-y3pchjmv-2.jpg",
+      "produto-y3pchjmv-3.jpg",
+      "produto-y3pchjmv-4.jpg",
+      "produto-y3pchjmv-5.jpg",
+      "produto-y3pchjmv-6.jpg",
+      "produto-y3pchjmv-7.jpg",
+      "produto-y3pchjmv-8.jpg"
+    ]
+  },
+  {
+    "id": "frieren-and-the-potion-figure-colecionavel-3740",
+    "nome": "Frieren and the potion - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 580,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 12cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y4h7gu2o-1.jpg",
+      "produto-y4h7gu2o-2.jpg",
+      "produto-y4h7gu2o-4.jpg",
+      "produto-y4h7gu2o-5.jpg",
+      "produto-y4h7gu2o-6.jpg",
+      "produto-y4h7gu2o-7.jpg",
+      "produto-y4h7gu2o-8.jpg"
+    ]
+  },
+  {
+    "id": "nico-robin-bikini-figure-colecionavel-1515",
+    "nome": "Nico robin bikini - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "One piece",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y5dwyr2v-1.jpg",
+      "produto-y5dwyr2v-2.jpg"
+    ]
+  },
+  {
+    "id": "nico-robin-diorama-figure-colecionavel-0873",
+    "nome": "Nico robin diorama - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "One piece",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y5z0sdvo-1.jpg",
+      "produto-y5z0sdvo-2.jpg",
+      "produto-y5z0sdvo-3.jpg",
+      "produto-y5z0sdvo-4.jpg",
+      "produto-y5z0sdvo-5.jpg"
+    ]
+  },
+  {
+    "id": "nami-bikini-and-jeans-figure-colecionavel-1346",
+    "nome": "Nami bikini and jeans - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "One piece",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y6luom0s-1.jpg",
+      "produto-y6luom0s-2.jpg",
+      "produto-y6luom0s-3.jpg",
+      "produto-y6luom0s-4.jpg",
+      "produto-y6luom0s-5.jpg",
+      "produto-y6luom0s-6.jpg",
+      "produto-y6luom0s-7.jpg",
+      "produto-y6luom0s-8.jpg"
+    ]
+  },
+  {
+    "id": "monkey-king-wukong-figure-colecionavel-7873",
+    "nome": "Monkey king wukong - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 32cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y7ha65vp-1.jpg",
+      "produto-y7ha65vp-2.jpg",
+      "produto-y7ha65vp-3.jpg",
+      "produto-y7ha65vp-4.jpg",
+      "produto-y7ha65vp-5.jpg"
+    ]
+  },
+  {
+    "id": "jinx-zenith-figure-colecionavel-5855",
+    "nome": "Jinx zenith - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Lol",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 32cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-y89a8k3e-1.jpg",
+      "produto-y89a8k3e-2.jpg",
+      "produto-y89a8k3e-3.jpg",
+      "produto-y89a8k3e-4.jpg",
+      "produto-y89a8k3e-5.jpg",
+      "produto-y89a8k3e-6.jpg",
+      "produto-y89a8k3e-7.jpg",
+      "produto-y89a8k3e-8.jpg"
+    ]
   }
 ];
 
