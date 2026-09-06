@@ -23,7 +23,7 @@ function criarTile(p) {
     <div class="tile-info">
       <span class="tile-cat">${p.categoria}</span>
       <span class="tile-name">${p.nome}</span>
-      <span class="tile-price">R$ ${p.preco.toLocaleString("pt-BR")}</span>
+      <span class="tile-price">${montarPrecoComPromocao(p.preco, p.precoAntigo)}</span>
     </div>
   `;
   return tile;
@@ -45,9 +45,7 @@ function criarCardCompacto(p) {
   card.className = "card fade-in-item";
   card.href = "product.html?id=" + p.id;
   const statusLabel = p.status === "sob-encomenda" ? "Sob encomenda" : "Pronta entrega";
-  const precoHtml = p.precoAntigo
-    ? `<span class="price-old">R$ ${p.precoAntigo.toLocaleString("pt-BR")}</span>R$ ${p.preco.toLocaleString("pt-BR")}`
-    : `R$ ${p.preco.toLocaleString("pt-BR")}`;
+  const precoHtml = montarPrecoComPromocao(p.preco, p.precoAntigo);
 
   card.innerHTML = `
     <div class="card-media">

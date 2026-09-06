@@ -8,9 +8,7 @@ document.getElementById("crumbName").textContent = produto.nome;
 
 document.getElementById("prodCat").textContent = produto.categoria;
 document.getElementById("prodName").textContent = produto.nome;
-document.getElementById("prodPrice").innerHTML = produto.precoAntigo
-  ? `<span class="price-old">R$ ${produto.precoAntigo.toLocaleString("pt-BR")}</span>R$ ${produto.preco.toLocaleString("pt-BR")}`
-  : "R$ " + produto.preco.toLocaleString("pt-BR");
+document.getElementById("prodPrice").innerHTML = montarPrecoComPromocao(produto.preco, produto.precoAntigo);
 document.getElementById("prodInstallment").textContent =
   "12x de R$ " + (produto.preco / 12).toLocaleString("pt-BR", { minimumFractionDigits: 2 });
 

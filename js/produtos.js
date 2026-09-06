@@ -111,9 +111,7 @@ function criarCard(p) {
   card.className = "card";
   card.href = "product.html?id=" + p.id;
   const statusLabel = p.status === "sob-encomenda" ? "Sob encomenda" : "Pronta entrega";
-  const precoHtml = p.precoAntigo
-    ? `<span class="price-old">R$ ${p.precoAntigo.toLocaleString("pt-BR")}</span>R$ ${p.preco.toLocaleString("pt-BR")}`
-    : `R$ ${p.preco.toLocaleString("pt-BR")}`;
+  const precoHtml = montarPrecoComPromocao(p.preco, p.precoAntigo);
 
   card.innerHTML = `
     <div class="card-media">
@@ -150,6 +148,7 @@ function renderizar() {
   const ordenar = document.getElementById("ordenarPor").value;
   if (ordenar === "menor-preco") lista.sort((a, b) => a.preco - b.preco);
   if (ordenar === "maior-preco") lista.sort((a, b) => b.preco - a.preco);
+  if (ordenar === "recentes") lista.reverse(); // catálogo é ordem de cadastro — inverte pra mostrar os novos primeiro
 
   const grid = document.getElementById("productGrid");
   grid.innerHTML = "";

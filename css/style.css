@@ -367,6 +367,18 @@ body:not(.tem-hero) .site-header {
   margin-right: 8px;
 }
 
+.badge-promo {
+  display: inline-block;
+  background: #f4c430;
+  color: #16140a;
+  font-weight: 700;
+  font-size: 0.72rem;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
 /* ---------- Category filter chips ---------- */
 
 .filters {
@@ -1147,9 +1159,7 @@ footer {
 
 .hero-full {
   width: 100%;
-  height: 100vh;
-  max-height: 900px;
-  min-height: 520px;
+  height: auto;
   overflow: hidden;
   opacity: 0;
   animation: heroFadeIn 1.1s ease forwards;
@@ -1157,8 +1167,9 @@ footer {
 
 .hero-full img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 @keyframes heroFadeIn {
