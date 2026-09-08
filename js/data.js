@@ -641,38 +641,6 @@ const PRODUTOS = [
     ]
   },
   {
-    "id": "jinx-arcane-a-pronta-entrega-9040",
-    "nome": "Jinx arcane - a pronta entrega!",
-    "categoria": "Games",
-    "subcategoria": "Lol",
-    "preco": 650,
-    "escala": "1:4",
-    "material": "100% Resina",
-    "altura": "Aproximadamente 40cm",
-    "status": "pronta-entrega",
-    "destaque": true,
-    "destaque2": false,
-    "promocao": false,
-    "nsfw": false,
-    "descricao": "",
-    "cuidados": [
-      "Produto delicado — não é brinquedo",
-      "Evitar quedas e impactos",
-      "Limpeza apenas com pano seco ou levemente úmido"
-    ],
-    "informacoes": [
-      "Peça indicada para exposição",
-      "Produto artesanal e exclusivo"
-    ],
-    "imagens": [
-      "produto-l67lczhx-1.jpg",
-      "produto-l67lczhx-2.jpg",
-      "produto-l67lczhx-3.jpg",
-      "produto-l67lczhx-4.jpg",
-      "produto-l67lczhx-5.jpg"
-    ]
-  },
-  {
     "id": "mavis-the-vampire-figure-colecionavel-9782",
     "nome": "Mavis the vampire - Figure colecionavel",
     "categoria": "Filmes",
@@ -2714,7 +2682,7 @@ const PRODUTOS = [
     "destaque": false,
     "destaque2": false,
     "promocao": false,
-    "nsfw": false,
+    "nsfw": true,
     "descricao": "",
     "cuidados": [
       "Produto delicado — não é brinquedo",
@@ -3562,7 +3530,7 @@ const PRODUTOS = [
     "material": "100% Resina",
     "altura": "Aproximadamente 12cm",
     "status": "sob-encomenda",
-    "destaque": false,
+    "destaque": true,
     "destaque2": false,
     "promocao": false,
     "nsfw": false,
