@@ -3748,6 +3748,76 @@ const PRODUTOS = [
       "produto-y89a8k3e-7.jpg",
       "produto-y89a8k3e-8.jpg"
     ]
+  },
+  {
+    "id": "link-the-hero-of-time-figure-colecionavel-3208",
+    "nome": "Link The hero of time - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Zelda",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-1zebmqta-1.jpg",
+      "produto-1zebmqta-2.jpg",
+      "produto-1zebmqta-3.jpg",
+      "produto-1zebmqta-4.jpg",
+      "produto-1zebmqta-5.jpg",
+      "produto-1zebmqta-6.jpg",
+      "produto-1zebmqta-7.jpg",
+      "produto-1zebmqta-8.jpg",
+      "produto-1zebmqta-9.jpg",
+      "produto-1zebmqta-10.jpg"
+    ]
+  },
+  {
+    "id": "slan-the-demon-figure-colecionavel-6489",
+    "nome": "Slan the demon - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Berserk",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-20q9ispc-1.jpg",
+      "produto-20q9ispc-2.jpg",
+      "produto-20q9ispc-3.jpg",
+      "produto-20q9ispc-4.jpg",
+      "produto-20q9ispc-5.jpg",
+      "produto-20q9ispc-6.jpg"
+    ]
   }
 ];
 
@@ -3764,20 +3834,6 @@ function mensagemWhatsApp(produto) {
          "• opções de escala/tamanho\n\n" +
          linkProduto;
 }
-
-
-// Monta o HTML do preço, já com o preço antigo riscado e um selo de
-// desconto (ex: "-20%") quando o produto está em promoção. Usado em
-// toda página que mostra preço (home, listagem, produto).
-function montarPrecoComPromocao(preco, precoAntigo) {
-  if (!precoAntigo || precoAntigo <= preco) {
-    return "R$ " + preco.toLocaleString("pt-BR");
-  }
-  const desconto = Math.round((1 - preco / precoAntigo) * 100);
-  return `<span class="price-old">R$ ${precoAntigo.toLocaleString("pt-BR")}</span>R$ ${preco.toLocaleString("pt-BR")}` +
-    `<span class="badge-promo">-${desconto}%</span>`;
-}
-
 
 // Monta o HTML do preço, já com o preço antigo riscado e um selo de
 // desconto (ex: "-20%") quando o produto está em promoção. Usado em

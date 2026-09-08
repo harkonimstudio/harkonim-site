@@ -368,6 +368,18 @@ function mensagemWhatsApp(produto) {
          "• opções de escala/tamanho\\n\\n" +
          linkProduto;
 }
+
+// Monta o HTML do preço, já com o preço antigo riscado e um selo de
+// desconto (ex: "-20%") quando o produto está em promoção. Usado em
+// toda página que mostra preço (home, listagem, produto).
+function montarPrecoComPromocao(preco, precoAntigo) {
+  if (!precoAntigo || precoAntigo <= preco) {
+    return "R$ " + preco.toLocaleString("pt-BR");
+  }
+  const desconto = Math.round((1 - preco / precoAntigo) * 100);
+  return \`<span class="price-old">R$ \${precoAntigo.toLocaleString("pt-BR")}</span>R$ \${preco.toLocaleString("pt-BR")}\` +
+    \`<span class="badge-promo">-\${desconto}%</span>\`;
+}
 `;
 }
 
