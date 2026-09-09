@@ -179,10 +179,10 @@ const PRODUTOS = [
     "nome": "Link Ocarina of time - Figure colecionavel",
     "categoria": "Games",
     "subcategoria": "Zelda",
-    "preco": 900,
+    "preco": 1000,
     "escala": "1:9",
     "material": "100% Resina",
-    "altura": "Aproximadamente 19cm",
+    "altura": "Aproximadamente 26cm",
     "status": "sob-encomenda",
     "destaque": true,
     "destaque2": false,
@@ -213,7 +213,8 @@ const PRODUTOS = [
       "produto-wcn0csqu-12.jpg",
       "produto-wcn0csqu-13.jpg",
       "produto-wcn0csqu-14.jpg"
-    ]
+    ],
+    "precoAntigo": 1200
   },
   {
     "id": "zero-two-figure-colecionavel-8109",
