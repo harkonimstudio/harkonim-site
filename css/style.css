@@ -312,7 +312,7 @@ body:not(.tem-hero) .site-header {
   margin: 0;
 }
 
-.strip-title .section-head h2 {
+.strip-title.section-head h2 {
   font-family: var(--font-body);
   font-size: 1.05rem;
   font-weight: 500;
@@ -1290,8 +1290,8 @@ footer {
   text-align: center;
 }
 
-.strip-title .section-head { justify-content: center; }
-.strip-title .section-head > div { text-align: center; }
+.strip-title.section-head { justify-content: center; }
+.strip-title.section-head > div { text-align: center; }
 
 /* ---------- Correção definitiva: no mobile, o painel do dropdown
    precisa realmente sair do layout quando fechado (display: none),
