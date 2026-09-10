@@ -95,6 +95,20 @@
   </div>
 
   <div id="tabProdutos" class="admin-tab-panel">
+
+  <div class="panel" style="margin-bottom: 24px; background: var(--surface-raised);">
+    <h2>📦 Adicionar várias figures de uma vez</h2>
+    <p style="font-size:0.85rem; color:var(--text-muted); margin:6px 0 16px;">
+      Selecione a pasta-mãe que tem uma subpasta pra cada figure (ex: <code>Fotos/Asuka/foto1.jpg</code>, <code>Fotos/Marika/foto1.jpg</code>...). Cada subpasta entra na fila como um produto pendente, já com as fotos carregadas — você só preenche nome/categoria/preço e vai clicando em "Salvar e ir pra próxima".
+    </p>
+    <button type="button" class="btn-primary" id="btnSelecionarLote">📂 Selecionar pasta com as figures</button>
+    <input type="file" id="loteFolderInput" webkitdirectory multiple style="display:none">
+    <div id="loteStatus" style="display:none; margin-top:14px; padding:12px 14px; background:var(--bg); border:1px solid var(--line); border-radius:var(--radius); font-size:0.85rem;">
+      <div id="loteStatusTexto"></div>
+      <button type="button" class="btn-secondary" id="btnPularLote" style="margin-top:10px; font-size:0.8rem;">Pular esta pasta →</button>
+    </div>
+  </div>
+
   <div class="admin-grid">
     <!-- FORMULÁRIO -->
     <div class="panel">

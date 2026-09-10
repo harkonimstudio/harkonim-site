@@ -323,7 +323,20 @@ document.getElementById("btnSalvarProduto").addEventListener("click", async () =
   }
 
   renderLista();
-  limparForm();
+
+  // Se um lote estiver em andamento, avança pra próxima pasta da fila
+  // automaticamente em vez de só limpar o formulário.
+  if (loteQueue.length && loteIndex < loteQueue.length - 1) {
+    loteIndex++;
+    carregarProximoDoLote();
+  } else if (loteQueue.length) {
+    loteQueue = [];
+    document.getElementById("loteStatus").style.display = "none";
+    limparForm();
+    alert("Fila de lote concluída! Todos os produtos foram adicionados.");
+  } else {
+    limparForm();
+  }
 
   // Com a pasta conectada, o catálogo inteiro (js/data.js) também já
   // é reescrito sozinho a cada produto salvo — sem precisar clicar em
@@ -662,3 +675,78 @@ const ULTIMA_ATUALIZACAO_FILA = "${dataInformada}";
 
 document.getElementById("filaUltimaAtualizacao").value = ULTIMA_ATUALIZACAO_FILA;
 renderFilaLista();
+
+// =====================================================================
+// ADICIONAR EM LOTE (várias pastas de figures de uma vez)
+// =====================================================================
+
+let loteQueue = [];
+let loteIndex = 0;
+
+function limparNomePasta(nome) {
+  return nome
+    .replace(/[-_]+/g, " ")
+    .trim()
+    .replace(/\s+/g, " ")
+    .split(" ")
+    .map(p => p ? p.charAt(0).toUpperCase() + p.slice(1) : p)
+    .join(" ");
+}
+
+document.getElementById("btnSelecionarLote").addEventListener("click", () => {
+  document.getElementById("loteFolderInput").click();
+});
+
+document.getElementById("loteFolderInput").addEventListener("change", (e) => {
+  const arquivos = Array.from(e.target.files);
+  const grupos = {};
+
+  arquivos.forEach(file => {
+    if (!/\.(jpe?g|png|webp)$/i.test(file.name)) return; // só considera imagens
+    const partes = (file.webkitRelativePath || file.name).split("/");
+    // partes[0] = pasta raiz selecionada, partes[1] = subpasta (o produto)
+    const chave = partes.length > 2 ? partes[1] : partes[0];
+    if (!grupos[chave]) grupos[chave] = [];
+    grupos[chave].push(file);
+  });
+
+  loteQueue = Object.keys(grupos).sort().map(pasta => ({ pasta, arquivos: grupos[pasta] }));
+  loteIndex = 0;
+
+  if (!loteQueue.length) {
+    alert("Não encontrei nenhuma imagem dentro de subpastas. Confirme que você selecionou a pasta-mãe (a que contém uma subpasta pra cada figure), não uma pasta de fotos direto.");
+    return;
+  }
+
+  carregarProximoDoLote();
+});
+
+function carregarProximoDoLote() {
+  if (loteIndex >= loteQueue.length) {
+    document.getElementById("loteStatus").style.display = "none";
+    loteQueue = [];
+    return;
+  }
+
+  const item = loteQueue[loteIndex];
+  limparForm();
+  document.getElementById("fNome").value = limparNomePasta(item.pasta);
+  adicionarImagens(item.arquivos);
+
+  document.getElementById("loteStatus").style.display = "block";
+  document.getElementById("loteStatusTexto").innerHTML =
+    `📦 Pasta <strong>${item.pasta}</strong> — produto ${loteIndex + 1} de ${loteQueue.length} (${item.arquivos.length} foto(s) carregada(s))`;
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+document.getElementById("btnPularLote").addEventListener("click", () => {
+  if (loteIndex >= loteQueue.length - 1) {
+    loteQueue = [];
+    document.getElementById("loteStatus").style.display = "none";
+    limparForm();
+  } else {
+    loteIndex++;
+    carregarProximoDoLote();
+  }
+});

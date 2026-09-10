@@ -3787,6 +3787,462 @@ const PRODUTOS = [
       "produto-20q9ispc-5.jpg",
       "produto-20q9ispc-6.jpg"
     ]
+  },
+  {
+    "id": "2b-by-e-s-monster-figure-colecionavel-3273",
+    "nome": "2B By E.S Monster Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nier",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "2b-by-e-s-monster-includes-3-versions-v6lwsp41-1.jpg",
+      "2b-by-e-s-monster-includes-3-versions-v6lwsp41-5.jpg",
+      "2b-by-e-s-monster-includes-3-versions-v6lwsp41-6.jpg",
+      "2b-by-e-s-monster-includes-3-versions-v6lwsp41-15.jpg",
+      "2b-by-e-s-monster-includes-3-versions-v6lwsp41-16.jpg",
+      "2b-by-e-s-monster-includes-3-versions-v6lwsp41-17.jpg"
+    ]
+  },
+  {
+    "id": "alita-character-by-esm-7241",
+    "nome": "ALITA CHARACTER BY ESM",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "alita-character-by-esm-v7rrfv6y-1.jpg",
+      "alita-character-by-esm-v7rrfv6y-2.jpg",
+      "alita-character-by-esm-v7rrfv6y-4.jpg",
+      "alita-character-by-esm-v7rrfv6y-6.jpg",
+      "alita-character-by-esm-v7rrfv6y-7.jpg"
+    ]
+  },
+  {
+    "id": "asuka-robotic-figure-colecionavel-4293",
+    "nome": "Asuka robotic Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Evangelion",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "auska-character-by-esm-v8a5wvnh-1.jpg",
+      "auska-character-by-esm-v8a5wvnh-2.jpg",
+      "auska-character-by-esm-v8a5wvnh-3.jpg",
+      "auska-character-by-esm-v8a5wvnh-4.jpg",
+      "auska-character-by-esm-v8a5wvnh-5.jpg"
+    ]
+  },
+  {
+    "id": "ada-wong-figure-colecionavel-5265",
+    "nome": "Ada Wong - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ada-wang-character-by-esm-v8v1elia-5.jpg",
+      "ada-wang-character-by-esm-v8v1elia-6.jpg",
+      "ada-wang-character-by-esm-v8v1elia-8.jpg",
+      "ada-wang-character-by-esm-v8v1elia-9.jpg",
+      "ada-wang-character-by-esm-v8v1elia-10.jpg",
+      "ada-wang-character-by-esm-v8v1elia-15.jpg",
+      "ada-wang-character-by-esm-v8v1elia-16.jpg",
+      "ada-wang-character-by-esm-v8v1elia-17.jpg"
+    ],
+    "precoAntigo": 800
+  },
+  {
+    "id": "ada-wong-jill-valentine-diorama-figure-colecionavel-2421",
+    "nome": "Ada Wong&Jill Valentine Diorama - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 1400,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 32cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ada-wong-jill-valentine-character-by-esm-v9yjt7ia-4.jpg",
+      "ada-wong-jill-valentine-character-by-esm-v9yjt7ia-5.jpg",
+      "ada-wong-jill-valentine-character-by-esm-v9yjt7ia-6.jpg",
+      "ada-wong-jill-valentine-character-by-esm-v9yjt7ia-7.jpg",
+      "ada-wong-jill-valentine-character-by-esm-v9yjt7ia-9.jpg"
+    ]
+  },
+  {
+    "id": "ada-wong-solo-nsfw-figure-colecionavel-5460",
+    "nome": "Ada Wong solo + nsfw Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 680,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ada-wong-character-by-esm-var1t6mc-2.jpg",
+      "ada-wong-character-by-esm-var1t6mc-3.jpg",
+      "ada-wong-character-by-esm-var1t6mc-4.jpg",
+      "ada-wong-character-by-esm-var1t6mc-5.jpg",
+      "ada-wong-character-by-esm-var1t6mc-6.jpg",
+      "ada-wong-character-by-esm-var1t6mc-12.jpg",
+      "ada-wong-character-by-esm-var1t6mc-13.jpg",
+      "ada-wong-character-by-esm-var1t6mc-14.jpg",
+      "ada-wong-character-by-esm-var1t6mc-15.jpg"
+    ],
+    "precoAntigo": 750
+  },
+  {
+    "id": "akuma-power-figure-colecionavel-1330",
+    "nome": "Akuma power Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 990,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "akuma-by-e-s-monster-vbgs6l6o-1.jpg",
+      "akuma-by-e-s-monster-vbgs6l6o-3.jpg",
+      "akuma-by-e-s-monster-vbgs6l6o-5.jpg",
+      "akuma-by-e-s-monster-vbgs6l6o-6.jpg",
+      "akuma-by-e-s-monster-vbgs6l6o-7.jpg",
+      "akuma-by-e-s-monster-vbgs6l6o-12.jpg",
+      "akuma-by-e-s-monster-vbgs6l6o-15.jpg"
+    ],
+    "precoAntigo": 1100
+  },
+  {
+    "id": "albedo-overlord-armor-figure-colecionavel-4701",
+    "nome": "Albedo overlord armor - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Overlord",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "albedo-overlord-character-by-esm-vcg1ocb0-1.jpg",
+      "albedo-overlord-character-by-esm-vcg1ocb0-2.jpg",
+      "albedo-overlord-character-by-esm-vcg1ocb0-3.jpg",
+      "albedo-overlord-character-by-esm-vcg1ocb0-4.jpg",
+      "albedo-overlord-character-by-esm-vcg1ocb0-5.jpg"
+    ]
+  },
+  {
+    "id": "tear-halibel-nsfw-figure-colecionavel-1185",
+    "nome": "Tear Halibel + Nsfw - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Bleach",
+    "preco": 780,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bleach-tear-halibel-vd5o5a69-1.jpg",
+      "bleach-tear-halibel-vd5o5a69-2.jpg",
+      "bleach-tear-halibel-vd5o5a69-3.jpg",
+      "bleach-tear-halibel-vd5o5a69-4.jpg",
+      "bleach-tear-halibel-vd5o5a69-5.jpg",
+      "bleach-tear-halibel-vd5o5a69-6.jpg",
+      "bleach-tear-halibel-vd5o5a69-7.jpg",
+      "bleach-tear-halibel-vd5o5a69-8.jpg",
+      "bleach-tear-halibel-vd5o5a69-9.jpg",
+      "bleach-tear-halibel-vd5o5a69-16.jpg",
+      "bleach-tear-halibel-vd5o5a69-18.jpg",
+      "bleach-tear-halibel-vd5o5a69-42.jpg",
+      "bleach-tear-halibel-vd5o5a69-43.jpg",
+      "bleach-tear-halibel-vd5o5a69-44.jpg"
+    ]
+  },
+  {
+    "id": "bayonetta-charming-figure-colecionavel-0591",
+    "nome": "Bayonetta Charming - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Bayonetta",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bayonetta-character-by-esm-velikghs-1.jpg",
+      "bayonetta-character-by-esm-velikghs-2.jpg",
+      "bayonetta-character-by-esm-velikghs-3.jpg",
+      "bayonetta-character-by-esm-velikghs-4.jpg",
+      "bayonetta-character-by-esm-velikghs-5.jpg",
+      "bayonetta-character-by-esm-velikghs-6.jpg",
+      "bayonetta-character-by-esm-velikghs-12.jpg"
+    ]
+  },
+  {
+    "id": "betty-boop-figure-colecionavel-9630",
+    "nome": "Betty Boop - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "betty-boop-character-by-esm-vfuxh94k-1.jpg",
+      "betty-boop-character-by-esm-vfuxh94k-2.jpg",
+      "betty-boop-character-by-esm-vfuxh94k-3.jpg",
+      "betty-boop-character-by-esm-vfuxh94k-4.jpg",
+      "betty-boop-character-by-esm-vfuxh94k-5.jpg",
+      "betty-boop-character-by-esm-vfuxh94k-6.jpg",
+      "betty-boop-character-by-esm-vfuxh94k-10.jpg",
+      "betty-boop-character-by-esm-vfuxh94k-12.jpg"
+    ],
+    "precoAntigo": 850
+  },
+  {
+    "id": "booette-fitness-figure-colecionavel-6432",
+    "nome": "Booette Fitness - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nintendo",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-1.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-2.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-3.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-4.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-5.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-6.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-7.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-8.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-9.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-17.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-19.jpg",
+      "booette-fitness-ver-by-e-s-monster-vgwugjj9-20.jpg"
+    ]
+  },
+  {
+    "id": "bowsette-figure-colecionavel-0500",
+    "nome": "Bowsette - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nintendo",
+    "preco": 550,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bowsette-character-by-esm-vhph0dhb-1.jpg",
+      "bowsette-character-by-esm-vhph0dhb-2.jpg",
+      "bowsette-character-by-esm-vhph0dhb-3.jpg",
+      "bowsette-character-by-esm-vhph0dhb-4.jpg",
+      "bowsette-character-by-esm-vhph0dhb-13.jpg",
+      "bowsette-character-by-esm-vhph0dhb-15.jpg",
+      "bowsette-character-by-esm-vhph0dhb-17.jpg",
+      "bowsette-character-by-esm-vhph0dhb-18.jpg",
+      "bowsette-character-by-esm-vhph0dhb-22.jpg",
+      "bowsette-character-by-esm-vhph0dhb-34.jpg"
+    ]
   }
 ];
 
