@@ -5503,7 +5503,6 @@ const PRODUTOS = [
       "Produto artesanal e exclusivo"
     ],
     "imagens": [
-      "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-13.jpg",
       "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-8.jpg",
       "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-9.jpg",
       "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-11.jpg",
@@ -5555,7 +5554,7 @@ const PRODUTOS = [
     "preco": 850,
     "escala": "1:9",
     "material": "100% Resina",
-    "altura": "Aproximdamente 27cm",
+    "altura": "Aproximdamente 26cm",
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
@@ -5662,7 +5661,7 @@ const PRODUTOS = [
     "nome": "Kratos And the cyclops - Figure colecionavel",
     "categoria": "Games",
     "subcategoria": "God of war",
-    "preco": 850,
+    "preco": 1100,
     "escala": "1:9",
     "material": "100% Resina",
     "altura": "Aproximadamente 29cm",
@@ -5689,7 +5688,7 @@ const PRODUTOS = [
       "kratos-god-of-war-fullsize-xjlr3ph0-4.jpg",
       "kratos-god-of-war-fullsize-xjlr3ph0-5.jpg"
     ],
-    "precoAntigo": 950
+    "precoAntigo": 1200
   },
   {
     "id": "lara-treasure-hunter-figure-colecionavel-2103",
