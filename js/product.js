@@ -2,6 +2,26 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 const produto = PRODUTOS.find(p => p.id === id) || PRODUTOS[0];
 
+// Se o produto tem conteúdo +18 (de qualquer um dos dois jeitos — NSFW
+// puro ou "contém NSFW mas mostra normal"), pede confirmação de idade
+// antes de mostrar a página. Não pergunta de novo se a pessoa já
+// confirmou nessa mesma sessão (na listagem ou em outro produto).
+if ((produto.nsfw || produto.nsfwAviso) && sessionStorage.getItem("nsfwVerificado") !== "1") {
+  document.getElementById("productWrap").style.visibility = "hidden";
+  const modal = document.getElementById("modalNsfwProduto");
+  modal.classList.add("aberto");
+
+  document.getElementById("btnNsfwProdutoConfirmar").addEventListener("click", () => {
+    sessionStorage.setItem("nsfwVerificado", "1");
+    modal.classList.remove("aberto");
+    document.getElementById("productWrap").style.visibility = "visible";
+  });
+
+  document.getElementById("btnNsfwProdutoCancelar").addEventListener("click", () => {
+    window.location.href = "produtos.html";
+  });
+}
+
 document.getElementById("pageTitle").textContent = produto.nome + " — Harkonim Studio";
 document.getElementById("crumbCat").textContent = produto.categoria;
 document.getElementById("crumbName").textContent = produto.nome;

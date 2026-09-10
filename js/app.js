@@ -16,7 +16,7 @@ function criarTile(p) {
 
   tile.innerHTML = `
     <div class="tile-media">
-      ${p.nsfw ? '<span class="badge-nsfw">18+</span>' : ""}
+      ${(p.nsfw || p.nsfwAviso) ? '<span class="badge-nsfw">18+</span>' : ""}
       <img class="img-base" src="images/${p.imagens[0]}" alt="${p.nome}" onerror="this.remove()">
       ${segundaImagem}
     </div>
@@ -49,6 +49,7 @@ function criarCardCompacto(p) {
 
   card.innerHTML = `
     <div class="card-media">
+      ${(p.nsfw || p.nsfwAviso) ? '<span class="badge-nsfw">18+</span>' : ""}
       <img class="img-base" src="images/${p.imagens[0]}" alt="${p.nome}" onerror="this.remove()">
       ${p.imagens[1] ? `<img class="img-hover" src="images/${p.imagens[1]}" alt="" onerror="this.remove()">` : ""}
     </div>

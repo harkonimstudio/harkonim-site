@@ -181,7 +181,12 @@ function renderPreviews() {
     div.className = "image-preview";
     div.innerHTML = `
       <img src="${img.url}" alt="">
+      ${i === 0 ? '<span style="display:block; font-size:0.62rem; color:var(--amber-bright); font-weight:600;">CAPA</span>' : ""}
       <span class="fname">${img.nomeSugerido}</span>
+      <div style="display:flex; justify-content:center; gap:6px; margin-top:4px;">
+        <a href="#" data-mover-esquerda="${i}" style="${i === 0 ? 'visibility:hidden;' : ''}" title="Mover pra esquerda">◀</a>
+        <a href="#" data-mover-direita="${i}" style="${i === imagensAtuais.length - 1 ? 'visibility:hidden;' : ''}" title="Mover pra direita">▶</a>
+      </div>
       <a href="${img.url}" download="${img.nomeSugerido}">Baixar renomeada ↓</a>
       <a href="#" data-remove="${i}" style="color:var(--text-muted);">remover</a>
     `;
@@ -192,6 +197,24 @@ function renderPreviews() {
       e.preventDefault();
       imagensAtuais.splice(parseInt(a.dataset.remove), 1);
       renderPreviews();
+    }));
+  imagePreviews.querySelectorAll("[data-mover-esquerda]").forEach(a =>
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      const i = parseInt(a.dataset.moverEsquerda);
+      if (i > 0) {
+        [imagensAtuais[i - 1], imagensAtuais[i]] = [imagensAtuais[i], imagensAtuais[i - 1]];
+        renderPreviews();
+      }
+    }));
+  imagePreviews.querySelectorAll("[data-mover-direita]").forEach(a =>
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      const i = parseInt(a.dataset.moverDireita);
+      if (i < imagensAtuais.length - 1) {
+        [imagensAtuais[i + 1], imagensAtuais[i]] = [imagensAtuais[i], imagensAtuais[i + 1]];
+        renderPreviews();
+      }
     }));
 
   const btnZip = document.getElementById("btnBaixarTodasFotos");
@@ -229,6 +252,7 @@ function limparForm() {
   document.getElementById("fDestaque2").checked = false;
   document.getElementById("fPromocao").checked = false;
   document.getElementById("fNsfw").checked = false;
+  document.getElementById("fNsfwAviso").checked = false;
   document.getElementById("fDescricao").value = "";
   document.getElementById("fCuidados").value = "Produto delicado — não é brinquedo\nEvitar quedas e impactos\nLimpeza apenas com pano seco ou levemente úmido";
   document.getElementById("fInformacoes").value = "Peça indicada para exposição\nProduto artesanal e exclusivo";
@@ -237,7 +261,7 @@ function limparForm() {
   renderPreviews();
 }
 
-function carregarNoForm(i) {
+async function carregarNoForm(i) {
   const p = produtosState[i];
   document.getElementById("editIndex").value = i;
   document.getElementById("formTitle").textContent = "Editando: " + p.nome;
@@ -254,13 +278,36 @@ function carregarNoForm(i) {
   document.getElementById("fDestaque2").checked = !!p.destaque2;
   document.getElementById("fPromocao").checked = !!p.promocao;
   document.getElementById("fNsfw").checked = !!p.nsfw;
+  document.getElementById("fNsfwAviso").checked = !!p.nsfwAviso;
   document.getElementById("fDescricao").value = p.descricao;
   document.getElementById("fCuidados").value = (p.cuidados || []).join("\n");
   document.getElementById("fInformacoes").value = (p.informacoes || []).join("\n");
-  // Observação: fotos já salvas anteriormente precisam ser re-anexadas se quiser trocar,
-  // já que o navegador não tem acesso ao arquivo original depois de fechar a página.
-  imagensAtuais = [];
+
   sessionImageId = gerarSessionId();
+  imagensAtuais = [];
+
+  // Se a pasta do projeto estiver conectada, busca as fotos já salvas
+  // desse produto de volta pra tela — assim dá pra reordenar/remover
+  // fotos de um produto que já existe, não só de fotos recém-adicionadas.
+  if (fsPastaConectada() && Array.isArray(p.imagens) && p.imagens.length) {
+    try {
+      const arquivosNaPasta = await fsListarPasta("images");
+      const porNome = {};
+      arquivosNaPasta.forEach(({ nome, handle }) => { porNome[nome] = handle; });
+
+      for (const nomeImagem of p.imagens) {
+        const handle = porNome[nomeImagem];
+        if (!handle) continue; // foto não encontrada na pasta — ignora, sem quebrar nada
+        const file = await handle.getFile();
+        const url = URL.createObjectURL(file);
+        // Mantém o nome original — não renomeia fotos já existentes
+        imagensAtuais.push({ file, nomeSugerido: nomeImagem, url });
+      }
+    } catch (e) {
+      console.error("Não consegui carregar as fotos já salvas desse produto:", e);
+    }
+  }
+
   renderPreviews();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -288,6 +335,7 @@ document.getElementById("btnSalvarProduto").addEventListener("click", async () =
     destaque2: document.getElementById("fDestaque2").checked,
     promocao: document.getElementById("fPromocao").checked,
     nsfw: document.getElementById("fNsfw").checked,
+    nsfwAviso: document.getElementById("fNsfwAviso").checked,
     descricao: document.getElementById("fDescricao").value.trim(),
     cuidados: document.getElementById("fCuidados").value.split("\n").map(s => s.trim()).filter(Boolean),
     informacoes: document.getElementById("fInformacoes").value.split("\n").map(s => s.trim()).filter(Boolean),

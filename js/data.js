@@ -2034,39 +2034,6 @@ const PRODUTOS = [
     ]
   },
   {
-    "id": "chun-li-esmonster-bikini-figure-colecionavel-2407",
-    "nome": "Chun-li Esmonster bikini - Figure colecionavel",
-    "categoria": "Games",
-    "subcategoria": "",
-    "preco": 600,
-    "escala": "1:9",
-    "material": "100% resina",
-    "altura": "Aproximadamente 28cm",
-    "status": "sob-encomenda",
-    "destaque": false,
-    "destaque2": false,
-    "promocao": false,
-    "nsfw": true,
-    "descricao": "",
-    "cuidados": [
-      "Produto delicado — não é brinquedo",
-      "Evitar quedas e impactos",
-      "Limpeza apenas com pano seco ou levemente úmido"
-    ],
-    "informacoes": [
-      "Peça indicada para exposição",
-      "Produto artesanal e exclusivo"
-    ],
-    "imagens": [
-      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-1.jpg",
-      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-2.jpg",
-      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-3.png",
-      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-4.jpg",
-      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-5.jpg",
-      "chun-li-esmonster-bikini-figure-colecionavel-u1w3lpw5-6.jpg"
-    ]
-  },
-  {
     "id": "tifa-lockhart-posing-figure-colecionavel-0404",
     "nome": "Tifa lockhart posing - Figure colecionavel",
     "categoria": "Games",
@@ -2862,6 +2829,7 @@ const PRODUTOS = [
     "destaque2": false,
     "promocao": false,
     "nsfw": true,
+    "nsfwAviso": false,
     "descricao": "",
     "cuidados": [
       "Produto delicado — não é brinquedo",
@@ -2873,11 +2841,11 @@ const PRODUTOS = [
       "Produto artesanal e exclusivo"
     ],
     "imagens": [
+      "princess-peach-figure-colecionavel-e0me0sw5-5.jpg",
       "princess-peach-figure-colecionavel-e0me0sw5-1.jpg",
       "princess-peach-figure-colecionavel-e0me0sw5-2.jpg",
       "princess-peach-figure-colecionavel-e0me0sw5-3.jpg",
-      "princess-peach-figure-colecionavel-e0me0sw5-4.jpg",
-      "princess-peach-figure-colecionavel-e0me0sw5-5.jpg"
+      "princess-peach-figure-colecionavel-e0me0sw5-4.jpg"
     ]
   },
   {
@@ -4071,6 +4039,7 @@ const PRODUTOS = [
     "destaque2": false,
     "promocao": false,
     "nsfw": false,
+    "nsfwAviso": true,
     "descricao": "",
     "cuidados": [
       "Produto delicado — não é brinquedo",
@@ -4242,6 +4211,3261 @@ const PRODUTOS = [
       "bowsette-character-by-esm-vhph0dhb-18.jpg",
       "bowsette-character-by-esm-vhph0dhb-22.jpg",
       "bowsette-character-by-esm-vhph0dhb-34.jpg"
+    ]
+  },
+  {
+    "id": "2b-tanuki-2-versions-figure-colecionavel-5724",
+    "nome": "2B Tanuki - 2 Versions figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nier",
+    "preco": 950,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "2b-nier-automata-fullsize-wcb0jd7f-2.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-3.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-4.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-5.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-6.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-7.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-8.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-9.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-10.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-11.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-12.jpg",
+      "2b-nier-automata-fullsize-wcb0jd7f-13.jpg"
+    ]
+  },
+  {
+    "id": "albedo-tanuki-figure-colecionavel-6171",
+    "nome": "Albedo Tanuki - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Overlord",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "albedo-overlord-wd2g3hgo-1.jpg",
+      "albedo-overlord-wd2g3hgo-2.jpg",
+      "albedo-overlord-wd2g3hgo-3.jpg",
+      "albedo-overlord-wd2g3hgo-4.jpg",
+      "albedo-overlord-wd2g3hgo-5.jpg",
+      "albedo-overlord-wd2g3hgo-6.jpg",
+      "albedo-overlord-wd2g3hgo-7.jpg",
+      "albedo-overlord-wd2g3hgo-8.jpg"
+    ]
+  },
+  {
+    "id": "allen-the-alien-figure-colecionavel-9187",
+    "nome": "Allen The Alien – Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Invencible",
+    "preco": 780,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "allen-the-alien-invincible-wdpogw2z-1.jpg",
+      "allen-the-alien-invincible-wdpogw2z-2.jpg",
+      "allen-the-alien-invincible-wdpogw2z-3.jpg",
+      "allen-the-alien-invincible-wdpogw2z-4.jpg",
+      "allen-the-alien-invincible-wdpogw2z-5.jpg",
+      "allen-the-alien-invincible-wdpogw2z-9.jpg",
+      "allen-the-alien-invincible-wdpogw2z-10.jpg",
+      "allen-the-alien-invincible-wdpogw2z-11.jpg"
+    ]
+  },
+  {
+    "id": "android-18-tanuki-figure-colecionavel-4021",
+    "nome": "Android 18 Tanuki - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "android-18-dragon-ball-z-wef68gnu-1.jpg",
+      "android-18-dragon-ball-z-wef68gnu-2.jpg",
+      "android-18-dragon-ball-z-wef68gnu-3.jpg",
+      "android-18-dragon-ball-z-wef68gnu-4.jpg",
+      "android-18-dragon-ball-z-wef68gnu-5.jpg",
+      "android-18-dragon-ball-z-wef68gnu-6.jpg",
+      "android-18-dragon-ball-z-wef68gnu-7.jpg",
+      "android-18-dragon-ball-z-wef68gnu-8.jpg"
+    ]
+  },
+  {
+    "id": "bayonetta-tanuki-figure-colecionavel-4547",
+    "nome": "Bayonetta Tanuki - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Bayonetta",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bayonetta-fullsize-weybh8av-2.jpg",
+      "bayonetta-fullsize-weybh8av-3.jpg",
+      "bayonetta-fullsize-weybh8av-5.jpg",
+      "bayonetta-fullsize-weybh8av-6.jpg",
+      "bayonetta-fullsize-weybh8av-7.jpg",
+      "bayonetta-fullsize-weybh8av-8.jpg",
+      "bayonetta-fullsize-weybh8av-9.jpg",
+      "bayonetta-fullsize-weybh8av-10.jpg"
+    ]
+  },
+  {
+    "id": "big-boss-metal-gear-figure-colecionavel-5533",
+    "nome": "Big Boss Metal Gear - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "big-boss-metal-gear-wflvsmrh-1.jpg",
+      "big-boss-metal-gear-wflvsmrh-2.jpg",
+      "big-boss-metal-gear-wflvsmrh-3.jpg",
+      "big-boss-metal-gear-wflvsmrh-4.jpg",
+      "big-boss-metal-gear-wflvsmrh-5.jpg",
+      "big-boss-metal-gear-wflvsmrh-6.jpg",
+      "big-boss-metal-gear-wflvsmrh-7.jpg",
+      "big-boss-metal-gear-wflvsmrh-8.jpg"
+    ]
+  },
+  {
+    "id": "bulma-and-the-motorbike-figure-colecionavel-5775",
+    "nome": "Bulma and the motorbike - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 750,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 18cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bulma-dragon-ball-character-by-esm-wg22by5c-1.jpg",
+      "bulma-dragon-ball-character-by-esm-wg22by5c-2.jpg",
+      "bulma-dragon-ball-character-by-esm-wg22by5c-3.jpg",
+      "bulma-dragon-ball-character-by-esm-wg22by5c-4.jpg"
+    ]
+  },
+  {
+    "id": "bulma-esmonster-figure-colecionavel-1839",
+    "nome": "Bulma Esmonster - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bulma2-dragon-ball-character-by-esm-wgp5q8ea-5.jpg",
+      "bulma2-dragon-ball-character-by-esm-wgp5q8ea-1.jpg",
+      "bulma2-dragon-ball-character-by-esm-wgp5q8ea-2.jpg",
+      "bulma2-dragon-ball-character-by-esm-wgp5q8ea-3.jpg",
+      "bulma2-dragon-ball-character-by-esm-wgp5q8ea-4.jpg"
+    ]
+  },
+  {
+    "id": "cammy-white-bikini-figure-colecionavel-0276",
+    "nome": "Cammy white bikini - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "cammy-character-by-esm-street-fighter-wh9bv7qu-12.jpg",
+      "cammy-character-by-esm-street-fighter-wh9bv7qu-2.jpg",
+      "cammy-character-by-esm-street-fighter-wh9bv7qu-3.jpg",
+      "cammy-character-by-esm-street-fighter-wh9bv7qu-5.jpg",
+      "cammy-character-by-esm-street-fighter-wh9bv7qu-6.jpg",
+      "cammy-character-by-esm-street-fighter-wh9bv7qu-7.jpg"
+    ]
+  },
+  {
+    "id": "chunli-bikini-nsfw-figure-colecionavel-1636",
+    "nome": "Chunli bikini + nsfw - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chunli-character-by-esm-wi31iw9g-4.jpg",
+      "chunli-character-by-esm-wi31iw9g-6.jpg",
+      "chunli-character-by-esm-wi31iw9g-8.jpg",
+      "chunli-character-by-esm-wi31iw9g-10.jpg",
+      "chunli-character-by-esm-wi31iw9g-19.jpg",
+      "chunli-character-by-esm-wi31iw9g-20.jpg",
+      "chunli-character-by-esm-wi31iw9g-21.jpg",
+      "chunli-character-by-esm-wi31iw9g-22.jpg",
+      "chunli-character-by-esm-wi31iw9g-28.jpg",
+      "chunli-character-by-esm-wi31iw9g-31.jpg"
+    ]
+  },
+  {
+    "id": "cammy-bikini-nsfw-figure-colecionavel-6798",
+    "nome": "Cammy Bikini + nsfw - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "cammy-character-by-esm-wm1czkhv-1.jpg",
+      "cammy-character-by-esm-wm1czkhv-2.jpg",
+      "cammy-character-by-esm-wm1czkhv-3.jpg",
+      "cammy-character-by-esm-wm1czkhv-4.jpg",
+      "cammy-character-by-esm-wm1czkhv-5.jpg",
+      "cammy-character-by-esm-wm1czkhv-6.jpg",
+      "cammy-character-by-esm-wm1czkhv-7.jpg",
+      "cammy-character-by-esm-wm1czkhv-8.jpg",
+      "cammy-character-by-esm-wm1czkhv-9.jpg"
+    ]
+  },
+  {
+    "id": "chel-eldorado-nsfw-figure-colecionavel-2236",
+    "nome": "Chel Eldorado nsfw - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 580,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 17cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chel-12-variants-incl-penholders-wmqaapyo-1.jpg",
+      "chel-12-variants-incl-penholders-wmqaapyo-2.jpg",
+      "chel-12-variants-incl-penholders-wmqaapyo-3.jpg",
+      "chel-12-variants-incl-penholders-wmqaapyo-4.jpg",
+      "chel-12-variants-incl-penholders-wmqaapyo-5.jpg",
+      "chel-12-variants-incl-penholders-wmqaapyo-6.jpg"
+    ]
+  },
+  {
+    "id": "chel-road-to-el-dorado-nsfw-figure-colecionavel-7902",
+    "nome": "Chel Road To El Dorado nsfw - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 450,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm de largura",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chel-road-to-el-dorado-wnhgq1ah-1.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-4.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-8.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-11.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-12.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-15.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-16.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-18.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-19.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-20.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-23.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-24.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-25.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-29.jpg",
+      "chel-road-to-el-dorado-wnhgq1ah-30.jpg"
+    ]
+  },
+  {
+    "id": "chel-from-the-road-to-el-dorado-nsfw-figure-colecionavel-4241",
+    "nome": "Chel From The Road To El Dorado + nsfw - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 380,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 13cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-1.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-3.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-5.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-7.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-9.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-15.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-16.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-17.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-21.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-22.jpg"
+    ]
+  },
+  {
+    "id": "chompette-by-esm-figure-colecionavel-1676",
+    "nome": "Chompette BY ESM - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nintendo",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chompette-by-esm-wsoie7xe-3.jpg",
+      "chompette-by-esm-wsoie7xe-2.jpg",
+      "chompette-by-esm-wsoie7xe-1.jpg"
+    ]
+  },
+  {
+    "id": "chompette-fitness-figure-colecionavel-9228",
+    "nome": "Chompette Fitness  - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nintendo",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chompette-fitness-ver-by-e-s-monster-wt9678jy-11.jpg",
+      "chompette-fitness-ver-by-e-s-monster-wt9678jy-1.jpg",
+      "chompette-fitness-ver-by-e-s-monster-wt9678jy-2.jpg",
+      "chompette-fitness-ver-by-e-s-monster-wt9678jy-3.jpg",
+      "chompette-fitness-ver-by-e-s-monster-wt9678jy-4.jpg",
+      "chompette-fitness-ver-by-e-s-monster-wt9678jy-5.jpg",
+      "chompette-fitness-ver-by-e-s-monster-wt9678jy-8.jpg",
+      "chompette-fitness-ver-by-e-s-monster-wt9678jy-10.jpg",
+      "chompette-fitness-ver-by-e-s-monster-wt9678jy-12.jpg"
+    ]
+  },
+  {
+    "id": "chun-li-tanuki-figure-colecionavel-3202",
+    "nome": "Chun Li Tanuki - figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 780,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chun-li-street-fighter-wu2jqo9a-1.jpg",
+      "chun-li-street-fighter-wu2jqo9a-2.jpg",
+      "chun-li-street-fighter-wu2jqo9a-3.jpg",
+      "chun-li-street-fighter-wu2jqo9a-4.jpg",
+      "chun-li-street-fighter-wu2jqo9a-5.jpg",
+      "chun-li-street-fighter-wu2jqo9a-6.jpg"
+    ]
+  },
+  {
+    "id": "ciri-the-witcher-4-figure-colecionavel-3254",
+    "nome": "Ciri The Witcher 4 - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Witcher",
+    "preco": 1100,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ciri-the-witcher-4-fullsize-wukufz1r-1.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-2.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-3.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-4.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-5.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-6.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-7.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-8.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-9.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-10.jpg",
+      "ciri-the-witcher-4-fullsize-wukufz1r-11.jpg"
+    ]
+  },
+  {
+    "id": "conquest-by-e-s-monster-figure-colecionavel-8254",
+    "nome": "Conquest By E.S Monster - FIgure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Invencible",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximdamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "conquest-by-e-s-monster-wv8cedkk-8.jpg",
+      "conquest-by-e-s-monster-wv8cedkk-2.jpg",
+      "conquest-by-e-s-monster-wv8cedkk-4.jpg",
+      "conquest-by-e-s-monster-wv8cedkk-15.jpg",
+      "conquest-by-e-s-monster-wv8cedkk-16.jpg",
+      "conquest-by-e-s-monster-wv8cedkk-17.jpg",
+      "conquest-by-e-s-monster-wv8cedkk-18.jpg",
+      "conquest-by-e-s-monster-wv8cedkk-19.jpg",
+      "conquest-by-e-s-monster-wv8cedkk-20.jpg"
+    ]
+  },
+  {
+    "id": "daphne-nsfw-figure-colecionavel-0256",
+    "nome": "Daphne + Nsfw - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Scooby doo",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "daphne-character-by-esm-ww6xbjc7-13.jpg",
+      "daphne-character-by-esm-ww6xbjc7-1.jpg",
+      "daphne-character-by-esm-ww6xbjc7-3.jpg",
+      "daphne-character-by-esm-ww6xbjc7-4.jpg",
+      "daphne-character-by-esm-ww6xbjc7-5.jpg",
+      "daphne-character-by-esm-ww6xbjc7-6.jpg",
+      "daphne-character-by-esm-ww6xbjc7-7.jpg",
+      "daphne-character-by-esm-ww6xbjc7-8.jpg",
+      "daphne-character-by-esm-ww6xbjc7-9.jpg",
+      "daphne-character-by-esm-ww6xbjc7-10.jpg",
+      "daphne-character-by-esm-ww6xbjc7-12.jpg",
+      "daphne-character-by-esm-ww6xbjc7-15.jpg",
+      "daphne-character-by-esm-ww6xbjc7-17.jpg",
+      "daphne-character-by-esm-ww6xbjc7-18.jpg"
+    ]
+  },
+  {
+    "id": "darth-talon-figure-colecionavel-5606",
+    "nome": "Darth Talon - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "STAR WARS",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "darth-talon-by-e-s-monster-wzeeqe6f-12.jpg",
+      "darth-talon-by-e-s-monster-wzeeqe6f-1.jpg",
+      "darth-talon-by-e-s-monster-wzeeqe6f-5.jpg",
+      "darth-talon-by-e-s-monster-wzeeqe6f-6.jpg",
+      "darth-talon-by-e-s-monster-wzeeqe6f-7.jpg",
+      "darth-talon-by-e-s-monster-wzeeqe6f-11.jpg"
+    ]
+  },
+  {
+    "id": "devilman-fullsize-figure-colecionavel-6486",
+    "nome": "Devilman Fullsize - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 1200,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximdamente 34cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "devilman-fullsize-x0f11uiy-1.jpg",
+      "devilman-fullsize-x0f11uiy-2.jpg",
+      "devilman-fullsize-x0f11uiy-3.jpg",
+      "devilman-fullsize-x0f11uiy-4.jpg",
+      "devilman-fullsize-x0f11uiy-5.jpg",
+      "devilman-fullsize-x0f11uiy-6.jpg",
+      "devilman-fullsize-x0f11uiy-7.jpg",
+      "devilman-fullsize-x0f11uiy-8.jpg"
+    ]
+  },
+  {
+    "id": "doom-female-figure-colecionavel-1292",
+    "nome": "Doom (Female) - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "DOOM",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "doom-female-character-by-esm-x0v9b648-1.jpg",
+      "doom-female-character-by-esm-x0v9b648-2.jpg",
+      "doom-female-character-by-esm-x0v9b648-3.jpg",
+      "doom-female-character-by-esm-x0v9b648-4.jpg"
+    ]
+  },
+  {
+    "id": "faye-cowboy-bebop-figure-colecionavel-8136",
+    "nome": "Faye Cowboy Bebop - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "COWBOY BEBOP",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "faye-cowboy-bebop-x1l678q6-1.jpg",
+      "faye-cowboy-bebop-x1l678q6-2.jpg",
+      "faye-cowboy-bebop-x1l678q6-3.jpg",
+      "faye-cowboy-bebop-x1l678q6-4.jpg",
+      "faye-cowboy-bebop-x1l678q6-5.jpg",
+      "faye-cowboy-bebop-x1l678q6-6.jpg",
+      "faye-cowboy-bebop-x1l678q6-7.jpg"
+    ]
+  },
+  {
+    "id": "frieren-fluidity-figure-colecionavel-8170",
+    "nome": "Frieren fluidity - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 780,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "frieren-x1z2on0s-1.jpg",
+      "frieren-x1z2on0s-2.jpg",
+      "frieren-x1z2on0s-3.jpg",
+      "frieren-x1z2on0s-4.jpg",
+      "frieren-x1z2on0s-5.jpg",
+      "frieren-x1z2on0s-6.jpg",
+      "frieren-x1z2on0s-7.jpg",
+      "frieren-x1z2on0s-8.jpg"
+    ],
+    "precoAntigo": 850
+  },
+  {
+    "id": "gaara-and-shukaku-figure-colecionavel-7372",
+    "nome": "Gaara and shukaku - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Naruto",
+    "preco": 780,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 24cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "gaara-naruto-fullsize-x2u04jwg-1.jpg",
+      "gaara-naruto-fullsize-x2u04jwg-2.jpg",
+      "gaara-naruto-fullsize-x2u04jwg-3.jpg",
+      "gaara-naruto-fullsize-x2u04jwg-4.jpg",
+      "gaara-naruto-fullsize-x2u04jwg-5.jpg",
+      "gaara-naruto-fullsize-x2u04jwg-6.jpg",
+      "gaara-naruto-fullsize-x2u04jwg-7.jpg",
+      "gaara-naruto-fullsize-x2u04jwg-8.jpg"
+    ]
+  },
+  {
+    "id": "geralt-the-witcher-3-figure-colecionavel-1514",
+    "nome": "Geralt The Witcher 3 - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Witcher",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "geralt-the-witcher-3-x3vz0ruc-1.jpg",
+      "geralt-the-witcher-3-x3vz0ruc-2.jpg",
+      "geralt-the-witcher-3-x3vz0ruc-3.jpg",
+      "geralt-the-witcher-3-x3vz0ruc-4.jpg",
+      "geralt-the-witcher-3-x3vz0ruc-5.jpg",
+      "geralt-the-witcher-3-x3vz0ruc-6.jpg",
+      "geralt-the-witcher-3-x3vz0ruc-7.jpg"
+    ]
+  },
+  {
+    "id": "ghislaine-dedoldia-nsfw-figure-colecionavel-0173",
+    "nome": "Ghislaine Dedoldia + nsfw - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "MUSHOKU TENSEI",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-1.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-2.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-3.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-4.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-7.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-8.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-9.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-10.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-11.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-11.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-15.jpg"
+    ]
+  },
+  {
+    "id": "gohan-ssj2-dragon-ball-figure-colecionavel-6040",
+    "nome": "Gohan SSJ2 Dragon Ball - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "gohan-ssj2-dragon-ball-x58m4k7p-1.jpg",
+      "gohan-ssj2-dragon-ball-x58m4k7p-2.jpg",
+      "gohan-ssj2-dragon-ball-x58m4k7p-3.jpg",
+      "gohan-ssj2-dragon-ball-x58m4k7p-4.jpg",
+      "gohan-ssj2-dragon-ball-x58m4k7p-5.jpg",
+      "gohan-ssj2-dragon-ball-x58m4k7p-6.jpg",
+      "gohan-ssj2-dragon-ball-x58m4k7p-7.jpg",
+      "gohan-ssj2-dragon-ball-x58m4k7p-8.jpg"
+    ]
+  },
+  {
+    "id": "green-ranger-power-rangers-figure-colecionavel-9822",
+    "nome": "Green Ranger Power Rangers - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 950,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "green-ranger-power-rangers-fullsize-x5sdyydf-1.jpg",
+      "green-ranger-power-rangers-fullsize-x5sdyydf-2.jpg",
+      "green-ranger-power-rangers-fullsize-x5sdyydf-3.jpg",
+      "green-ranger-power-rangers-fullsize-x5sdyydf-4.jpg",
+      "green-ranger-power-rangers-fullsize-x5sdyydf-5.jpg"
+    ]
+  },
+  {
+    "id": "guile-diorama-figure-colecionavel-3042",
+    "nome": "Guile Diorama - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "AProximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "guile-street-fighter-fullsize-x6ajdyiw-1.jpg",
+      "guile-street-fighter-fullsize-x6ajdyiw-2.jpg",
+      "guile-street-fighter-fullsize-x6ajdyiw-3.jpg",
+      "guile-street-fighter-fullsize-x6ajdyiw-4.jpg",
+      "guile-street-fighter-fullsize-x6ajdyiw-5.jpg",
+      "guile-street-fighter-fullsize-x6ajdyiw-6.jpg"
+    ]
+  },
+  {
+    "id": "pennywise-girl-nsfw-figure-colecionavel-1722",
+    "nome": "Pennywise Girl + nsfw - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Terror",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximdamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "it-joker-character-by-esm-x6wrazvq-2.jpg",
+      "it-joker-character-by-esm-x6wrazvq-8.jpg",
+      "it-joker-character-by-esm-x6wrazvq-9.jpg",
+      "it-joker-character-by-esm-x6wrazvq-10.jpg",
+      "it-joker-character-by-esm-x6wrazvq-11.jpg",
+      "it-joker-character-by-esm-x6wrazvq-12.jpg",
+      "it-joker-character-by-esm-x6wrazvq-23.jpg",
+      "it-joker-character-by-esm-x6wrazvq-25.jpg",
+      "it-joker-character-by-esm-x6wrazvq-26.jpg",
+      "it-joker-character-by-esm-x6wrazvq-28.jpg",
+      "it-joker-character-by-esm-x6wrazvq-30.jpg"
+    ],
+    "precoAntigo": 850
+  },
+  {
+    "id": "ichigo-bleach-figure-colecionavel-4810",
+    "nome": "Ichigo bleach - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Bleach",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ichigo-bleach-fullsize-x823quzh-1.jpg",
+      "ichigo-bleach-fullsize-x823quzh-2.jpg",
+      "ichigo-bleach-fullsize-x823quzh-3.jpg",
+      "ichigo-bleach-fullsize-x823quzh-4.jpg",
+      "ichigo-bleach-fullsize-x823quzh-5.jpg"
+    ]
+  },
+  {
+    "id": "itadori-sukuna-jujutsu-figure-colecionavel-1398",
+    "nome": "Itadori Sukuna Jujutsu - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "JUJUTSU",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "itadori-sukuna-jujutsu-fullsize-x8r9ojkn-1.jpg",
+      "itadori-sukuna-jujutsu-fullsize-x8r9ojkn-2.jpg",
+      "itadori-sukuna-jujutsu-fullsize-x8r9ojkn-3.jpg",
+      "itadori-sukuna-jujutsu-fullsize-x8r9ojkn-4.jpg",
+      "itadori-sukuna-jujutsu-fullsize-x8r9ojkn-5.jpg",
+      "itadori-sukuna-jujutsu-fullsize-x8r9ojkn-6.jpg",
+      "itadori-sukuna-jujutsu-fullsize-x8r9ojkn-7.jpg",
+      "itadori-sukuna-jujutsu-fullsize-x8r9ojkn-8.jpg"
+    ]
+  },
+  {
+    "id": "jessica-rabbit-nsfw-figure-colecionavel-4882",
+    "nome": "Jessica Rabbit + nsfw - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "jessica-rabbit-x9etm7t9-15.jpg",
+      "jessica-rabbit-x9etm7t9-8.jpg",
+      "jessica-rabbit-x9etm7t9-15.jpg",
+      "jessica-rabbit-x9etm7t9-4.jpg",
+      "jessica-rabbit-x9etm7t9-3.jpg",
+      "jessica-rabbit-x9etm7t9-2.jpg",
+      "jessica-rabbit-x9etm7t9-15.jpg",
+      "jessica-rabbit-x9etm7t9-16.jpg",
+      "jessica-rabbit-x9etm7t9-20.jpg",
+      "jessica-rabbit-x9etm7t9-21.jpg",
+      "jessica-rabbit-x9etm7t9-22.jpg"
+    ]
+  },
+  {
+    "id": "jill-valentine-esmonter-figure-colecionavel-1951",
+    "nome": "Jill Valentine Esmonter - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-13.jpg",
+      "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-8.jpg",
+      "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-9.jpg",
+      "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-11.jpg",
+      "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-10.jpg",
+      "jill-valentine-the-residual-evil-series-character-by-esm-xap59rmp-12.jpg"
+    ]
+  },
+  {
+    "id": "jiraiya-naruto-figure-colecionavel-0901",
+    "nome": "Jiraiya Naruto - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Naruto",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "jiraiya-naruto-xguc3unr-2.jpg",
+      "jiraiya-naruto-xguc3unr-3.jpg",
+      "jiraiya-naruto-xguc3unr-4.jpg",
+      "jiraiya-naruto-xguc3unr-5.jpg",
+      "jiraiya-naruto-xguc3unr-6.jpg",
+      "jiraiya-naruto-xguc3unr-7.jpg",
+      "jiraiya-naruto-xguc3unr-8.jpg",
+      "jiraiya-naruto-xguc3unr-9.jpg"
+    ]
+  },
+  {
+    "id": "kaido-one-piece-fullsize-3464",
+    "nome": "Kaido One Piece Fullsize",
+    "categoria": "Animes",
+    "subcategoria": "One piece",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximdamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kaido-one-piece-fullsize-xhoinmzs-1.jpg",
+      "kaido-one-piece-fullsize-xhoinmzs-2.jpg",
+      "kaido-one-piece-fullsize-xhoinmzs-3.jpg",
+      "kaido-one-piece-fullsize-xhoinmzs-4.jpg",
+      "kaido-one-piece-fullsize-xhoinmzs-5.jpg",
+      "kaido-one-piece-fullsize-xhoinmzs-6.jpg",
+      "kaido-one-piece-fullsize-xhoinmzs-7.jpg",
+      "kaido-one-piece-fullsize-xhoinmzs-8.jpg"
+    ]
+  },
+  {
+    "id": "kokushibo-tanuki-figure-colecionavel-9681",
+    "nome": "Kokushibo Tanuki - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Demon slayer",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kokushibo-demon-slayer-fullsize-xi5y6bal-1.jpg",
+      "kokushibo-demon-slayer-fullsize-xi5y6bal-2.jpg",
+      "kokushibo-demon-slayer-fullsize-xi5y6bal-3.jpg",
+      "kokushibo-demon-slayer-fullsize-xi5y6bal-4.jpg",
+      "kokushibo-demon-slayer-fullsize-xi5y6bal-5.jpg",
+      "kokushibo-demon-slayer-fullsize-xi5y6bal-6.jpg"
+    ],
+    "precoAntigo": 800
+  },
+  {
+    "id": "kratos-tanuki-figure-colecionavel-0393",
+    "nome": "Kratos Tanuki - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "God of war",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kratos-god-of-war-xixrknbw-2.jpg",
+      "kratos-god-of-war-xixrknbw-3.jpg",
+      "kratos-god-of-war-xixrknbw-4.jpg",
+      "kratos-god-of-war-xixrknbw-5.jpg",
+      "kratos-god-of-war-xixrknbw-6.jpg",
+      "kratos-god-of-war-xixrknbw-7.jpg",
+      "kratos-god-of-war-xixrknbw-8.jpg",
+      "kratos-god-of-war-xixrknbw-9.jpg",
+      "kratos-god-of-war-xixrknbw-10.jpg",
+      "kratos-god-of-war-xixrknbw-11.jpg",
+      "kratos-god-of-war-xixrknbw-12.jpg"
+    ]
+  },
+  {
+    "id": "kratos-and-the-cyclops-figure-colecionavel-5008",
+    "nome": "Kratos And the cyclops - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "God of war",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kratos-god-of-war-fullsize-xjlr3ph0-1.jpg",
+      "kratos-god-of-war-fullsize-xjlr3ph0-2.jpg",
+      "kratos-god-of-war-fullsize-xjlr3ph0-3.jpg",
+      "kratos-god-of-war-fullsize-xjlr3ph0-4.jpg",
+      "kratos-god-of-war-fullsize-xjlr3ph0-5.jpg"
+    ],
+    "precoAntigo": 950
+  },
+  {
+    "id": "lara-treasure-hunter-figure-colecionavel-2103",
+    "nome": "Lara treasure hunter - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "TOMB RAIDER",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lara-treasure-hunter-character-by-esm-xkc3b31h-2.jpg",
+      "lara-treasure-hunter-character-by-esm-xkc3b31h-1.jpg",
+      "lara-treasure-hunter-character-by-esm-xkc3b31h-3.jpg",
+      "lara-treasure-hunter-character-by-esm-xkc3b31h-4.jpg",
+      "lara-treasure-hunter-character-by-esm-xkc3b31h-5.jpg",
+      "lara-treasure-hunter-character-by-esm-xkc3b31h-6.jpg",
+      "lara-treasure-hunter-character-by-esm-xkc3b31h-13.jpg"
+    ]
+  },
+  {
+    "id": "m-bison-tanuki-figure-colecionavel-4060",
+    "nome": "M. Bison Tanuki - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 950,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "m-bison-street-fighter-fullsize-xl0v55e0-2.jpg",
+      "m-bison-street-fighter-fullsize-xl0v55e0-1.jpg",
+      "m-bison-street-fighter-fullsize-xl0v55e0-3.jpg",
+      "m-bison-street-fighter-fullsize-xl0v55e0-4.jpg",
+      "m-bison-street-fighter-fullsize-xl0v55e0-5.jpg",
+      "m-bison-street-fighter-fullsize-xl0v55e0-6.jpg"
+    ]
+  },
+  {
+    "id": "mai-shiranui-figure-colecionavel-1297",
+    "nome": "Mai shiranui - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 680,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "mai-shiranui-sexy-girl-kof-game-anime-character-by-esm-xllq0irl-2.jpg",
+      "mai-shiranui-sexy-girl-kof-game-anime-character-by-esm-xllq0irl-1.jpg",
+      "mai-shiranui-sexy-girl-kof-game-anime-character-by-esm-xllq0irl-3.jpg",
+      "mai-shiranui-sexy-girl-kof-game-anime-character-by-esm-xllq0irl-4.jpg",
+      "mai-shiranui-sexy-girl-kof-game-anime-character-by-esm-xllq0irl-5.jpg"
+    ]
+  },
+  {
+    "id": "maelle-by-e-s-monster-figure-colecionavel-7724",
+    "nome": "Maelle By E.S Monster - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 580,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "maelle-by-e-s-monster-xmedp707-5.jpg",
+      "maelle-by-e-s-monster-xmedp707-1.jpg",
+      "maelle-by-e-s-monster-xmedp707-4.jpg",
+      "maelle-by-e-s-monster-xmedp707-5.jpg"
+    ]
+  },
+  {
+    "id": "magneto-x-men-tanuki-figure-colecionavel-1043",
+    "nome": "Magneto X Men Tanuki - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Marvel",
+    "preco": 950,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "magneto-x-men-xmyq7mom-1.jpg",
+      "magneto-x-men-xmyq7mom-2.jpg",
+      "magneto-x-men-xmyq7mom-3.jpg",
+      "magneto-x-men-xmyq7mom-4.jpg",
+      "magneto-x-men-xmyq7mom-5.jpg"
+    ]
+  },
+  {
+    "id": "maki-zenin-tanuki-figure-colecionavel-7090",
+    "nome": "Maki zenin tanuki - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "JUJUTSU",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "maki-jujutsu-kaisen-xny819ny-1.jpg",
+      "maki-jujutsu-kaisen-xny819ny-2.jpg",
+      "maki-jujutsu-kaisen-xny819ny-3.jpg",
+      "maki-jujutsu-kaisen-xny819ny-4.jpg",
+      "maki-jujutsu-kaisen-xny819ny-5.jpg",
+      "maki-jujutsu-kaisen-xny819ny-6.jpg",
+      "maki-jujutsu-kaisen-xny819ny-7.jpg",
+      "maki-jujutsu-kaisen-xny819ny-8.jpg"
+    ]
+  },
+  {
+    "id": "maki-zenin-dress-figure-colecionavel-8151",
+    "nome": "Maki Zenin Dress - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "JUJUTSU",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "maki-zenin-by-e-s-monster-xoo7277l-1.jpg",
+      "maki-zenin-by-e-s-monster-xoo7277l-3.jpg",
+      "maki-zenin-by-e-s-monster-xoo7277l-4.jpg",
+      "maki-zenin-by-e-s-monster-xoo7277l-5.jpg",
+      "maki-zenin-by-e-s-monster-xoo7277l-6.jpg"
+    ]
+  },
+  {
+    "id": "mark-by-tanuki-figure-colecionavel-1197",
+    "nome": "Mark by Tanuki - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Invencible",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "mark-invincible-xp9wnx4f-1.jpg",
+      "mark-invincible-xp9wnx4f-2.jpg",
+      "mark-invincible-xp9wnx4f-3.jpg",
+      "mark-invincible-xp9wnx4f-4.jpg",
+      "mark-invincible-xp9wnx4f-5.jpg",
+      "mark-invincible-xp9wnx4f-6.jpg",
+      "mark-invincible-xp9wnx4f-7.jpg",
+      "mark-invincible-xp9wnx4f-8.jpg"
+    ]
+  },
+  {
+    "id": "minato-rasegan-figure-colecionavel-2809",
+    "nome": "Minato Rasegan - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Naruto",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "minato-naruto-xpu1x3ap-1.jpg",
+      "minato-naruto-xpu1x3ap-2.jpg",
+      "minato-naruto-xpu1x3ap-3.jpg",
+      "minato-naruto-xpu1x3ap-4.jpg",
+      "minato-naruto-xpu1x3ap-5.jpg",
+      "minato-naruto-xpu1x3ap-6.jpg",
+      "minato-naruto-xpu1x3ap-7.jpg",
+      "minato-naruto-xpu1x3ap-8.jpg"
+    ]
+  },
+  {
+    "id": "misty-pokemon-trainer-figure-colecionavel-5339",
+    "nome": "Misty Pokemon Trainer Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Pokemon",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "misty-pokemon-trainer-character-by-esm-xsniekgc-2.jpg",
+      "misty-pokemon-trainer-character-by-esm-xsniekgc-1.jpg",
+      "misty-pokemon-trainer-character-by-esm-xsniekgc-13.jpg",
+      "misty-pokemon-trainer-character-by-esm-xsniekgc-13.jpg",
+      "misty-pokemon-trainer-character-by-esm-xsniekgc-14.jpg",
+      "misty-pokemon-trainer-character-by-esm-xsniekgc-15.jpg"
+    ]
+  },
+  {
+    "id": "motoko-ghost-in-the-shell-figure-colecionavel-8295",
+    "nome": "Motoko – Ghost In The Shell Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 750,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 24cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "motoko-ghost-in-the-shell-xt4ts3c1-1.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-2.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-3.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-4.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-5.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-6.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-7.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-8.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-9.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-10.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-11.jpg",
+      "motoko-ghost-in-the-shell-xt4ts3c1-12.jpg"
+    ]
+  },
+  {
+    "id": "nappa-dragon-ball-z-figure-colecionavel-2093",
+    "nome": "Nappa Dragon Ball Z - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "nappa-dragon-ball-z-xux637rm-2.jpg",
+      "nappa-dragon-ball-z-xux637rm-1.jpg",
+      "nappa-dragon-ball-z-xux637rm-3.jpg",
+      "nappa-dragon-ball-z-xux637rm-4.jpg",
+      "nappa-dragon-ball-z-xux637rm-5.jpg"
+    ]
+  },
+  {
+    "id": "naruto-and-the-scroll-figure-colecionavel-5823",
+    "nome": "Naruto and the scroll - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Naruto",
+    "preco": 760,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "naruto-classic-fullsize-xvf2q9yt-1.jpg",
+      "naruto-classic-fullsize-xvf2q9yt-2.jpg",
+      "naruto-classic-fullsize-xvf2q9yt-3.jpg",
+      "naruto-classic-fullsize-xvf2q9yt-4.jpg"
+    ]
+  },
+  {
+    "id": "nemesis-residual-evil-figure-colecionavel-6631",
+    "nome": "Nemesis Residual Evil - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 1200,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "nemesis-residual-evil-fullsize-xvxbvv62-1.jpg",
+      "nemesis-residual-evil-fullsize-xvxbvv62-2.jpg",
+      "nemesis-residual-evil-fullsize-xvxbvv62-3.jpg",
+      "nemesis-residual-evil-fullsize-xvxbvv62-4.jpg",
+      "nemesis-residual-evil-fullsize-xvxbvv62-5.jpg",
+      "nemesis-residual-evil-fullsize-xvxbvv62-6.jpg",
+      "nemesis-residual-evil-fullsize-xvxbvv62-7.jpg",
+      "nemesis-residual-evil-fullsize-xvxbvv62-8.jpg"
+    ],
+    "precoAntigo": 1299
+  },
+  {
+    "id": "omni-man-by-esmonster-figure-colecionavel-2479",
+    "nome": "Omni Man by esmonster - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Invencible",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "omni-man-character-by-esm-xwlcmuu7-2.jpg",
+      "omni-man-character-by-esm-xwlcmuu7-1.jpg",
+      "omni-man-character-by-esm-xwlcmuu7-3.jpg",
+      "omni-man-character-by-esm-xwlcmuu7-4.jpg",
+      "omni-man-character-by-esm-xwlcmuu7-5.jpg"
+    ]
+  },
+  {
+    "id": "omni-man-tanuki-figure-colecionavel-5487",
+    "nome": "Omni Man Tanuki - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Invencible",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "omni-man-fullsize-xxcteu54-1.jpg",
+      "omni-man-fullsize-xxcteu54-2.jpg",
+      "omni-man-fullsize-xxcteu54-3.jpg",
+      "omni-man-fullsize-xxcteu54-4.jpg"
+    ]
+  },
+  {
+    "id": "orochimaru-and-the-snake-figure-colecionavel-3345",
+    "nome": "Orochimaru and the snake - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Naruto",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "orochimaru-naruto-fullsize-xykjxd0j-1.jpg",
+      "orochimaru-naruto-fullsize-xykjxd0j-2.jpg",
+      "orochimaru-naruto-fullsize-xykjxd0j-3.jpg",
+      "orochimaru-naruto-fullsize-xykjxd0j-4.jpg",
+      "orochimaru-naruto-fullsize-xykjxd0j-5.jpg",
+      "orochimaru-naruto-fullsize-xykjxd0j-6.jpg"
+    ]
+  },
+  {
+    "id": "ozemaki-fire-force-figure-colecionavel-8501",
+    "nome": "OzeMaki Fire force - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ozemaki-character-by-esm-xz3afajy-7.jpg",
+      "ozemaki-character-by-esm-xz3afajy-6.jpg",
+      "ozemaki-character-by-esm-xz3afajy-8.jpg",
+      "ozemaki-character-by-esm-xz3afajy-9.jpg",
+      "ozemaki-character-by-esm-xz3afajy-10.jpg"
+    ]
+  },
+  {
+    "id": "prince-of-persia-figure-colecionavel-3725",
+    "nome": "Prince Of Persia - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 950,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "prince-of-persia-y0222a2s-2.jpg",
+      "prince-of-persia-y0222a2s-1.jpg",
+      "prince-of-persia-y0222a2s-3.jpg",
+      "prince-of-persia-y0222a2s-4.jpg",
+      "prince-of-persia-y0222a2s-5.jpg",
+      "prince-of-persia-y0222a2s-6.jpg",
+      "prince-of-persia-y0222a2s-7.jpg",
+      "prince-of-persia-y0222a2s-8.jpg",
+      "prince-of-persia-y0222a2s-9.jpg",
+      "prince-of-persia-y0222a2s-10.jpg",
+      "prince-of-persia-y0222a2s-11.jpg"
+    ]
+  },
+  {
+    "id": "princess-peach-swimsuit-figure-colecionavel-7375",
+    "nome": "Princess peach Swimsuit - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nintendo",
+    "preco": 749,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "princess-toadstool-swimsuit-character-by-e-s-monster-y0lwc06q-7.jpg",
+      "princess-toadstool-swimsuit-character-by-e-s-monster-y0lwc06q-1.jpg",
+      "princess-toadstool-swimsuit-character-by-e-s-monster-y0lwc06q-5.jpg",
+      "princess-toadstool-swimsuit-character-by-e-s-monster-y0lwc06q-6.jpg",
+      "princess-toadstool-swimsuit-character-by-e-s-monster-y0lwc06q-8.jpg"
+    ]
+  },
+  {
+    "id": "ranni-by-e-s-monster-figure-colecionavel-9715",
+    "nome": "Ranni By E.S Monster - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Elden ring",
+    "preco": 780,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ranni-by-e-s-monster-y1bha51y-6.jpg",
+      "ranni-by-e-s-monster-y1bha51y-3.jpg",
+      "ranni-by-e-s-monster-y1bha51y-4.jpg",
+      "ranni-by-e-s-monster-y1bha51y-5.jpg",
+      "ranni-by-e-s-monster-y1bha51y-7.jpg"
+    ]
+  },
+  {
+    "id": "raziel-soul-reaver-figure-colecionavel-4911",
+    "nome": "Raziel Soul Reaver - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "raziel-soul-reaver-fullsize-y20fpuud-1.jpg",
+      "raziel-soul-reaver-fullsize-y20fpuud-2.jpg",
+      "raziel-soul-reaver-fullsize-y20fpuud-3.jpg",
+      "raziel-soul-reaver-fullsize-y20fpuud-4.jpg",
+      "raziel-soul-reaver-fullsize-y20fpuud-5.jpg",
+      "raziel-soul-reaver-fullsize-y20fpuud-6.jpg",
+      "raziel-soul-reaver-fullsize-y20fpuud-7.jpg",
+      "raziel-soul-reaver-fullsize-y20fpuud-9.jpg",
+      "raziel-soul-reaver-fullsize-y20fpuud-10.jpg",
+      "raziel-soul-reaver-fullsize-y20fpuud-11.jpg"
+    ]
+  },
+  {
+    "id": "rock-lee-figure-colecionavel-3305",
+    "nome": "Rock Lee - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Naruto",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "rock-lee-naruto-fullsize-y2k72ggv-1.jpg",
+      "rock-lee-naruto-fullsize-y2k72ggv-2.jpg",
+      "rock-lee-naruto-fullsize-y2k72ggv-3.jpg",
+      "rock-lee-naruto-fullsize-y2k72ggv-4.jpg",
+      "rock-lee-naruto-fullsize-y2k72ggv-5.jpg",
+      "rock-lee-naruto-fullsize-y2k72ggv-6.jpg"
+    ]
+  },
+  {
+    "id": "rogue-esmonster-figure-colecionavel-1963",
+    "nome": "Rogue Esmonster - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Marvel",
+    "preco": 680,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "rogue-character-by-esm-y35uztdx-2.jpg",
+      "rogue-character-by-esm-y35uztdx-3.jpg",
+      "rogue-character-by-esm-y35uztdx-4.jpg",
+      "rogue-character-by-esm-y35uztdx-5.jpg",
+      "rogue-character-by-esm-y35uztdx-6.jpg",
+      "rogue-character-by-esm-y35uztdx-7.jpg",
+      "rogue-character-by-esm-y35uztdx-8.jpg",
+      "rogue-character-by-esm-y35uztdx-9.jpg",
+      "rogue-character-by-esm-y35uztdx-10.jpg"
+    ]
+  },
+  {
+    "id": "ryuko-matoi-esmonster-figure-colecionavel-5903",
+    "nome": "ryuko matoi esmonster - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ryukoi-character-by-esm-y3s66qc4-4.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-1.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-2.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-3.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-5.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-6.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-7.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-8.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-9.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-10.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-11.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-12.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-15.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-17.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-18.jpg",
+      "ryukoi-character-by-esm-y3s66qc4-19.jpg"
+    ]
+  },
+  {
+    "id": "sagat-street-fighter-figure-colecionavel-7247",
+    "nome": "Sagat Street Fighter - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "sagat-street-fighter-y4iquqw9-2.jpg",
+      "sagat-street-fighter-y4iquqw9-1.jpg",
+      "sagat-street-fighter-y4iquqw9-3.jpg",
+      "sagat-street-fighter-y4iquqw9-4.jpg",
+      "sagat-street-fighter-y4iquqw9-5.jpg",
+      "sagat-street-fighter-y4iquqw9-6.jpg",
+      "sagat-street-fighter-y4iquqw9-7.jpg",
+      "sagat-street-fighter-y4iquqw9-8.jpg"
+    ]
+  },
+  {
+    "id": "sandman-spider-man-figure-colecionavel-3009",
+    "nome": "Sandman Spider Man Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Marvel",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "sandman-spider-man-fullsize-y4yqtwaa-1.jpg",
+      "sandman-spider-man-fullsize-y4yqtwaa-2.jpg",
+      "sandman-spider-man-fullsize-y4yqtwaa-3.jpg",
+      "sandman-spider-man-fullsize-y4yqtwaa-4.jpg",
+      "sandman-spider-man-fullsize-y4yqtwaa-5.jpg",
+      "sandman-spider-man-fullsize-y4yqtwaa-6.jpg",
+      "sandman-spider-man-fullsize-y4yqtwaa-7.jpg",
+      "sandman-spider-man-fullsize-y4yqtwaa-8.jpg",
+      "sandman-spider-man-fullsize-y4yqtwaa-9.jpg"
+    ]
+  },
+  {
+    "id": "satsuki-kiryuin-figure-colecionavel-2376",
+    "nome": "satsuki kiryuin - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "satsukikiryuin-character-by-esm-y5tiduzi-5.jpg",
+      "satsukikiryuin-character-by-esm-y5tiduzi-7.jpg",
+      "satsukikiryuin-character-by-esm-y5tiduzi-9.jpg",
+      "satsukikiryuin-character-by-esm-y5tiduzi-11.jpg",
+      "satsukikiryuin-character-by-esm-y5tiduzi-16.jpg",
+      "satsukikiryuin-character-by-esm-y5tiduzi-21.jpg",
+      "satsukikiryuin-character-by-esm-y5tiduzi-22.jpg"
+    ]
+  },
+  {
+    "id": "shiryu-saint-seiya-figure-colecionavel-5781",
+    "nome": "Shiryu Saint Seiya - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Saint seiya",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "shiryu-saint-seiya-y73l1lmu-1.jpg",
+      "shiryu-saint-seiya-y73l1lmu-2.jpg",
+      "shiryu-saint-seiya-y73l1lmu-3.jpg",
+      "shiryu-saint-seiya-y73l1lmu-4.jpg",
+      "shiryu-saint-seiya-y73l1lmu-5.jpg",
+      "shiryu-saint-seiya-y73l1lmu-6.jpg"
+    ]
+  },
+  {
+    "id": "sora-kingdom-hearts-figure-colecionavel-8245",
+    "nome": "Sora Kingdom Hearts - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 1099,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "sora-kingdom-hearts-fullsize-y7pssi07-1.jpg",
+      "sora-kingdom-hearts-fullsize-y7pssi07-2.jpg",
+      "sora-kingdom-hearts-fullsize-y7pssi07-3.jpg",
+      "sora-kingdom-hearts-fullsize-y7pssi07-4.jpg",
+      "sora-kingdom-hearts-fullsize-y7pssi07-5.jpg",
+      "sora-kingdom-hearts-fullsize-y7pssi07-6.jpg",
+      "sora-kingdom-hearts-fullsize-y7pssi07-7.jpg",
+      "sora-kingdom-hearts-fullsize-y7pssi07-8.jpg",
+      "sora-kingdom-hearts-fullsize-y7pssi07-9.jpg"
+    ]
+  },
+  {
+    "id": "squirrel-girl-by-e-s-monster-figure-colecionavel-6031",
+    "nome": "Squirrel Girl By E.S Monster - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Marvel",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "squirrel-girl-by-e-s-monster-y943vgjb-1.jpg",
+      "squirrel-girl-by-e-s-monster-y943vgjb-2.jpg",
+      "squirrel-girl-by-e-s-monster-y943vgjb-8.jpg",
+      "squirrel-girl-by-e-s-monster-y943vgjb-9.jpg",
+      "squirrel-girl-by-e-s-monster-y943vgjb-20.jpg",
+      "squirrel-girl-by-e-s-monster-y943vgjb-21.jpg"
+    ]
+  },
+  {
+    "id": "sung-jin-woo-solo-leveling-figure-colecionavel-4389",
+    "nome": "Sung Jin Woo Solo Leveling - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 1100,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "sung-jin-woo-solo-leveling-fullsize-y9v5gtkc-1.jpg",
+      "sung-jin-woo-solo-leveling-fullsize-y9v5gtkc-2.jpg",
+      "sung-jin-woo-solo-leveling-fullsize-y9v5gtkc-3.jpg",
+      "sung-jin-woo-solo-leveling-fullsize-y9v5gtkc-4.jpg",
+      "sung-jin-woo-solo-leveling-fullsize-y9v5gtkc-5.jpg",
+      "sung-jin-woo-solo-leveling-fullsize-y9v5gtkc-6.jpg",
+      "sung-jin-woo-solo-leveling-fullsize-y9v5gtkc-7.jpg",
+      "sung-jin-woo-solo-leveling-fullsize-y9v5gtkc-8.jpg"
+    ]
+  },
+  {
+    "id": "tanjiro-demon-slayer-figure-colecionavel-4961",
+    "nome": "Tanjiro Demon Slayer - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Demon slayer",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "tanjiro-demon-slayer-fullsize-ya9g8ex2-1.jpg",
+      "tanjiro-demon-slayer-fullsize-ya9g8ex2-2.jpg",
+      "tanjiro-demon-slayer-fullsize-ya9g8ex2-3.jpg",
+      "tanjiro-demon-slayer-fullsize-ya9g8ex2-4.jpg",
+      "tanjiro-demon-slayer-fullsize-ya9g8ex2-5.jpg",
+      "tanjiro-demon-slayer-fullsize-ya9g8ex2-6.jpg"
+    ]
+  },
+  {
+    "id": "terry-bogard-by-e-s-monster-figure-colecionavel-1979",
+    "nome": "Terry Bogard By E.S Monster - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "terry-bogard-by-e-s-monster-yap703vq-9.jpg",
+      "terry-bogard-by-e-s-monster-yap703vq-3.jpg",
+      "terry-bogard-by-e-s-monster-yap703vq-4.jpg",
+      "terry-bogard-by-e-s-monster-yap703vq-5.jpg",
+      "terry-bogard-by-e-s-monster-yap703vq-6.jpg",
+      "terry-bogard-by-e-s-monster-yap703vq-7.jpg",
+      "terry-bogard-by-e-s-monster-yap703vq-8.jpg",
+      "terry-bogard-by-e-s-monster-yap703vq-10.jpg"
+    ]
+  },
+  {
+    "id": "tifa-tanuki-diorama-figure-colecionavel-5741",
+    "nome": "Tifa Tanuki diorama - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-2.jpg",
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-1.jpg",
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-3.jpg",
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-4.jpg",
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-5.jpg",
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-6.jpg",
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-7.jpg",
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-8.jpg",
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-9.jpg",
+      "tifa-final-fantasy-vii-fullsize-ybhvszyw-10.jpg"
+    ]
+  },
+  {
+    "id": "tifa-esmonster-figure-colecionavel-0222",
+    "nome": "Tifa Esmonster - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "tifa-i-character-by-esm-yc0cq9yv-2.jpg",
+      "tifa-i-character-by-esm-yc0cq9yv-1.jpg",
+      "tifa-i-character-by-esm-yc0cq9yv-3.jpg",
+      "tifa-i-character-by-esm-yc0cq9yv-4.jpg",
+      "tifa-i-character-by-esm-yc0cq9yv-5.jpg",
+      "tifa-i-character-by-esm-yc0cq9yv-6.jpg",
+      "tifa-i-character-by-esm-yc0cq9yv-8.jpg"
+    ]
+  },
+  {
+    "id": "trish-devil-may-cry-figure-colecionavel-6222",
+    "nome": "Trish Devil May Cry - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "trish-devil-may-cry-fullsize-ycj1jby5-2.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-1.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-3.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-4.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-5.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-6.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-7.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-8.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-9.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-10.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-11.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-12.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-13.jpg",
+      "trish-devil-may-cry-fullsize-ycj1jby5-14.jpg"
+    ]
+  },
+  {
+    "id": "vegeta-ssj3-dragon-ball-figure-colecionavel-6776",
+    "nome": "Vegeta SSJ3 Dragon Ball - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "vegeta-ssj3-dragon-ball-fullsize-yd3jr5xp-1.jpg",
+      "vegeta-ssj3-dragon-ball-fullsize-yd3jr5xp-2.jpg",
+      "vegeta-ssj3-dragon-ball-fullsize-yd3jr5xp-3.jpg",
+      "vegeta-ssj3-dragon-ball-fullsize-yd3jr5xp-4.jpg",
+      "vegeta-ssj3-dragon-ball-fullsize-yd3jr5xp-5.jpg",
+      "vegeta-ssj3-dragon-ball-fullsize-yd3jr5xp-6.jpg"
+    ]
+  },
+  {
+    "id": "velma-suntanned-ver-figure-colecionavel-7222",
+    "nome": "Velma (Suntanned Ver.) Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Scooby doo",
+    "preco": 560,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-1.jpg",
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-13.jpg",
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-13.jpg",
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-14.jpg",
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-15.jpg",
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-16.jpg",
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-17.jpg",
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-18.jpg",
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-19.jpg",
+      "velma-suntanned-ver-by-e-s-monster-ydybz8ee-20.jpg"
+    ]
+  },
+  {
+    "id": "velma-figure-esmonster-figure-colecionavel-5109",
+    "nome": "Velma Figure Esmonster - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Scooby doo",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "velma-character-by-esm-yem2nn6s-25.jpg",
+      "velma-character-by-esm-yem2nn6s-1.jpg",
+      "velma-character-by-esm-yem2nn6s-2.jpg",
+      "velma-character-by-esm-yem2nn6s-6.jpg",
+      "velma-character-by-esm-yem2nn6s-22.jpg",
+      "velma-character-by-esm-yem2nn6s-23.jpg",
+      "velma-character-by-esm-yem2nn6s-24.jpg"
+    ]
+  },
+  {
+    "id": "velma-p2-by-esm-figure-colecionavel-4286",
+    "nome": "Velma P2 By esm - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Scooby doo",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "velma-p2-character-by-esm-yg9z8mvi-2.jpg",
+      "velma-p2-character-by-esm-yg9z8mvi-1.jpg",
+      "velma-p2-character-by-esm-yg9z8mvi-3.jpg",
+      "velma-p2-character-by-esm-yg9z8mvi-4.jpg",
+      "velma-p2-character-by-esm-yg9z8mvi-5.jpg"
+    ]
+  },
+  {
+    "id": "velma-bikini-figure-colecionavel-0588",
+    "nome": "Velma bikini - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Scooby doo",
+    "preco": 680,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "velma-character-by-e-s-monster-swim-ver-ygwdjowx-3.jpg",
+      "velma-character-by-e-s-monster-swim-ver-ygwdjowx-1.jpg",
+      "velma-character-by-e-s-monster-swim-ver-ygwdjowx-4.jpg",
+      "velma-character-by-e-s-monster-swim-ver-ygwdjowx-5.jpg",
+      "velma-character-by-e-s-monster-swim-ver-ygwdjowx-6.jpg",
+      "velma-character-by-e-s-monster-swim-ver-ygwdjowx-7.jpg",
+      "velma-character-by-e-s-monster-swim-ver-ygwdjowx-8.jpg",
+      "velma-character-by-e-s-monster-swim-ver-ygwdjowx-9.jpg"
+    ]
+  },
+  {
+    "id": "vincent-valentine-tanuki-figure-colecionavel-5520",
+    "nome": "Vincent Valentine Tanuki - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-2.jpg",
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-1.jpg",
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-3.jpg",
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-4.jpg",
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-5.jpg",
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-6.jpg",
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-7.jpg",
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-8.jpg",
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-9.jpg",
+      "vincent-valentine-final-fantasy-vii-yhol4ehc-10.jpg"
+    ]
+  },
+  {
+    "id": "war-darksiders-fullsize-figure-colecionavel-4820",
+    "nome": "War Darksiders Fullsize - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 1200,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 33cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "war-darksiders-fullsize-yi7xt7sr-1.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-2.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-3.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-4.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-5.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-6.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-7.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-8.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-9.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-10.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-11.jpg",
+      "war-darksiders-fullsize-yi7xt7sr-12.jpg"
+    ]
+  },
+  {
+    "id": "yennefer-the-witcher-figure-colecionavel-8201",
+    "nome": "Yennefer The Witcher - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Witcher",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "yennefer-the-witcher-yiqy7eru-2.jpg",
+      "yennefer-the-witcher-yiqy7eru-1.jpg",
+      "yennefer-the-witcher-yiqy7eru-3.jpg",
+      "yennefer-the-witcher-yiqy7eru-4.jpg",
+      "yennefer-the-witcher-yiqy7eru-5.jpg",
+      "yennefer-the-witcher-yiqy7eru-6.jpg",
+      "yennefer-the-witcher-yiqy7eru-7.jpg",
+      "yennefer-the-witcher-yiqy7eru-8.jpg",
+      "yennefer-the-witcher-yiqy7eru-9.jpg",
+      "yennefer-the-witcher-yiqy7eru-10.jpg"
+    ]
+  },
+  {
+    "id": "yoruichi-2-versions-figure-colecionavel-7558",
+    "nome": "Yoruichi 2 versions - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Bleach",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "yoruichi-character-by-esm-p2-yj4vnr2r-2.jpg",
+      "yoruichi-character-by-esm-p2-yj4vnr2r-4.jpg",
+      "yoruichi-character-by-esm-p2-yj4vnr2r-6.jpg",
+      "yoruichi-character-by-esm-p2-yj4vnr2r-1.jpg",
+      "yoruichi-character-by-esm-p2-yj4vnr2r-3.jpg",
+      "yoruichi-character-by-esm-p2-yj4vnr2r-5.jpg",
+      "yoruichi-character-by-esm-p2-yj4vnr2r-7.jpg",
+      "yoruichi-character-by-esm-p2-yj4vnr2r-9.jpg",
+      "yoruichi-character-by-esm-p2-yj4vnr2r-11.jpg"
+    ]
+  },
+  {
+    "id": "young-kakashi-tanuki-figure-colecionavel-2709",
+    "nome": "Young Kakashi Tanuki - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Naruto",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "young-kakashi-naruto-fullsize-yjz624wd-1.jpg",
+      "young-kakashi-naruto-fullsize-yjz624wd-2.jpg",
+      "young-kakashi-naruto-fullsize-yjz624wd-3.jpg"
+    ]
+  },
+  {
+    "id": "zangief-street-fighter-9521",
+    "nome": "Zangief Street Fighter",
+    "categoria": "Games",
+    "subcategoria": "Street Fighter",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "zangief-street-fighter-ykpxghv8-1.jpg",
+      "zangief-street-fighter-ykpxghv8-2.jpg",
+      "zangief-street-fighter-ykpxghv8-3.jpg",
+      "zangief-street-fighter-ykpxghv8-4.jpg",
+      "zangief-street-fighter-ykpxghv8-5.jpg",
+      "zangief-street-fighter-ykpxghv8-6.jpg",
+      "zangief-street-fighter-ykpxghv8-7.jpg"
+    ]
+  },
+  {
+    "id": "zero-two-bunny-nsfw-figure-colecionavel-8568",
+    "nome": "Zero Two Bunny + nsfw - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 550,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 24cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-3.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-1.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-2.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-4.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-5.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-6.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-7.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-8.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-9.jpg"
+    ]
+  },
+  {
+    "id": "zodd-berserk-figure-colecionavel-6870",
+    "nome": "Zodd Berserk - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Berserk",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "zodd-berserk-fullsize-ymgh6oqi-1.jpg",
+      "zodd-berserk-fullsize-ymgh6oqi-3.jpg",
+      "zodd-berserk-fullsize-ymgh6oqi-4.jpg",
+      "zodd-berserk-fullsize-ymgh6oqi-5.jpg",
+      "zodd-berserk-fullsize-ymgh6oqi-6.jpg",
+      "zodd-berserk-fullsize-ymgh6oqi-7.jpg",
+      "zodd-berserk-fullsize-ymgh6oqi-8.jpg",
+      "zodd-berserk-fullsize-ymgh6oqi-9.jpg",
+      "zodd-berserk-fullsize-ymgh6oqi-9.jpg"
     ]
   }
 ];
