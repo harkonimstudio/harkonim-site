@@ -102,6 +102,7 @@ document.getElementById("btnNsfwConfirmar").addEventListener("click", () => {
 document.getElementById("btnNsfwCancelar").addEventListener("click", () => {
   modalNsfw.classList.remove("aberto");
 });
+document.getElementById("campoBusca").addEventListener("input", renderizar);
 document.getElementById("precoDe").addEventListener("input", renderizar);
 document.getElementById("precoAte").addEventListener("input", renderizar);
 document.getElementById("ordenarPor").addEventListener("change", renderizar);
@@ -131,6 +132,15 @@ function criarCard(p) {
 
 function renderizar() {
   let lista = [...PRODUTOS_VISIVEIS];
+
+  const termoBusca = document.getElementById("campoBusca").value.trim().toLowerCase();
+  if (termoBusca) {
+    lista = lista.filter(p =>
+      p.nome.toLowerCase().includes(termoBusca) ||
+      p.categoria.toLowerCase().includes(termoBusca) ||
+      (p.subcategoria || "").toLowerCase().includes(termoBusca)
+    );
+  }
 
   if (filtroCategoria) lista = lista.filter(p => p.categoria === filtroCategoria);
   if (filtroSubcategoria) lista = lista.filter(p => p.subcategoria === filtroSubcategoria);

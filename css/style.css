@@ -942,6 +942,23 @@ footer {
   padding: 0 24px;
 }
 
+.busca-wrap { margin-top: 18px; }
+
+.busca-input {
+  width: 100%;
+  max-width: 420px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 11px 14px;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+}
+
+.busca-input:focus { border-color: var(--amber); outline: none; }
+.busca-input::placeholder { color: var(--text-muted); }
+
 .produtos-header h1 {
   font-family: var(--font-display);
   font-size: 1.9rem;
@@ -977,6 +994,8 @@ footer {
   font-size: 0.88rem;
   padding: 6px 0;
   color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .sidebar-cat > a:hover, .sidebar-cat > a.active { color: var(--amber-bright); }
@@ -988,6 +1007,8 @@ footer {
   font-size: 0.82rem;
   color: var(--text-muted);
   padding: 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .sidebar-sub-list a:hover, .sidebar-sub-list a.active { color: var(--amber-bright); }
@@ -1317,17 +1338,20 @@ footer {
 /* ---------- Grid de produtos e faixas — mínimo 3 colunas mesmo no celular ---------- */
 @media (max-width: 640px) {
   .product-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
   }
-  .featured-strip { gap: 2px; }
-  .card-body { padding: 8px 6px 12px; gap: 2px; }
-  .card-name { font-size: 0.8rem; }
-  .card-price { font-size: 0.78rem; }
-  .card-cat, .card-status { font-size: 0.6rem; }
-  .tile-info { padding: 8px 4px 0; }
-  .tile-name { font-size: 0.78rem; }
-  .tile-price, .tile-cat { font-size: 0.66rem; }
+  .featured-strip {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .card-body { padding: 10px 8px 14px; gap: 3px; }
+  .card-name { font-size: 0.88rem; }
+  .card-price { font-size: 0.85rem; }
+  .card-cat, .card-status { font-size: 0.65rem; }
+  .tile-info { padding: 10px 6px 0; }
+  .tile-name { font-size: 0.85rem; }
+  .tile-price, .tile-cat { font-size: 0.72rem; }
 }
 
 /* ---------- Banner principal no celular — mostra a imagem inteira, sem cortar ---------- */

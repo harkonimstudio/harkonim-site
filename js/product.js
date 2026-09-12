@@ -2,11 +2,15 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 const produto = PRODUTOS.find(p => p.id === id) || PRODUTOS[0];
 
-// Se o produto tem conteúdo +18 (de qualquer um dos dois jeitos — NSFW
-// puro ou "contém NSFW mas mostra normal"), pede confirmação de idade
-// antes de mostrar a página. Não pergunta de novo se a pessoa já
-// confirmou nessa mesma sessão (na listagem ou em outro produto).
-if ((produto.nsfw || produto.nsfwAviso) && sessionStorage.getItem("nsfwVerificado") !== "1") {
+// Se o produto tem conteúdo +18: os "NSFW puro" respeitam a confirmação
+// já feita na sessão (não perguntam de novo); os "híbridos" (nsfwAviso —
+// aparecem normal no catálogo, mas têm fotos +18) SEMPRE pedem
+// confirmação ao abrir, mesmo que a pessoa já tenha confirmado antes —
+// assim ninguém entra sem querer.
+const jaVerificadoNaSessao = sessionStorage.getItem("nsfwVerificado") === "1";
+const precisaConfirmar = produto.nsfwAviso || (produto.nsfw && !jaVerificadoNaSessao);
+
+if (precisaConfirmar) {
   document.getElementById("productWrap").style.visibility = "hidden";
   const modal = document.getElementById("modalNsfwProduto");
   modal.classList.add("aberto");
