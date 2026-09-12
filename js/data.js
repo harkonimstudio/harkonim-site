@@ -7496,6 +7496,40 @@ const PRODUTOS = [
       "gaius-the-third-colossus-figure-colecionavel-xhq0n1nr-1.jpg",
       "gaius-the-third-colossus-figure-colecionavel-xhq0n1nr-2.jpg"
     ]
+  },
+  {
+    "id": "abyssal-nurse-figure-colecionavel-0071",
+    "nome": "Abyssal nurse - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 380,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 13cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-d7owayzs-5.jpg",
+      "produto-d7owayzs-4.jpg",
+      "produto-d7owayzs-1.jpg",
+      "produto-d7owayzs-2.jpg",
+      "produto-d7owayzs-3.jpg",
+      "produto-d7owayzs-6.jpg"
+    ]
   }
 ];
 
