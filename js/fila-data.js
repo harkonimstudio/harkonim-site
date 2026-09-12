@@ -6,14 +6,18 @@
 
 const FILA_PRODUCAO = [
   {
-    "nome": "Yani neko diorama",
+    "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0001",
-    "etapa": "impressao"
+    "etapa": "impressao",
+    "imagem": "fila/thumb-1c94f018-001f-4c8d-a669-e523b24ecc3c.webp",
+    "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
-    "nome": "Yani neko diorama",
+    "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0002",
-    "etapa": "impressao"
+    "etapa": "impressao",
+    "imagem": "fila/thumb-086aa264-e112-4e3b-9c7a-08b40e25c5e6.webp",
+    "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
     "nome": "Violet evergarden",
@@ -21,19 +25,25 @@ const FILA_PRODUCAO = [
     "etapa": "pintura"
   },
   {
-    "nome": "Yani neko diorama + Sitted",
+    "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0006",
-    "etapa": "acabamento"
+    "etapa": "acabamento",
+    "imagem": "fila/thumb-8dea4875-709b-4ee7-8965-685bcebb2f14.webp",
+    "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
-    "nome": "Yani neko diorama",
+    "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0008",
-    "etapa": "impressao"
+    "etapa": "impressao",
+    "imagem": "fila/thumb-3c9b1318-1217-476d-8348-f81387fb3588.webp",
+    "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
-    "nome": "Yani neko diorama",
+    "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0009",
-    "etapa": "impressao"
+    "etapa": "impressao",
+    "imagem": "fila/thumb-0edfd7fb-5bc2-4e24-8599-fc4a12254cd0.webp",
+    "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
     "nome": "Rias gremory",
