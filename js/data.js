@@ -7466,6 +7466,36 @@ const PRODUTOS = [
       "zodd-berserk-fullsize-ymgh6oqi-9.jpg",
       "zodd-berserk-fullsize-ymgh6oqi-9.jpg"
     ]
+  },
+  {
+    "id": "gaius-the-third-colossus-figure-colecionavel-8130",
+    "nome": "Gaius the third colossus - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Shadow of the colossus",
+    "preco": 580,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 19cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "gaius-the-third-colossus-figure-colecionavel-xhq0n1nr-1.jpg",
+      "gaius-the-third-colossus-figure-colecionavel-xhq0n1nr-2.jpg"
+    ]
   }
 ];
 

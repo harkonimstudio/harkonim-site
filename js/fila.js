@@ -56,8 +56,21 @@ ETAPAS.forEach((etapa, i) => {
     <div class="fila-stage-body">
       <h3>${etapa.titulo}</h3>
       <p class="fila-stage-desc">${etapa.desc}</p>
-      ${itens.map(item => `<div class="fila-item"><span>${item.nome}</span><span class="codigo">${item.codigo}</span></div>`).join("")}
+      
     </div>
   `;
+  const body=bloco.querySelector('.fila-stage-body');
+  for (const item of itens) {
+    const row=document.createElement('div');row.className='fila-item';
+    const label=document.createElement('span');label.style.cssText='display:flex;align-items:center;gap:12px;min-width:0';
+    const thumb=document.createElement('span');thumb.style.cssText='display:inline-flex;align-items:center;justify-content:center;flex:0 0 56px;width:56px;height:56px;border-radius:6px;background:rgba(128,128,128,.1);overflow:hidden';
+    thumb.textContent='—';thumb.setAttribute('aria-hidden','true');
+    if(item.imagem && typeof item.imagem==='string' && !item.imagem.includes('..') && !item.imagem.includes(':') && !item.imagem.startsWith('/')) {
+      const img=document.createElement('img');img.src='images/'+item.imagem.split('/').map(encodeURIComponent).join('/');img.alt='';img.loading='lazy';img.width=56;img.height=56;img.style.cssText='width:56px;height:56px;object-fit:contain';img.onerror=()=>{thumb.textContent='—';};thumb.replaceChildren(img);
+    }
+    const name=document.createElement('span');name.textContent=item.nome;label.append(thumb,name);
+    const code=document.createElement('span');code.className='codigo';code.textContent=item.codigo;
+    row.append(label,code);body.append(row);
+  }
   conteudo.appendChild(bloco);
 });
