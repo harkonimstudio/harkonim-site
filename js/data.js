@@ -7637,6 +7637,1096 @@ const PRODUTOS = [
       "produto-2jga8jj1-4.jpg",
       "produto-2jga8jj1-5.jpg"
     ]
+  },
+  {
+    "id": "a2-dynamic-figure-colecionavel-1319",
+    "nome": "A2 Dynamic  - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nier",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "a2-nier-automata-stl-for-3d-printing-a65oq60f-2.jpg",
+      "a2-nier-automata-stl-for-3d-printing-a65oq60f-1.jpg",
+      "a2-nier-automata-stl-for-3d-printing-a65oq60f-3.jpg",
+      "a2-nier-automata-stl-for-3d-printing-a65oq60f-4.jpg",
+      "a2-nier-automata-stl-for-3d-printing-a65oq60f-5.jpg",
+      "a2-nier-automata-stl-for-3d-printing-a65oq60f-6.jpg"
+    ]
+  },
+  {
+    "id": "alien-xenomorph-on-pedestal-figure-colecionavel-8294",
+    "nome": "Alien Xenomorph on pedestal - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Terror",
+    "preco": 950,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "alien-xenomorph-3d-print-a6zakmy7-1.jpg",
+      "alien-xenomorph-3d-print-a6zakmy7-2.jpg",
+      "alien-xenomorph-3d-print-a6zakmy7-3.jpg",
+      "alien-xenomorph-3d-print-a6zakmy7-4.jpg",
+      "alien-xenomorph-3d-print-a6zakmy7-5.jpg",
+      "alien-xenomorph-3d-print-a6zakmy7-6.jpg",
+      "alien-xenomorph-3d-print-a6zakmy7-7.jpg",
+      "alien-xenomorph-3d-print-a6zakmy7-8.jpg",
+      "alien-xenomorph-3d-print-a6zakmy7-9.jpg"
+    ]
+  },
+  {
+    "id": "absolute-wonder-woman-figure-colecionavel-4436",
+    "nome": "Absolute Wonder Woman - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "DC",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "absolute-wonder-woman-a7rqmqi7-1.jpg",
+      "absolute-wonder-woman-a7rqmqi7-2.jpg",
+      "absolute-wonder-woman-a7rqmqi7-3.jpg",
+      "absolute-wonder-woman-a7rqmqi7-4.jpg",
+      "absolute-wonder-woman-a7rqmqi7-5.jpg",
+      "absolute-wonder-woman-a7rqmqi7-6.jpg",
+      "absolute-wonder-woman-a7rqmqi7-7.jpg",
+      "absolute-wonder-woman-a7rqmqi7-8.jpg",
+      "absolute-wonder-woman-a7rqmqi7-10.jpg"
+    ],
+    "precoAntigo": 900
+  },
+  {
+    "id": "ada-wong-nsfw-figure-colecionavel-7558",
+    "nome": "Ada Wong + NSFW - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ada-wong-re-a8jn89hg-1.jpg",
+      "ada-wong-re-a8jn89hg-2.jpg",
+      "ada-wong-re-a8jn89hg-4.jpg",
+      "ada-wong-re-a8jn89hg-5.jpg",
+      "ada-wong-re-a8jn89hg-6.jpg",
+      "ada-wong-re-a8jn89hg-3.jpg",
+      "ada-wong-re-a8jn89hg-7.jpg",
+      "ada-wong-re-a8jn89hg-8.jpg",
+      "ada-wong-re-a8jn89hg-9.jpg"
+    ],
+    "precoAntigo": 800
+  },
+  {
+    "id": "aerith-final-fantasy-vii-nympha-figure-colecionavel-3096",
+    "nome": "Aerith (Final Fantasy VII) Nympha - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "aerith-final-fantasy-vii-stl-for-3d-printing-a9ongd8i-1.jpg",
+      "aerith-final-fantasy-vii-stl-for-3d-printing-a9ongd8i-2.jpg",
+      "aerith-final-fantasy-vii-stl-for-3d-printing-a9ongd8i-3.jpg",
+      "aerith-final-fantasy-vii-stl-for-3d-printing-a9ongd8i-4.jpg",
+      "aerith-final-fantasy-vii-stl-for-3d-printing-a9ongd8i-5.jpg",
+      "aerith-final-fantasy-vii-stl-for-3d-printing-a9ongd8i-7.jpg"
+    ]
+  },
+  {
+    "id": "aerith-pink-mermaid-final-fantasy-x-figure-colecionavel-7448",
+    "nome": "Aerith Pink Mermaid (Final Fantasy X) - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "aerith-pink-mermaid-final-fantasy-x-stl-for-3d-printing-aa8b4fdy-1.jpg",
+      "aerith-pink-mermaid-final-fantasy-x-stl-for-3d-printing-aa8b4fdy-2.jpg",
+      "aerith-pink-mermaid-final-fantasy-x-stl-for-3d-printing-aa8b4fdy-3.jpg",
+      "aerith-pink-mermaid-final-fantasy-x-stl-for-3d-printing-aa8b4fdy-4.jpg",
+      "aerith-pink-mermaid-final-fantasy-x-stl-for-3d-printing-aa8b4fdy-5.jpg",
+      "aerith-pink-mermaid-final-fantasy-x-stl-for-3d-printing-aa8b4fdy-6.jpg",
+      "aerith-pink-mermaid-final-fantasy-x-stl-for-3d-printing-aa8b4fdy-7.jpg"
+    ]
+  },
+  {
+    "id": "agent-peggy-carter-nude-and-lingerie-figure-colecionavel-6824",
+    "nome": "Agent Peggy Carter Nude And Lingerie - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 830,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "agent-peggy-carter-nude-and-lingerie-aar3sute-1.jpg",
+      "agent-peggy-carter-nude-and-lingerie-aar3sute-2.jpg",
+      "agent-peggy-carter-nude-and-lingerie-aar3sute-3.jpg",
+      "agent-peggy-carter-nude-and-lingerie-aar3sute-4.jpg"
+    ]
+  },
+  {
+    "id": "aki-x-fox-devil-figure-colecionavel-4242",
+    "nome": "Aki X Fox Devil - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "CSM",
+    "preco": 1100,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "aki-x-fox-devil-chainsaw-man-stl-ready-for-3d-printing-abds1xyf-1.jpg",
+      "aki-x-fox-devil-chainsaw-man-stl-ready-for-3d-printing-abds1xyf-2.jpg",
+      "aki-x-fox-devil-chainsaw-man-stl-ready-for-3d-printing-abds1xyf-3.jpg",
+      "aki-x-fox-devil-chainsaw-man-stl-ready-for-3d-printing-abds1xyf-4.jpg"
+    ]
+  },
+  {
+    "id": "alice-wonderland-nsfw-figure-colecionavel-9394",
+    "nome": "Alice Wonderland Nsfw - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "alice-wonderland-acm1m8fd-3.jpg",
+      "alice-wonderland-acm1m8fd-1.jpg",
+      "alice-wonderland-acm1m8fd-2.jpg",
+      "alice-wonderland-acm1m8fd-4.jpg",
+      "alice-wonderland-acm1m8fd-5.jpg"
+    ]
+  },
+  {
+    "id": "garnet-steven-universe-nsfw-figure-colecionavel-6186",
+    "nome": "Garnet Steven universe nsfw - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "almandine-add7cjeu-1.jpg",
+      "almandine-add7cjeu-2.jpg",
+      "almandine-add7cjeu-4.jpg",
+      "almandine-add7cjeu-5.jpg",
+      "almandine-add7cjeu-6.jpg",
+      "almandine-add7cjeu-8.jpg"
+    ]
+  },
+  {
+    "id": "aloy-in-the-horizon-figure-colecionavel-4224",
+    "nome": "Aloy in the horizon - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "aloy-ae5msecr-1.jpg",
+      "aloy-ae5msecr-2.jpg",
+      "aloy-ae5msecr-3.jpg",
+      "aloy-ae5msecr-4.jpg",
+      "aloy-ae5msecr-5.jpg",
+      "aloy-ae5msecr-6.jpg",
+      "aloy-ae5msecr-7.jpg",
+      "aloy-ae5msecr-8.jpg"
+    ]
+  },
+  {
+    "id": "alucard-castlevania-figure-colecionavel-7616",
+    "nome": "Alucard Castlevania - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Castlevania",
+    "preco": 1100,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 33cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "alucard-castlevania-stl-ready-for-3d-printing-aeyz6hrl-7.jpg",
+      "alucard-castlevania-stl-ready-for-3d-printing-aeyz6hrl-1.jpg",
+      "alucard-castlevania-stl-ready-for-3d-printing-aeyz6hrl-2.jpg",
+      "alucard-castlevania-stl-ready-for-3d-printing-aeyz6hrl-3.jpg",
+      "alucard-castlevania-stl-ready-for-3d-printing-aeyz6hrl-4.jpg",
+      "alucard-castlevania-stl-ready-for-3d-printing-aeyz6hrl-5.jpg",
+      "alucard-castlevania-stl-ready-for-3d-printing-aeyz6hrl-6.jpg"
+    ],
+    "precoAntigo": 1400
+  },
+  {
+    "id": "android-44-figure-colecionavel-7164",
+    "nome": "Android 44 - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "android-44-agjkjlgl-1.jpg",
+      "android-44-agjkjlgl-2.jpg",
+      "android-44-agjkjlgl-3.jpg",
+      "android-44-agjkjlgl-4.jpg",
+      "android-44-agjkjlgl-5.jpg",
+      "android-44-agjkjlgl-6.jpg",
+      "android-44-agjkjlgl-7.jpg"
+    ]
+  },
+  {
+    "id": "aphrodite-hades-figure-colecionavel-4070",
+    "nome": "Aphrodite Hades - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "aphrodite-agyo9cq4-2.jpg",
+      "aphrodite-agyo9cq4-1.jpg",
+      "aphrodite-agyo9cq4-3.jpg",
+      "aphrodite-agyo9cq4-4.jpg",
+      "aphrodite-agyo9cq4-5.jpg",
+      "aphrodite-agyo9cq4-6.jpg",
+      "aphrodite-agyo9cq4-7.jpg",
+      "aphrodite-agyo9cq4-8.jpg"
+    ]
+  },
+  {
+    "id": "vi-arena-fighter-figure-colecionavel-8070",
+    "nome": "Vi Arena fighter - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Lol",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "arena-fighter-ahjf3n5a-2.jpg",
+      "arena-fighter-ahjf3n5a-1.jpg",
+      "arena-fighter-ahjf3n5a-3.jpg",
+      "arena-fighter-ahjf3n5a-4.jpg",
+      "arena-fighter-ahjf3n5a-5.jpg",
+      "arena-fighter-ahjf3n5a-6.jpg",
+      "arena-fighter-ahjf3n5a-7.jpg",
+      "arena-fighter-ahjf3n5a-8.jpg"
+    ],
+    "precoAntigo": 700
+  },
+  {
+    "id": "ash-pokemon-diorama-figure-colecionavel-7416",
+    "nome": "Ash & Pokemon Diorama - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Pokemon",
+    "preco": 650,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 14cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ash-pokemon-pokemon-stl-ready-for-3d-printing-ai9o1hku-1.jpg",
+      "ash-pokemon-pokemon-stl-ready-for-3d-printing-ai9o1hku-2.jpg",
+      "ash-pokemon-pokemon-stl-ready-for-3d-printing-ai9o1hku-3.jpg",
+      "ash-pokemon-pokemon-stl-ready-for-3d-printing-ai9o1hku-4.jpg",
+      "ash-pokemon-pokemon-stl-ready-for-3d-printing-ai9o1hku-5.jpg",
+      "ash-pokemon-pokemon-stl-ready-for-3d-printing-ai9o1hku-6.jpg"
+    ]
+  },
+  {
+    "id": "astarion-ancunin-figure-colecionavel-3306",
+    "nome": "Astarion Ancunin - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BG3",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "astarion-ancunin-baldurs-gate-3-miniature-collection-3d-print-model-aj3zm2dy-1.jpg",
+      "astarion-ancunin-baldurs-gate-3-miniature-collection-3d-print-model-aj3zm2dy-2.jpg",
+      "astarion-ancunin-baldurs-gate-3-miniature-collection-3d-print-model-aj3zm2dy-3.jpg",
+      "astarion-ancunin-baldurs-gate-3-miniature-collection-3d-print-model-aj3zm2dy-4.jpg",
+      "astarion-ancunin-baldurs-gate-3-miniature-collection-3d-print-model-aj3zm2dy-5.jpg",
+      "astarion-ancunin-baldurs-gate-3-miniature-collection-3d-print-model-aj3zm2dy-6.jpg",
+      "astarion-ancunin-baldurs-gate-3-miniature-collection-3d-print-model-aj3zm2dy-7.jpg",
+      "astarion-ancunin-baldurs-gate-3-miniature-collection-3d-print-model-aj3zm2dy-8.jpg"
+    ]
+  },
+  {
+    "id": "asuka-evangelion-nsfw-figure-colecionavel-6164",
+    "nome": "Asuka Evangelion + nsfw - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Evangelion",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "asuka-evangelion-ajvpi470-1.jpg",
+      "asuka-evangelion-ajvpi470-2.jpg",
+      "asuka-evangelion-ajvpi470-3.jpg",
+      "asuka-evangelion-ajvpi470-5.jpg",
+      "asuka-evangelion-ajvpi470-6.jpg",
+      "asuka-evangelion-ajvpi470-7.jpg",
+      "asuka-evangelion-ajvpi470-8.jpg",
+      "asuka-evangelion-ajvpi470-9.jpg",
+      "asuka-evangelion-ajvpi470-4.jpg"
+    ]
+  },
+  {
+    "id": "bayonetta-wings-figure-colecionavel-8174",
+    "nome": "Bayonetta wings - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Bayonetta",
+    "preco": 950,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bayonetta-3d-print-akl389eh-1.jpg",
+      "bayonetta-3d-print-akl389eh-3.jpg",
+      "bayonetta-3d-print-akl389eh-4.jpg",
+      "bayonetta-3d-print-akl389eh-5.jpg",
+      "bayonetta-3d-print-akl389eh-6.jpg",
+      "bayonetta-3d-print-akl389eh-7.jpg",
+      "bayonetta-3d-print-akl389eh-8.jpg",
+      "bayonetta-3d-print-akl389eh-9.jpg"
+    ]
+  },
+  {
+    "id": "bayonetta-pentagram-figure-colecionavel-9451",
+    "nome": "Bayonetta Pentagram - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Bayonetta",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 19cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bayonetta-2-printing-file-alhil21r-1.jpg",
+      "bayonetta-2-printing-file-alhil21r-2.jpg",
+      "bayonetta-2-printing-file-alhil21r-3.jpg"
+    ]
+  },
+  {
+    "id": "big-boss-2495",
+    "nome": "Big Boss",
+    "categoria": "Games",
+    "subcategoria": "MGS",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "big-boss-am5llgrs-1.jpg",
+      "big-boss-am5llgrs-2.jpg",
+      "big-boss-am5llgrs-3.jpg",
+      "big-boss-am5llgrs-4.jpg",
+      "big-boss-am5llgrs-5.jpg",
+      "big-boss-am5llgrs-6.jpg",
+      "big-boss-am5llgrs-7.jpg",
+      "big-boss-am5llgrs-8.jpg"
+    ],
+    "precoAntigo": 950
+  },
+  {
+    "id": "bioshock-big-daddy-pool-figure-colecionavel-0018",
+    "nome": "Bioshock Big Daddy Pool - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BIOSHOCK",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bioshock-big-daddy-amndy43f-1.jpg",
+      "bioshock-big-daddy-amndy43f-2.jpg",
+      "bioshock-big-daddy-amndy43f-3.jpg",
+      "bioshock-big-daddy-amndy43f-4.jpg",
+      "bioshock-big-daddy-amndy43f-5.jpg",
+      "bioshock-big-daddy-amndy43f-6.jpg"
+    ],
+    "precoAntigo": 850
+  },
+  {
+    "id": "black-widow-2021-scarlett-johansson-nsfw-figure-colecionavel-9595",
+    "nome": "Black Widow 2021 Scarlett Johansson + NSFW Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Marvel",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "black-widow-2021-scarlett-johansson-an0wtwcy-1.jpg",
+      "black-widow-2021-scarlett-johansson-an0wtwcy-2.jpg",
+      "black-widow-2021-scarlett-johansson-an0wtwcy-5.jpg",
+      "black-widow-2021-scarlett-johansson-an0wtwcy-7.jpg",
+      "black-widow-2021-scarlett-johansson-an0wtwcy-8.jpg"
+    ]
+  },
+  {
+    "id": "bouncer-bioshock-diorama-figure-colecionavel-0873",
+    "nome": "Bouncer Bioshock Diorama - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BIOSHOCK",
+    "preco": 950,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bouncer-bioshock-aob0u5qh-1.jpg",
+      "bouncer-bioshock-aob0u5qh-2.jpg",
+      "bouncer-bioshock-aob0u5qh-4.jpg",
+      "bouncer-bioshock-aob0u5qh-5.jpg",
+      "bouncer-bioshock-aob0u5qh-6.jpg",
+      "bouncer-bioshock-aob0u5qh-7.jpg",
+      "bouncer-bioshock-aob0u5qh-8.jpg"
+    ],
+    "precoAntigo": 1200
+  },
+  {
+    "id": "bowsette-super-mario-bros-nsfw-figure-colecionavel-0711",
+    "nome": "Bowsette (Super Mario Bros) + nsfw - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nintendo",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-1.jpg",
+      "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-2.jpg",
+      "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-3.jpg",
+      "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-4.jpg",
+      "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-5.jpg"
+    ]
+  },
+  {
+    "id": "brazilian-miku-sfw-figure-colecionavel-9241",
+    "nome": "Brazilian Miku (SFW) - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Vocaloid",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "brazilian-miku-sfw-aq96k58f-1.jpg",
+      "brazilian-miku-sfw-aq96k58f-2.jpg",
+      "brazilian-miku-sfw-aq96k58f-3.jpg",
+      "brazilian-miku-sfw-aq96k58f-4.jpg",
+      "brazilian-miku-sfw-aq96k58f-5.jpg",
+      "brazilian-miku-sfw-aq96k58f-6.jpg",
+      "brazilian-miku-sfw-aq96k58f-7.jpg"
+    ]
+  },
+  {
+    "id": "brazilian-miku-beach-day-nsfw-figure-colecionavel-5157",
+    "nome": "Brazilian Miku Beach Day (NSFW) - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Vocaloid",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "brazilian-miku-beach-day-nsfw-futa-sfw-aqv8nvkf-2.jpg",
+      "brazilian-miku-beach-day-nsfw-futa-sfw-aqv8nvkf-7.jpg",
+      "brazilian-miku-beach-day-nsfw-futa-sfw-aqv8nvkf-8.jpg",
+      "brazilian-miku-beach-day-nsfw-futa-sfw-aqv8nvkf-11.jpg",
+      "brazilian-miku-beach-day-nsfw-futa-sfw-aqv8nvkf-14.jpg"
+    ]
+  },
+  {
+    "id": "bulma-dragon-ball-nympha-figure-colecionavel-6361",
+    "nome": "Bulma (Dragon Ball) Nympha - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bulma-dragon-ball-for-3d-printing-arumiey0-1.jpg",
+      "bulma-dragon-ball-for-3d-printing-arumiey0-2.jpg",
+      "bulma-dragon-ball-for-3d-printing-arumiey0-3.jpg",
+      "bulma-dragon-ball-for-3d-printing-arumiey0-4.jpg",
+      "bulma-dragon-ball-for-3d-printing-arumiey0-5.jpg",
+      "bulma-dragon-ball-for-3d-printing-arumiey0-6.jpg",
+      "bulma-dragon-ball-for-3d-printing-arumiey0-7.jpg",
+      "bulma-dragon-ball-for-3d-printing-arumiey0-8.jpg"
+    ]
+  },
+  {
+    "id": "ciri-witcher-diorama-figure-colecionavel-2891",
+    "nome": "Ciri witcher Diorama - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Witcher",
+    "preco": 950,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 33cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ciri-3d-print-asgwm155-1.jpg",
+      "ciri-3d-print-asgwm155-3.jpg",
+      "ciri-3d-print-asgwm155-4.jpg",
+      "ciri-3d-print-asgwm155-5.jpg",
+      "ciri-3d-print-asgwm155-6.jpg",
+      "ciri-3d-print-asgwm155-7.jpg",
+      "ciri-3d-print-asgwm155-8.jpg",
+      "ciri-3d-print-asgwm155-9.jpg",
+      "ciri-3d-print-asgwm155-10.jpg"
+    ]
+  },
+  {
+    "id": "coraline-figure-colecionavel-6239",
+    "nome": "Coraline Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Terror",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "coraline-3d-print-at375p7p-1.jpg",
+      "coraline-3d-print-at375p7p-4.jpg",
+      "coraline-3d-print-at375p7p-3.jpg",
+      "coraline-3d-print-at375p7p-5.jpg",
+      "coraline-3d-print-at375p7p-6.jpg",
+      "coraline-3d-print-at375p7p-7.jpg",
+      "coraline-3d-print-at375p7p-8.jpg"
+    ]
+  },
+  {
+    "id": "chainsaw-man-reze-nsfw-figure-colecionavel-3989",
+    "nome": "Chainsaw Man Reze Nsfw - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "CSM",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chainsaw-man-rise-au9albzr-1.jpg",
+      "chainsaw-man-rise-au9albzr-2.jpg",
+      "chainsaw-man-rise-au9albzr-3.jpg",
+      "chainsaw-man-rise-au9albzr-4.jpg",
+      "chainsaw-man-rise-au9albzr-5.jpg",
+      "chainsaw-man-rise-au9albzr-6.jpg",
+      "chainsaw-man-rise-au9albzr-7.jpg",
+      "chainsaw-man-rise-au9albzr-8.jpg",
+      "chainsaw-man-rise-au9albzr-9.jpg",
+      "chainsaw-man-rise-au9albzr-10.jpg",
+      "chainsaw-man-rise-au9albzr-11.jpg"
+    ]
   }
 ];
 
