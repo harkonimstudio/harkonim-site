@@ -7530,6 +7530,113 @@ const PRODUTOS = [
       "produto-d7owayzs-3.jpg",
       "produto-d7owayzs-6.jpg"
     ]
+  },
+  {
+    "id": "lara-croft-angelina-jolie-figure-colecionavel-2283",
+    "nome": "Lara Croft Angelina jolie - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "TOMB RAIDER",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 33cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-1s4xc1df-5.jpg",
+      "produto-1s4xc1df-6.jpg",
+      "produto-1s4xc1df-1.jpg",
+      "produto-1s4xc1df-2.jpg",
+      "produto-1s4xc1df-3.jpg",
+      "produto-1s4xc1df-4.jpg",
+      "produto-1s4xc1df-7.jpg",
+      "produto-1s4xc1df-9.jpg",
+      "produto-1s4xc1df-8.jpg"
+    ]
+  },
+  {
+    "id": "big-daddy-and-little-sister-figure-colecionavel-0269",
+    "nome": "Big daddy and little sister - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BIOSHOCK",
+    "preco": 950,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-1tkbz7xb-8.jpg",
+      "produto-1tkbz7xb-1.jpg",
+      "produto-1tkbz7xb-2.jpg",
+      "produto-1tkbz7xb-3.jpg",
+      "produto-1tkbz7xb-4.jpg",
+      "produto-1tkbz7xb-5.jpg",
+      "produto-1tkbz7xb-6.jpg",
+      "produto-1tkbz7xb-7.jpg",
+      "produto-1tkbz7xb-9.jpg"
+    ]
+  },
+  {
+    "id": "lucy-mclean-nsfw-figure-colecionavel-3559",
+    "nome": "Lucy mclean nsfw - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Fallout",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-2jga8jj1-1.jpg",
+      "produto-2jga8jj1-2.jpg",
+      "produto-2jga8jj1-3.jpg",
+      "produto-2jga8jj1-4.jpg",
+      "produto-2jga8jj1-5.jpg"
+    ]
   }
 ];
 
