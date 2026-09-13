@@ -8424,8 +8424,8 @@ const PRODUTOS = [
     "destaque": false,
     "destaque2": false,
     "promocao": false,
-    "nsfw": false,
-    "nsfwAviso": true,
+    "nsfw": true,
+    "nsfwAviso": false,
     "descricao": "",
     "cuidados": [
       "Produto delicado — não é brinquedo",
