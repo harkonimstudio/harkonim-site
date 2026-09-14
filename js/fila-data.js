@@ -48,7 +48,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Rias gremory",
     "codigo": "0010",
-    "etapa": "aguardando"
+    "etapa": "impressao"
   },
   {
     "nome": "yani neko diorama",
@@ -77,4 +77,4 @@ const FILA_PRODUCAO = [
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "12/09/2026";
+const ULTIMA_ATUALIZACAO_FILA = "14/09/2026";
