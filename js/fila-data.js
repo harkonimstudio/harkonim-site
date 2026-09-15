@@ -22,7 +22,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Violet evergarden",
     "codigo": "0003",
-    "etapa": "pintura"
+    "etapa": "embalagem"
   },
   {
     "nome": "Yani neko - Chainsmoker cat",
@@ -77,4 +77,4 @@ const FILA_PRODUCAO = [
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "14/09/2026";
+const ULTIMA_ATUALIZACAO_FILA = "15/09/2026";

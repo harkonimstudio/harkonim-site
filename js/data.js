@@ -7806,14 +7806,17 @@ const PRODUTOS = [
       "ada-wong-re-a8jn89hg-1.jpg",
       "ada-wong-re-a8jn89hg-2.jpg",
       "ada-wong-re-a8jn89hg-4.jpg",
-      "ada-wong-re-a8jn89hg-5.jpg",
+      "ada-wong-re-a8jn89hg-5.jpg"
+    ],
+    "precoAntigo": 800,
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "ada-wong-re-a8jn89hg-6.jpg",
       "ada-wong-re-a8jn89hg-3.jpg",
       "ada-wong-re-a8jn89hg-7.jpg",
       "ada-wong-re-a8jn89hg-8.jpg",
       "ada-wong-re-a8jn89hg-9.jpg"
-    ],
-    "precoAntigo": 800
+    ]
   },
   {
     "id": "aerith-final-fantasy-vii-nympha-figure-colecionavel-3096",
