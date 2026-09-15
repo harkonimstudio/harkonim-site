@@ -2,28 +2,26 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 const produto = PRODUTOS.find(p => p.id === id) || PRODUTOS[0];
 
-// Se o produto tem conteúdo +18: os "NSFW puro" respeitam a confirmação
-// já feita na sessão (não perguntam de novo); os "híbridos" (nsfwAviso —
-// aparecem normal no catálogo, mas têm fotos +18) SEMPRE pedem
-// confirmação ao abrir, mesmo que a pessoa já tenha confirmado antes —
-// assim ninguém entra sem querer.
-const jaVerificadoNaSessao = sessionStorage.getItem("nsfwVerificado") === "1";
-const precisaConfirmar = produto.nsfwAviso || (produto.nsfw && !jaVerificadoNaSessao);
-
-if (precisaConfirmar) {
-  document.getElementById("productWrap").style.visibility = "hidden";
-  const modal = document.getElementById("modalNsfwProduto");
-  modal.classList.add("aberto");
-
-  document.getElementById("btnNsfwProdutoConfirmar").addEventListener("click", () => {
-    sessionStorage.setItem("nsfwVerificado", "1");
-    modal.classList.remove("aberto");
-    document.getElementById("productWrap").style.visibility = "visible";
-  });
-
-  document.getElementById("btnNsfwProdutoCancelar").addEventListener("click", () => {
-    window.location.href = "produtos.html";
-  });
+// Harkonim gallery toggle v1 — optional, compatible with existing products.
+const galeriaHibrida = produto.galeriaHibrida === true;
+let versaoGaleria = 'sfw';
+let nsfwGaleriaConfirmado = false;
+function abrirConfirmacaoNsfw(aoConfirmar, aoCancelar) {
+  const modal=document.getElementById('modalNsfwProduto');
+  modal.classList.add('aberto');
+  document.getElementById('btnNsfwProdutoConfirmar').onclick=()=>{
+    sessionStorage.setItem('nsfwVerificado','1');modal.classList.remove('aberto');aoConfirmar();
+  };
+  document.getElementById('btnNsfwProdutoCancelar').onclick=()=>{modal.classList.remove('aberto');aoCancelar();};
+  document.getElementById('btnNsfwProdutoConfirmar').focus();
+}
+// Híbridos abrem somente as fotos SFW. O aviso é mostrado ao pedir NSFW.
+// Produtos sem galerias separadas mantêm o comportamento anterior.
+const jaVerificadoNaSessao=sessionStorage.getItem('nsfwVerificado')==='1';
+const precisaConfirmar=!galeriaHibrida && (produto.nsfwAviso || (produto.nsfw && !jaVerificadoNaSessao));
+if(precisaConfirmar){
+ document.getElementById('productWrap').style.visibility='hidden';
+ abrirConfirmacaoNsfw(()=>{document.getElementById('productWrap').style.visibility='visible';},()=>{window.location.href='produtos.html';});
 }
 
 document.getElementById("pageTitle").textContent = produto.nome + " — Harkonim Studio";
@@ -58,23 +56,42 @@ if (produto.status === "sob-encomenda") {
   banner.textContent = "Produto pronto — envio imediato após confirmação do pagamento";
 }
 
-// Galeria
-const mainImage = document.getElementById("mainImage");
-const thumbs = document.getElementById("thumbs");
-mainImage.src = "images/" + produto.imagens[0];
-mainImage.alt = produto.nome;
-
-produto.imagens.forEach((img, i) => {
-  const thumb = document.createElement("img");
-  thumb.src = "images/" + img;
-  thumb.className = i === 0 ? "active" : "";
-  thumb.addEventListener("click", () => {
-    mainImage.src = "images/" + img;
-    thumbs.querySelectorAll("img").forEach(t => t.classList.remove("active"));
-    thumb.classList.add("active");
+// Galeria: a lista existente contém só fotos SFW nos produtos híbridos.
+const mainImage=document.getElementById('mainImage');
+const thumbs=document.getElementById('thumbs');
+function mostrarGaleria(versao){
+  versaoGaleria=versao;
+  const fotos=(galeriaHibrida && versao==='nsfw')?produto.imagensNsfw:produto.imagens;
+  const imagens=Array.isArray(fotos)?fotos:[];
+  thumbs.replaceChildren();
+  if(imagens.length){mainImage.hidden=false;mainImage.src='images/'+imagens[0];}
+  else {mainImage.hidden=true;mainImage.removeAttribute('src');}
+  mainImage.alt=produto.nome+(galeriaHibrida?' — '+versao.toUpperCase():'');
+  imagens.forEach((img,i)=>{
+    const thumb=document.createElement('img');thumb.src='images/'+img;thumb.alt=produto.nome+' — foto '+(i+1);thumb.className=i===0?'active':'';
+    thumb.tabIndex=0;thumb.setAttribute('role','button');
+    const selecionar=()=>{mainImage.src='images/'+img;thumbs.querySelectorAll('img').forEach(t=>t.classList.remove('active'));thumb.classList.add('active');};
+    thumb.addEventListener('click',selecionar);thumb.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();selecionar();}});thumbs.append(thumb);
   });
-  thumbs.appendChild(thumb);
-});
+  for(const key of ['sfw','nsfw']){
+    const button=document.getElementById(key==='sfw'?'btnGaleriaSfw':'btnGaleriaNsfw');
+    if(button){const active=key===versao;button.setAttribute('aria-pressed',String(active));button.style.background=active?'var(--amber-bright, #eee)':'transparent';button.style.color=active?'var(--bg, #222)':'var(--text, #eee)';}
+  }
+}
+if(galeriaHibrida){
+ const controls=document.createElement('div');controls.id='galeriaVersoes';controls.setAttribute('role','group');controls.setAttribute('aria-label','Versão das fotos');controls.style.cssText='display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap';
+ const label=document.createElement('span');label.textContent='Versão das fotos';label.style.cssText='width:100%;font-size:14px';controls.append(label);
+ for(const key of ['sfw','nsfw']){
+  const button=document.createElement('button');button.type='button';button.id=key==='sfw'?'btnGaleriaSfw':'btnGaleriaNsfw';button.textContent=key==='sfw'?'SFW':'NSFW (+18)';button.style.cssText='flex:1;min-width:100px;padding:12px 18px;border:1px solid var(--line, #666);border-radius:8px;font:600 14px var(--font-body, sans-serif);cursor:pointer';
+  button.onclick=()=>{
+   if(key==='nsfw'&&!nsfwGaleriaConfirmado){abrirConfirmacaoNsfw(()=>{nsfwGaleriaConfirmado=true;mostrarGaleria('nsfw');button.focus();},()=>button.focus());}
+   else mostrarGaleria(key);
+  };
+  controls.append(button);
+ }
+ mainImage.parentElement.before(controls);
+}
+mostrarGaleria('sfw');
 
 // Botão do WhatsApp
 const btn = document.getElementById("btnWhatsapp");

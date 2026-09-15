@@ -3951,12 +3951,16 @@ const PRODUTOS = [
       "ada-wong-character-by-esm-var1t6mc-4.jpg",
       "ada-wong-character-by-esm-var1t6mc-5.jpg",
       "ada-wong-character-by-esm-var1t6mc-6.jpg",
-      "ada-wong-character-by-esm-var1t6mc-12.jpg",
+      "ada-wong-character-by-esm-var1t6mc-12.jpg"
+    ],
+    "precoAntigo": 750,
+    "nsfwAviso": true,
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "ada-wong-character-by-esm-var1t6mc-13.jpg",
       "ada-wong-character-by-esm-var1t6mc-14.jpg",
       "ada-wong-character-by-esm-var1t6mc-15.jpg"
-    ],
-    "precoAntigo": 750
+    ]
   },
   {
     "id": "akuma-power-figure-colecionavel-1330",
@@ -4060,11 +4064,14 @@ const PRODUTOS = [
       "bleach-tear-halibel-vd5o5a69-7.jpg",
       "bleach-tear-halibel-vd5o5a69-8.jpg",
       "bleach-tear-halibel-vd5o5a69-9.jpg",
-      "bleach-tear-halibel-vd5o5a69-16.jpg",
-      "bleach-tear-halibel-vd5o5a69-18.jpg",
       "bleach-tear-halibel-vd5o5a69-42.jpg",
       "bleach-tear-halibel-vd5o5a69-43.jpg",
       "bleach-tear-halibel-vd5o5a69-44.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "bleach-tear-halibel-vd5o5a69-16.jpg",
+      "bleach-tear-halibel-vd5o5a69-18.jpg"
     ]
   },
   {
@@ -4561,13 +4568,16 @@ const PRODUTOS = [
       "chunli-character-by-esm-wi31iw9g-4.jpg",
       "chunli-character-by-esm-wi31iw9g-6.jpg",
       "chunli-character-by-esm-wi31iw9g-8.jpg",
-      "chunli-character-by-esm-wi31iw9g-10.jpg",
       "chunli-character-by-esm-wi31iw9g-19.jpg",
       "chunli-character-by-esm-wi31iw9g-20.jpg",
       "chunli-character-by-esm-wi31iw9g-21.jpg",
       "chunli-character-by-esm-wi31iw9g-22.jpg",
       "chunli-character-by-esm-wi31iw9g-28.jpg",
       "chunli-character-by-esm-wi31iw9g-31.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "chunli-character-by-esm-wi31iw9g-10.jpg"
     ]
   },
   {
@@ -4601,10 +4611,13 @@ const PRODUTOS = [
       "cammy-character-by-esm-wm1czkhv-3.jpg",
       "cammy-character-by-esm-wm1czkhv-4.jpg",
       "cammy-character-by-esm-wm1czkhv-5.jpg",
+      "cammy-character-by-esm-wm1czkhv-9.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "cammy-character-by-esm-wm1czkhv-6.jpg",
       "cammy-character-by-esm-wm1czkhv-7.jpg",
-      "cammy-character-by-esm-wm1czkhv-8.jpg",
-      "cammy-character-by-esm-wm1czkhv-9.jpg"
+      "cammy-character-by-esm-wm1czkhv-8.jpg"
     ]
   },
   {
@@ -4715,7 +4728,10 @@ const PRODUTOS = [
       "chel-from-the-road-to-el-dorado-wrkoq0cn-5.jpg",
       "chel-from-the-road-to-el-dorado-wrkoq0cn-7.jpg",
       "chel-from-the-road-to-el-dorado-wrkoq0cn-9.jpg",
-      "chel-from-the-road-to-el-dorado-wrkoq0cn-15.jpg",
+      "chel-from-the-road-to-el-dorado-wrkoq0cn-15.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "chel-from-the-road-to-el-dorado-wrkoq0cn-16.jpg",
       "chel-from-the-road-to-el-dorado-wrkoq0cn-17.jpg",
       "chel-from-the-road-to-el-dorado-wrkoq0cn-21.jpg",
@@ -4936,8 +4952,10 @@ const PRODUTOS = [
       "daphne-character-by-esm-ww6xbjc7-8.jpg",
       "daphne-character-by-esm-ww6xbjc7-9.jpg",
       "daphne-character-by-esm-ww6xbjc7-10.jpg",
-      "daphne-character-by-esm-ww6xbjc7-12.jpg",
-      "daphne-character-by-esm-ww6xbjc7-15.jpg",
+      "daphne-character-by-esm-ww6xbjc7-12.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "daphne-character-by-esm-ww6xbjc7-17.jpg",
       "daphne-character-by-esm-ww6xbjc7-18.jpg"
     ]
@@ -5220,7 +5238,10 @@ const PRODUTOS = [
       "ghislaine-dedoldia-character-by-esm-x4ek8nr2-7.jpg",
       "ghislaine-dedoldia-character-by-esm-x4ek8nr2-8.jpg",
       "ghislaine-dedoldia-character-by-esm-x4ek8nr2-9.jpg",
-      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-10.jpg",
+      "ghislaine-dedoldia-character-by-esm-x4ek8nr2-10.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "ghislaine-dedoldia-character-by-esm-x4ek8nr2-11.jpg",
       "ghislaine-dedoldia-character-by-esm-x4ek8nr2-11.jpg",
       "ghislaine-dedoldia-character-by-esm-x4ek8nr2-15.jpg"
@@ -5363,11 +5384,14 @@ const PRODUTOS = [
       "it-joker-character-by-esm-x6wrazvq-12.jpg",
       "it-joker-character-by-esm-x6wrazvq-23.jpg",
       "it-joker-character-by-esm-x6wrazvq-25.jpg",
-      "it-joker-character-by-esm-x6wrazvq-26.jpg",
+      "it-joker-character-by-esm-x6wrazvq-26.jpg"
+    ],
+    "precoAntigo": 850,
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "it-joker-character-by-esm-x6wrazvq-28.jpg",
       "it-joker-character-by-esm-x6wrazvq-30.jpg"
-    ],
-    "precoAntigo": 850
+    ]
   },
   {
     "id": "ichigo-bleach-figure-colecionavel-4810",
@@ -5467,14 +5491,17 @@ const PRODUTOS = [
       "jessica-rabbit-x9etm7t9-15.jpg",
       "jessica-rabbit-x9etm7t9-8.jpg",
       "jessica-rabbit-x9etm7t9-15.jpg",
-      "jessica-rabbit-x9etm7t9-4.jpg",
-      "jessica-rabbit-x9etm7t9-3.jpg",
-      "jessica-rabbit-x9etm7t9-2.jpg",
       "jessica-rabbit-x9etm7t9-15.jpg",
       "jessica-rabbit-x9etm7t9-16.jpg",
       "jessica-rabbit-x9etm7t9-20.jpg",
       "jessica-rabbit-x9etm7t9-21.jpg",
       "jessica-rabbit-x9etm7t9-22.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "jessica-rabbit-x9etm7t9-4.jpg",
+      "jessica-rabbit-x9etm7t9-3.jpg",
+      "jessica-rabbit-x9etm7t9-2.jpg"
     ]
   },
   {
@@ -7419,15 +7446,18 @@ const PRODUTOS = [
       "Produto artesanal e exclusivo"
     ],
     "imagens": [
-      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-3.jpg",
       "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-1.jpg",
-      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-2.jpg",
-      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-4.jpg",
       "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-5.jpg",
       "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-6.jpg",
       "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-7.jpg",
       "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-8.jpg",
       "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-9.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-3.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-2.jpg",
+      "zero-two-bunny-ver-by-e-s-monster-ylizmgp4-4.jpg"
     ]
   },
   {
@@ -8267,7 +8297,10 @@ const PRODUTOS = [
       "asuka-evangelion-ajvpi470-5.jpg",
       "asuka-evangelion-ajvpi470-6.jpg",
       "asuka-evangelion-ajvpi470-7.jpg",
-      "asuka-evangelion-ajvpi470-8.jpg",
+      "asuka-evangelion-ajvpi470-8.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "asuka-evangelion-ajvpi470-9.jpg",
       "asuka-evangelion-ajvpi470-4.jpg"
     ]
@@ -8424,8 +8457,8 @@ const PRODUTOS = [
     "destaque": false,
     "destaque2": false,
     "promocao": false,
-    "nsfw": true,
-    "nsfwAviso": false,
+    "nsfw": false,
+    "nsfwAviso": true,
     "descricao": "",
     "cuidados": [
       "Produto delicado — não é brinquedo",
@@ -8438,10 +8471,13 @@ const PRODUTOS = [
     ],
     "imagens": [
       "black-widow-2021-scarlett-johansson-an0wtwcy-1.jpg",
-      "black-widow-2021-scarlett-johansson-an0wtwcy-2.jpg",
       "black-widow-2021-scarlett-johansson-an0wtwcy-5.jpg",
       "black-widow-2021-scarlett-johansson-an0wtwcy-7.jpg",
       "black-widow-2021-scarlett-johansson-an0wtwcy-8.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "black-widow-2021-scarlett-johansson-an0wtwcy-2.jpg"
     ]
   },
   {
@@ -8493,8 +8529,8 @@ const PRODUTOS = [
     "destaque": false,
     "destaque2": false,
     "promocao": false,
-    "nsfw": true,
-    "nsfwAviso": false,
+    "nsfw": false,
+    "nsfwAviso": true,
     "descricao": "",
     "cuidados": [
       "Produto delicado — não é brinquedo",
@@ -8509,7 +8545,10 @@ const PRODUTOS = [
       "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-1.jpg",
       "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-2.jpg",
       "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-3.jpg",
-      "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-4.jpg",
+      "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-4.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "bowsette-super-mario-bros-w-nsfw-variation-stl-ready-to-print-figure-apm5yiss-5.jpg"
     ]
   },
