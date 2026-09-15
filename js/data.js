@@ -7588,14 +7588,17 @@ const PRODUTOS = [
     ],
     "imagens": [
       "produto-1s4xc1df-5.jpg",
+      "produto-1s4xc1df-4.jpg",
+      "produto-1s4xc1df-9.jpg",
+      "produto-1s4xc1df-8.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
       "produto-1s4xc1df-6.jpg",
       "produto-1s4xc1df-1.jpg",
       "produto-1s4xc1df-2.jpg",
       "produto-1s4xc1df-3.jpg",
-      "produto-1s4xc1df-4.jpg",
-      "produto-1s4xc1df-7.jpg",
-      "produto-1s4xc1df-9.jpg",
-      "produto-1s4xc1df-8.jpg"
+      "produto-1s4xc1df-7.jpg"
     ]
   },
   {
