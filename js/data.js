@@ -8799,6 +8799,7 @@ const PRODUTOS = [
       "Produto artesanal e exclusivo"
     ],
     "imagens": [
+      "ico-and-yorda-figure-colecionavel-2z88mux8-7.jpg",
       "ico-and-yorda-figure-colecionavel-2axahrpc-1.jpg",
       "ico-and-yorda-figure-colecionavel-2axahrpc-3.jpg",
       "ico-and-yorda-figure-colecionavel-2axahrpc-4.jpg",
