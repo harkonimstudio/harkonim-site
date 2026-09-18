@@ -34,14 +34,14 @@ const FILA_PRODUCAO = [
   {
     "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0008",
-    "etapa": "impressao",
+    "etapa": "acabamento",
     "imagem": "fila/thumb-3c9b1318-1217-476d-8348-f81387fb3588.webp",
     "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
     "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0009",
-    "etapa": "impressao",
+    "etapa": "acabamento",
     "imagem": "fila/thumb-0edfd7fb-5bc2-4e24-8599-fc4a12254cd0.webp",
     "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
@@ -53,7 +53,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "yani neko diorama",
     "codigo": "0011",
-    "etapa": "aguardando"
+    "etapa": "impressao"
   },
   {
     "nome": "Reze",
@@ -63,7 +63,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Yani neko diorama",
     "codigo": "0013",
-    "etapa": "aguardando"
+    "etapa": "impressao"
   },
   {
     "nome": "Ghislaine",
@@ -73,8 +73,22 @@ const FILA_PRODUCAO = [
   {
     "nome": "Yani neko sitted",
     "codigo": "HKM-F012",
-    "etapa": "aguardando"
+    "etapa": "impressao"
+  },
+  {
+    "nome": "Pokemons lifesize",
+    "codigo": "HKM-FDA7EB98",
+    "etapa": "aguardando",
+    "imagem": "",
+    "produtoId": ""
+  },
+  {
+    "nome": "Valus the First colossus - Figure colecionavel",
+    "codigo": "HKM-B317B49E",
+    "etapa": "aguardando",
+    "imagem": "fila/thumb-e0575536-eff6-4f9a-9605-f6d010c0320a.webp",
+    "produtoId": "valus-the-first-colossus-figure-colecionavel-4712"
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "15/09/2026";
+const ULTIMA_ATUALIZACAO_FILA = "17/09/2026";
