@@ -8772,6 +8772,40 @@ const PRODUTOS = [
       "chainsaw-man-rise-au9albzr-10.jpg",
       "chainsaw-man-rise-au9albzr-11.jpg"
     ]
+  },
+  {
+    "id": "ico-and-yorda-figure-colecionavel-4914",
+    "nome": "ICO And Yorda - Figure colecionavel",
+    "categoria": "Originais Harkonim",
+    "subcategoria": "",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "Modelo original da harkonim! a figure vai com as cores baseadas no game! as imagens são apenas do render 3d pronto para ganharem vida na sua estante! aproveite e tenha um modelo absolutamente unico na sua coleção!",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ico-and-yorda-figure-colecionavel-2axahrpc-1.jpg",
+      "ico-and-yorda-figure-colecionavel-2axahrpc-3.jpg",
+      "ico-and-yorda-figure-colecionavel-2axahrpc-4.jpg",
+      "ico-and-yorda-figure-colecionavel-2axahrpc-5.jpg",
+      "ico-and-yorda-figure-colecionavel-2axahrpc-2.jpg",
+      "ico-and-yorda-figure-colecionavel-2axahrpc-6.jpg"
+    ]
   }
 ];
 
