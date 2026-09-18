@@ -8807,6 +8807,1792 @@ const PRODUTOS = [
       "ico-and-yorda-figure-colecionavel-2axahrpc-2.jpg",
       "ico-and-yorda-figure-colecionavel-2axahrpc-6.jpg"
     ]
+  },
+  {
+    "id": "ahri-by-e-s-monster-figure-colecionavel-2494",
+    "nome": "Ahri By E.S Monster - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Lol",
+    "preco": 780,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ahri-character-by-e-s-monster-586429d0-1.jpg",
+      "ahri-character-by-e-s-monster-586429d0-3.jpg",
+      "ahri-character-by-e-s-monster-586429d0-4.jpg",
+      "ahri-character-by-e-s-monster-586429d0-5.jpg",
+      "ahri-character-by-e-s-monster-586429d0-7.jpg",
+      "ahri-character-by-e-s-monster-586429d0-8.jpg",
+      "ahri-character-by-e-s-monster-586429d0-9.jpg",
+      "ahri-character-by-e-s-monster-586429d0-10.jpg"
+    ],
+    "precoAntigo": 800
+  },
+  {
+    "id": "alastor-hazbin-hotel-figure-colecionavel-5388",
+    "nome": "Alastor Hazbin Hotel - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 380,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "alastor-hazbin-hotel-591btla9-1.jpg",
+      "alastor-hazbin-hotel-591btla9-3.jpg"
+    ]
+  },
+  {
+    "id": "aphrodite-from-game-hades-figure-colecionavel-5714",
+    "nome": "Aphrodite From Game Hades! - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 16cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "aphrodite-from-game-hades-ready-to-print-stl-model-5dztylpc-1.jpg",
+      "aphrodite-from-game-hades-ready-to-print-stl-model-5dztylpc-3.jpg",
+      "aphrodite-from-game-hades-ready-to-print-stl-model-5dztylpc-5.jpg",
+      "aphrodite-from-game-hades-ready-to-print-stl-model-5dztylpc-6.jpg",
+      "aphrodite-from-game-hades-ready-to-print-stl-model-5dztylpc-7.jpg",
+      "aphrodite-from-game-hades-ready-to-print-stl-model-5dztylpc-8.jpg"
+    ]
+  },
+  {
+    "id": "armored-titan-attack-on-titan-figure-colecionavel-3350",
+    "nome": "Armored Titan Attack On Titan - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "AOT",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "armored-titan-attack-on-titan-5f3zzshq-1.jpg",
+      "armored-titan-attack-on-titan-5f3zzshq-5.jpg",
+      "armored-titan-attack-on-titan-5f3zzshq-6.jpg",
+      "armored-titan-attack-on-titan-5f3zzshq-7.jpg",
+      "armored-titan-attack-on-titan-5f3zzshq-8.jpg"
+    ]
+  },
+  {
+    "id": "arrancar-ichigo-bleach-figure-colecionvel-1385",
+    "nome": "Arrancar Ichigo Bleach - Figure colecionvel",
+    "categoria": "Animes",
+    "subcategoria": "Bleach",
+    "preco": 550,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 22cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "arrancar-ichigo-bleach-5fx297dv-1.jpg",
+      "arrancar-ichigo-bleach-5fx297dv-3.jpg"
+    ]
+  },
+  {
+    "id": "artoria-pendragon-alter-figure-colecionavel-9377",
+    "nome": "Artoria Pendragon Alter - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "artoria-pendragon-alter-character-by-e-s-monster-5mateywt-3.jpg",
+      "artoria-pendragon-alter-character-by-e-s-monster-5mateywt-1.jpg",
+      "artoria-pendragon-alter-character-by-e-s-monster-5mateywt-2.jpg",
+      "artoria-pendragon-alter-character-by-e-s-monster-5mateywt-4.jpg",
+      "artoria-pendragon-alter-character-by-e-s-monster-5mateywt-5.jpg",
+      "artoria-pendragon-alter-character-by-e-s-monster-5mateywt-6.jpg",
+      "artoria-pendragon-alter-character-by-e-s-monster-5mateywt-7.jpg",
+      "artoria-pendragon-alter-character-by-e-s-monster-5mateywt-8.jpg",
+      "artoria-pendragon-alter-character-by-e-s-monster-5mateywt-9.jpg"
+    ]
+  },
+  {
+    "id": "artorias-dark-souls-figure-colecionavel-4523",
+    "nome": "Artorias Dark Souls - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Souslike",
+    "preco": 700,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "artorias-dark-souls-5nbycro9-1.jpg",
+      "artorias-dark-souls-5nbycro9-5.jpg",
+      "artorias-dark-souls-5nbycro9-6.jpg",
+      "artorias-dark-souls-5nbycro9-7.jpg",
+      "artorias-dark-souls-5nbycro9-8.jpg"
+    ]
+  },
+  {
+    "id": "ashitaka-princess-mononoke-figure-colecionavel-0341",
+    "nome": "Ashitaka Princess Mononoke - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Ghibli",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ashitaka-princess-mononoke-5nv9cec9-1.jpg",
+      "ashitaka-princess-mononoke-5nv9cec9-3.jpg",
+      "ashitaka-princess-mononoke-5nv9cec9-4.jpg",
+      "ashitaka-princess-mononoke-5nv9cec9-5.jpg",
+      "ashitaka-princess-mononoke-5nv9cec9-6.jpg",
+      "ashitaka-princess-mononoke-5nv9cec9-7.jpg",
+      "ashitaka-princess-mononoke-5nv9cec9-8.jpg",
+      "ashitaka-princess-mononoke-5nv9cec9-9.jpg",
+      "ashitaka-princess-mononoke-5nv9cec9-10.jpg"
+    ]
+  },
+  {
+    "id": "astarion-baldur-s-gate-3-figure-colecionavel-1721",
+    "nome": "Astarion Baldur's Gate 3 - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BG3",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 16cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "astarion-baldur-s-gate-3-5of9ccug-1.jpg",
+      "astarion-baldur-s-gate-3-5of9ccug-5.jpg",
+      "astarion-baldur-s-gate-3-5of9ccug-6.jpg",
+      "astarion-baldur-s-gate-3-5of9ccug-7.jpg"
+    ]
+  },
+  {
+    "id": "atsu-ghost-of-yotei-in-battle-figure-colecionavel-7457",
+    "nome": "Atsu Ghost Of Yotei in battle - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "atsu-ghost-of-yotei-5ovp17de-1.jpg",
+      "atsu-ghost-of-yotei-5ovp17de-2.jpg",
+      "atsu-ghost-of-yotei-5ovp17de-4.jpg",
+      "atsu-ghost-of-yotei-5ovp17de-5.jpg",
+      "atsu-ghost-of-yotei-5ovp17de-6.jpg",
+      "atsu-ghost-of-yotei-5ovp17de-7.jpg",
+      "atsu-ghost-of-yotei-5ovp17de-9.jpg"
+    ]
+  },
+  {
+    "id": "ayla-chrono-trigger-figure-colecionavel-2961",
+    "nome": "Ayla Chrono Trigger - figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 530,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 22cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ayla-chrono-trigger-5pflyel3-1.jpg",
+      "ayla-chrono-trigger-5pflyel3-3.jpg"
+    ]
+  },
+  {
+    "id": "blood-rayne-by-e-s-monster-figure-colecionavel-1191",
+    "nome": "Blood Rayne By E.S Monster  - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "blood-rayne-by-e-s-monster-5pz9syuy-6.jpg",
+      "blood-rayne-by-e-s-monster-5pz9syuy-1.jpg",
+      "blood-rayne-by-e-s-monster-5pz9syuy-2.jpg",
+      "blood-rayne-by-e-s-monster-5pz9syuy-3.jpg",
+      "blood-rayne-by-e-s-monster-5pz9syuy-4.jpg",
+      "blood-rayne-by-e-s-monster-5pz9syuy-5.jpg",
+      "blood-rayne-by-e-s-monster-5pz9syuy-7.jpg",
+      "blood-rayne-by-e-s-monster-5pz9syuy-8.jpg",
+      "blood-rayne-by-e-s-monster-5pz9syuy-9.jpg"
+    ]
+  },
+  {
+    "id": "booette-super-mario-cute-figure-colecionavel-3097",
+    "nome": "Booette Super Mario Cute - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Nintendo",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "booette-super-mario-5ql1dmxj-1.jpg",
+      "booette-super-mario-5ql1dmxj-4.jpg",
+      "booette-super-mario-5ql1dmxj-5.jpg",
+      "booette-super-mario-5ql1dmxj-6.jpg",
+      "booette-super-mario-5ql1dmxj-7.jpg",
+      "booette-super-mario-5ql1dmxj-8.jpg",
+      "booette-super-mario-5ql1dmxj-9.jpg"
+    ]
+  },
+  {
+    "id": "bulma-dragon-ball-5863",
+    "nome": "Bulma Dragon Ball",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bulma-dragon-ball-5r9onjhw-1.jpg",
+      "bulma-dragon-ball-5r9onjhw-5.jpg"
+    ],
+    "precoAntigo": 700
+  },
+  {
+    "id": "casca-berserk-figure-colecionavel-4541",
+    "nome": "Casca Berserk - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Berserk",
+    "preco": 580,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "casca-berserk-5sijff05-1.jpg",
+      "casca-berserk-5sijff05-3.jpg"
+    ]
+  },
+  {
+    "id": "chibi-arcanine-pokemon-figure-colecionavel-1821",
+    "nome": "Chibi Arcanine pokemon - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Pokemon",
+    "preco": 400,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chibi-arcanine-pokemon-5t8874pc-1.jpg",
+      "chibi-arcanine-pokemon-5t8874pc-2.jpg",
+      "chibi-arcanine-pokemon-5t8874pc-3.jpg",
+      "chibi-arcanine-pokemon-5t8874pc-4.jpg",
+      "chibi-arcanine-pokemon-5t8874pc-6.jpg"
+    ]
+  },
+  {
+    "id": "chibi-gengar-pokemon-figure-colecionavel-4309",
+    "nome": "Chibi Gengar Pokemon - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Pokemon",
+    "preco": 500,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chibi-gengar-pokemon-5u10ehbg-1.jpg",
+      "chibi-gengar-pokemon-5u10ehbg-2.jpg",
+      "chibi-gengar-pokemon-5u10ehbg-3.jpg",
+      "chibi-gengar-pokemon-5u10ehbg-4.jpg",
+      "chibi-gengar-pokemon-5u10ehbg-6.jpg"
+    ]
+  },
+  {
+    "id": "chibi-ghost-pokemon-diorama-figure-colecionavel-8617",
+    "nome": "Chibi Ghost Pokemon Diorama - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Pokemon",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chibi-ghost-pokemon-diorama-5uibpxia-1.jpg",
+      "chibi-ghost-pokemon-diorama-5uibpxia-2.jpg",
+      "chibi-ghost-pokemon-diorama-5uibpxia-3.jpg",
+      "chibi-ghost-pokemon-diorama-5uibpxia-4.jpg",
+      "chibi-ghost-pokemon-diorama-5uibpxia-5.jpg",
+      "chibi-ghost-pokemon-diorama-5uibpxia-6.jpg"
+    ],
+    "precoAntigo": 800
+  },
+  {
+    "id": "chibi-mew-pokemon-figure-colecionavel-8249",
+    "nome": "Chibi Mew Pokemon - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Pokemon",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 20cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "A figure vai pintada! as imagens são referencias do modelo!",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "chibi-mew-pokemon-5v8uuw8i-1.jpg",
+      "chibi-mew-pokemon-5v8uuw8i-3.jpg",
+      "chibi-mew-pokemon-5v8uuw8i-4.jpg",
+      "chibi-mew-pokemon-5v8uuw8i-5.jpg",
+      "chibi-mew-pokemon-5v8uuw8i-6.jpg",
+      "chibi-mew-pokemon-5v8uuw8i-7.jpg",
+      "chibi-mew-pokemon-5v8uuw8i-8.jpg",
+      "chibi-mew-pokemon-5v8uuw8i-9.jpg"
+    ]
+  },
+  {
+    "id": "ciri-cyberpunk-2077-figure-colecionavel-3599",
+    "nome": "Ciri (Cyberpunk 2077) - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Cyberpunk",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ciri-cyberpunk-2077-5wnjp37j-1.jpg",
+      "ciri-cyberpunk-2077-5wnjp37j-2.jpg",
+      "ciri-cyberpunk-2077-5wnjp37j-3.jpg",
+      "ciri-cyberpunk-2077-5wnjp37j-4.jpg",
+      "ciri-cyberpunk-2077-5wnjp37j-5.jpg",
+      "ciri-cyberpunk-2077-5wnjp37j-6.jpg",
+      "ciri-cyberpunk-2077-5wnjp37j-7.jpg",
+      "ciri-cyberpunk-2077-5wnjp37j-8.jpg"
+    ]
+  },
+  {
+    "id": "claire-redfield-figure-colecionavel-7341",
+    "nome": "Claire Redfield - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "claire-redfield-5xgscdue-2.jpg",
+      "claire-redfield-5xgscdue-1.jpg",
+      "claire-redfield-5xgscdue-3.jpg",
+      "claire-redfield-5xgscdue-4.jpg",
+      "claire-redfield-5xgscdue-5.jpg",
+      "claire-redfield-5xgscdue-6.jpg",
+      "claire-redfield-5xgscdue-7.jpg",
+      "claire-redfield-5xgscdue-8.jpg"
+    ],
+    "precoAntigo": 700
+  },
+  {
+    "id": "cloak-dagger-marvel-rivals-figure-colecionavel-7643",
+    "nome": "Cloak & Dagger (Marvel Rivals) - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Marvel",
+    "preco": 1100,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "cloak-dagger-marvel-rivals-stl-for-3d-printing-5yfmsbga-1.jpg",
+      "cloak-dagger-marvel-rivals-stl-for-3d-printing-5yfmsbga-2.jpg",
+      "cloak-dagger-marvel-rivals-stl-for-3d-printing-5yfmsbga-3.jpg",
+      "cloak-dagger-marvel-rivals-stl-for-3d-printing-5yfmsbga-4.jpg"
+    ]
+  },
+  {
+    "id": "cloud-strife-final-fantasy-vii-9733",
+    "nome": "Cloud Strife Final Fantasy VII",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 780,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "cloud-strife-final-fantasy-vii-5z2ww4cp-1.jpg",
+      "cloud-strife-final-fantasy-vii-5z2ww4cp-2.jpg",
+      "cloud-strife-final-fantasy-vii-5z2ww4cp-3.jpg",
+      "cloud-strife-final-fantasy-vii-5z2ww4cp-4.jpg",
+      "cloud-strife-final-fantasy-vii-5z2ww4cp-7.jpg"
+    ]
+  },
+  {
+    "id": "crono-chrono-trigger-figure-colecionavel-5283",
+    "nome": "Crono Chrono Trigger - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 480,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 20cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "crono-chrono-trigger-6080rpd4-1.jpg",
+      "crono-chrono-trigger-6080rpd4-2.jpg",
+      "crono-chrono-trigger-6080rpd4-3.jpg"
+    ]
+  },
+  {
+    "id": "dante-by-e-s-monster-diorama-figure-colecionavel-0205",
+    "nome": "Dante By E.S Monster Diorama - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "DMC",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "dante-by-e-s-monster-627ql037-3.jpg",
+      "dante-by-e-s-monster-627ql037-2.jpg",
+      "dante-by-e-s-monster-627ql037-4.jpg",
+      "dante-by-e-s-monster-627ql037-5.jpg",
+      "dante-by-e-s-monster-627ql037-6.jpg"
+    ]
+  },
+  {
+    "id": "daphne-casual-figure-colecionavel-4175",
+    "nome": "Daphne casual - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Scooby doo",
+    "preco": 570,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "daphne-62zu7dkm-1.jpg",
+      "daphne-62zu7dkm-2.jpg",
+      "daphne-62zu7dkm-3.jpg",
+      "daphne-62zu7dkm-4.jpg",
+      "daphne-62zu7dkm-5.jpg",
+      "daphne-62zu7dkm-6.jpg",
+      "daphne-62zu7dkm-7.jpg",
+      "daphne-62zu7dkm-8.jpg",
+      "daphne-62zu7dkm-9.jpg"
+    ]
+  },
+  {
+    "id": "daredevil-by-e-s-monster-figure-colecionavel-5921",
+    "nome": "Daredevil By E.S Monster - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Marvel",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "daredevil-by-e-s-monster-63y63zps-8.jpg",
+      "daredevil-by-e-s-monster-63y63zps-1.jpg",
+      "daredevil-by-e-s-monster-63y63zps-2.jpg",
+      "daredevil-by-e-s-monster-63y63zps-3.jpg",
+      "daredevil-by-e-s-monster-63y63zps-4.jpg",
+      "daredevil-by-e-s-monster-63y63zps-6.jpg",
+      "daredevil-by-e-s-monster-63y63zps-7.jpg"
+    ]
+  },
+  {
+    "id": "dark-magician-yu-gi-oh-9073",
+    "nome": "Dark Magician Yu Gi Oh!",
+    "categoria": "Animes",
+    "subcategoria": "Yugioh",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "dark-magician-yu-gi-oh-64ty5g70-1.jpg",
+      "dark-magician-yu-gi-oh-64ty5g70-5.jpg",
+      "dark-magician-yu-gi-oh-64ty5g70-6.jpg",
+      "dark-magician-yu-gi-oh-64ty5g70-7.jpg",
+      "dark-magician-yu-gi-oh-64ty5g70-8.jpg"
+    ]
+  },
+  {
+    "id": "dark-magician-girl-yu-gi-oh-figure-colecionavel-4214",
+    "nome": "Dark Magician Girl Yu Gi Oh! - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Yugioh",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "dark-magician-girl-yu-gi-oh-65jjbh2h-1.jpg",
+      "dark-magician-girl-yu-gi-oh-65jjbh2h-5.jpg",
+      "dark-magician-girl-yu-gi-oh-65jjbh2h-6.jpg",
+      "dark-magician-girl-yu-gi-oh-65jjbh2h-7.jpg",
+      "dark-magician-girl-yu-gi-oh-65jjbh2h-8.jpg"
+    ]
+  },
+  {
+    "id": "dark-magician-girl-yu-gi-oh-3d-figure-colecionavel-5061",
+    "nome": "Dark Magician Girl Yu Gi Oh 3D - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Yugioh",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "dark-magician-girl-yu-gi-oh-3d-print-model-662wwteg-1.jpg",
+      "dark-magician-girl-yu-gi-oh-3d-print-model-662wwteg-2.jpg",
+      "dark-magician-girl-yu-gi-oh-3d-print-model-662wwteg-3.jpg",
+      "dark-magician-girl-yu-gi-oh-3d-print-model-662wwteg-4.jpg",
+      "dark-magician-girl-yu-gi-oh-3d-print-model-662wwteg-5.jpg",
+      "dark-magician-girl-yu-gi-oh-3d-print-model-662wwteg-6.jpg",
+      "dark-magician-girl-yu-gi-oh-3d-print-model-662wwteg-7.jpg"
+    ]
+  },
+  {
+    "id": "dark-urge-figure-colecionavel-0639",
+    "nome": "Dark Urge - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BG3",
+    "preco": 700,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "dark-urge-66qt4yrz-2.jpg",
+      "dark-urge-66qt4yrz-1.jpg",
+      "dark-urge-66qt4yrz-4.jpg",
+      "dark-urge-66qt4yrz-6.jpg",
+      "dark-urge-66qt4yrz-8.jpg"
+    ]
+  },
+  {
+    "id": "durge-on-a-rock-figure-colecionavel-3944",
+    "nome": "Durge on a rock - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BG3",
+    "preco": 700,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "dark-urge-baldur-s-gate-3-67i89jne-1.jpg",
+      "dark-urge-baldur-s-gate-3-67i89jne-2.jpg",
+      "dark-urge-baldur-s-gate-3-67i89jne-3.jpg",
+      "dark-urge-baldur-s-gate-3-67i89jne-4.jpg",
+      "dark-urge-baldur-s-gate-3-67i89jne-5.jpg"
+    ]
+  },
+  {
+    "id": "delta-big-daddy-baby-sister-figure-colecionavel-2759",
+    "nome": "Delta Big Daddy & Baby Sister – Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BIOSHOCK",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "delta-big-daddy-baby-sister-bioshock-universe-68ehb02a-1.jpg",
+      "delta-big-daddy-baby-sister-bioshock-universe-68ehb02a-2.jpg",
+      "delta-big-daddy-baby-sister-bioshock-universe-68ehb02a-3.jpg",
+      "delta-big-daddy-baby-sister-bioshock-universe-68ehb02a-4.jpg",
+      "delta-big-daddy-baby-sister-bioshock-universe-68ehb02a-5.jpg",
+      "delta-big-daddy-baby-sister-bioshock-universe-68ehb02a-6.jpg"
+    ]
+  },
+  {
+    "id": "doom-slayer-figure-colecionavel-3267",
+    "nome": "Doom Slayer - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "DOOM",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "doom-slayer-69ofadkm-1.jpg",
+      "doom-slayer-69ofadkm-2.jpg",
+      "doom-slayer-69ofadkm-3.jpg",
+      "doom-slayer-69ofadkm-4.jpg",
+      "doom-slayer-69ofadkm-5.jpg",
+      "doom-slayer-69ofadkm-6.jpg",
+      "doom-slayer-69ofadkm-7.jpg",
+      "doom-slayer-69ofadkm-8.jpg"
+    ]
+  },
+  {
+    "id": "dragonborn-the-elder-scrolls-v-skyrim-figure-colecionavel-1816",
+    "nome": "Dragonborn The Elder Scrolls V Skyrim - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "dragonborn-the-elder-scrolls-v-skyrim-6ael5gw3-1.jpg",
+      "dragonborn-the-elder-scrolls-v-skyrim-6ael5gw3-4.jpg",
+      "dragonborn-the-elder-scrolls-v-skyrim-6ael5gw3-5.jpg"
+    ],
+    "precoAntigo": 950
+  },
+  {
+    "id": "dreaming-witch-ranni-figure-colecionavel-2696",
+    "nome": "Dreaming Witch ranni - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Souslike",
+    "preco": 500,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 16cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "dreaming-witch-6blp1dzz-2.jpg",
+      "dreaming-witch-6blp1dzz-1.jpg",
+      "dreaming-witch-6blp1dzz-3.jpg",
+      "dreaming-witch-6blp1dzz-4.jpg"
+    ]
+  },
+  {
+    "id": "elizabeth-bioshock-portal-figure-colecionavel-0514",
+    "nome": "Elizabeth bioshock portal - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BIOSHOCK",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-8.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-2.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-6.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-9.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-10.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-11.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-12.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-1.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-3.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-4.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-5.jpg",
+      "elizabeth-bioshock-nsfw-sfw-peachfigure-6c9jgd5b-7.jpg"
+    ]
+  },
+  {
+    "id": "elizabeth-bioshock-infinite-3306",
+    "nome": "Elizabeth Bioshock Infinite",
+    "categoria": "Games",
+    "subcategoria": "BIOSHOCK",
+    "preco": 450,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 20cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "elizabeth-bioshock-infinite-6dfdmbj8-1.jpg",
+      "elizabeth-bioshock-infinite-6dfdmbj8-2.jpg",
+      "elizabeth-bioshock-infinite-6dfdmbj8-3.jpg"
+    ]
+  },
+  {
+    "id": "elizabeth-comstock-9-variants-figure-colecionavel-2730",
+    "nome": "Elizabeth Comstock ( 9+ Variants ) - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Bioshock",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "Modelo com variações disponiveis para você escolher!",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "elizabeth-comstock-9-variants-6etth23r-1.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-2.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-3.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-5.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-6.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-7.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-8.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-9.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-10.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-4.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-11.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-12.jpg",
+      "elizabeth-comstock-9-variants-6etth23r-13.jpg"
+    ]
+  },
+  {
+    "id": "emily-kaldwin-dishonored-figure-colecionavel-4130",
+    "nome": "Emily kaldwin Dishonored - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "emily-6gc5jdjs-1.jpg",
+      "emily-6gc5jdjs-2.jpg",
+      "emily-6gc5jdjs-3.jpg",
+      "emily-6gc5jdjs-4.jpg",
+      "emily-6gc5jdjs-5.jpg",
+      "emily-6gc5jdjs-6.jpg",
+      "emily-6gc5jdjs-8.jpg",
+      "emily-6gc5jdjs-9.jpg",
+      "emily-6gc5jdjs-11.jpg"
+    ]
+  },
+  {
+    "id": "emma-frost-figure-colecionavel-0286",
+    "nome": "Emma Frost - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Marvel",
+    "preco": 760,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "emma-frost-6hfuxhhk-1.jpg",
+      "emma-frost-6hfuxhhk-2.jpg",
+      "emma-frost-6hfuxhhk-4.jpg",
+      "emma-frost-6hfuxhhk-5.jpg",
+      "emma-frost-6hfuxhhk-7.jpg",
+      "emma-frost-6hfuxhhk-8.jpg",
+      "emma-frost-6hfuxhhk-10.jpg",
+      "emma-frost-6hfuxhhk-11.jpg"
+    ]
+  },
+  {
+    "id": "eva-02-evangelion-6260",
+    "nome": "Eva 02 Evangelion",
+    "categoria": "Animes",
+    "subcategoria": "Evangelion",
+    "preco": 700,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "eva-02-evangelion-6ih9ap19-1.jpg",
+      "eva-02-evangelion-6ih9ap19-5.jpg",
+      "eva-02-evangelion-6ih9ap19-6.jpg",
+      "eva-02-evangelion-6ih9ap19-7.jpg",
+      "eva-02-evangelion-6ih9ap19-8.jpg"
+    ]
+  },
+  {
+    "id": "eva01-neon-genesis-evangelion-5066",
+    "nome": "Eva01 Neon Genesis Evangelion",
+    "categoria": "Animes",
+    "subcategoria": "Evangelion",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "eva01-neon-genesis-evangelion-6izip3wg-1.jpg",
+      "eva01-neon-genesis-evangelion-6izip3wg-4.jpg",
+      "eva01-neon-genesis-evangelion-6izip3wg-5.jpg",
+      "eva01-neon-genesis-evangelion-6izip3wg-6.jpg",
+      "eva01-neon-genesis-evangelion-6izip3wg-7.jpg",
+      "eva01-neon-genesis-evangelion-6izip3wg-8.jpg",
+      "eva01-neon-genesis-evangelion-6izip3wg-9.jpg"
+    ]
+  },
+  {
+    "id": "evangelion-girls-2-variantes-figure-colecionavel-9706",
+    "nome": "Evangelion Girls 2 Variantes - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Evangelion",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 22cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "evangelion-girls-neon-genesis-evangelion-stl-ready-for-3d-printing-6je21rm0-1.jpg",
+      "evangelion-girls-neon-genesis-evangelion-stl-ready-for-3d-printing-6je21rm0-2.jpg",
+      "evangelion-girls-neon-genesis-evangelion-stl-ready-for-3d-printing-6je21rm0-3.jpg",
+      "evangelion-girls-neon-genesis-evangelion-stl-ready-for-3d-printing-6je21rm0-4.jpg",
+      "evangelion-girls-neon-genesis-evangelion-stl-ready-for-3d-printing-6je21rm0-5.jpg"
+    ]
+  },
+  {
+    "id": "ezio-assassin-s-creed-7750",
+    "nome": "Ezio Assassin's Creed",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ezio-assassin-s-creed-6kch8k8b-1.jpg",
+      "ezio-assassin-s-creed-6kch8k8b-5.jpg",
+      "ezio-assassin-s-creed-6kch8k8b-6.jpg",
+      "ezio-assassin-s-creed-6kch8k8b-7.jpg"
+    ]
+  },
+  {
+    "id": "faith-connors-mirror-s-edge-figure-colecionavel-8644",
+    "nome": "Faith Connors Mirror's Edge - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "faith-connors-mirror-s-edge-1-6-scale-6kqemy2v-3.jpg",
+      "faith-connors-mirror-s-edge-1-6-scale-6kqemy2v-1.jpg",
+      "faith-connors-mirror-s-edge-1-6-scale-6kqemy2v-2.jpg",
+      "faith-connors-mirror-s-edge-1-6-scale-6kqemy2v-5.jpg",
+      "faith-connors-mirror-s-edge-1-6-scale-6kqemy2v-6.jpg",
+      "faith-connors-mirror-s-edge-1-6-scale-6kqemy2v-7.jpg",
+      "faith-connors-mirror-s-edge-1-6-scale-6kqemy2v-9.jpg"
+    ],
+    "precoAntigo": 700
+  },
+  {
+    "id": "femto-bersek-stl-ready-for-3d-printing-5462",
+    "nome": "Femto BERSEK STL Ready For 3D Printing",
+    "categoria": "Animes",
+    "subcategoria": "Berserk",
+    "preco": 1200,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 33cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "femto-bersek-stl-ready-for-3d-printing-6puczwbr-1.jpg",
+      "femto-bersek-stl-ready-for-3d-printing-6puczwbr-2.jpg",
+      "femto-bersek-stl-ready-for-3d-printing-6puczwbr-3.jpg",
+      "femto-bersek-stl-ready-for-3d-printing-6puczwbr-4.jpg",
+      "femto-bersek-stl-ready-for-3d-printing-6puczwbr-5.jpg",
+      "femto-bersek-stl-ready-for-3d-printing-6puczwbr-6.jpg",
+      "femto-bersek-stl-ready-for-3d-printing-6puczwbr-7.jpg",
+      "femto-bersek-stl-ready-for-3d-printing-6puczwbr-8.jpg"
+    ]
+  },
+  {
+    "id": "sevika-arcane-figure-colecionavel-8846",
+    "nome": "Sevika Arcane - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Lol",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "fighter-with-a-mechanical-arm-6qgyre4v-1.jpg",
+      "fighter-with-a-mechanical-arm-6qgyre4v-2.jpg",
+      "fighter-with-a-mechanical-arm-6qgyre4v-3.jpg",
+      "fighter-with-a-mechanical-arm-6qgyre4v-4.jpg",
+      "fighter-with-a-mechanical-arm-6qgyre4v-5.jpg",
+      "fighter-with-a-mechanical-arm-6qgyre4v-6.jpg",
+      "fighter-with-a-mechanical-arm-6qgyre4v-7.jpg",
+      "fighter-with-a-mechanical-arm-6qgyre4v-8.jpg",
+      "fighter-with-a-mechanical-arm-6qgyre4v-9.jpg",
+      "fighter-with-a-mechanical-arm-6qgyre4v-13.jpg"
+    ]
+  },
+  {
+    "id": "fire-keeper-dark-souls-iii-1525",
+    "nome": "Fire Keeper Dark Souls III",
+    "categoria": "Games",
+    "subcategoria": "Souslike",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 24cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "fire-keeper-dark-souls-iii-6r6sm1qb-1.jpg",
+      "fire-keeper-dark-souls-iii-6r6sm1qb-4.jpg",
+      "fire-keeper-dark-souls-iii-6r6sm1qb-5.jpg",
+      "fire-keeper-dark-souls-iii-6r6sm1qb-6.jpg",
+      "fire-keeper-dark-souls-iii-6r6sm1qb-7.jpg",
+      "fire-keeper-dark-souls-iii-6r6sm1qb-8.jpg",
+      "fire-keeper-dark-souls-iii-6r6sm1qb-9.jpg",
+      "fire-keeper-dark-souls-iii-6r6sm1qb-10.jpg",
+      "fire-keeper-dark-souls-iii-6r6sm1qb-11.jpg"
+    ]
+  },
+  {
+    "id": "freya-god-of-war-figure-colecionavel-8592",
+    "nome": "Freya God Of War - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "God of war",
+    "preco": 950,
+    "escala": "1:4",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 35cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "freya-god-of-war-6ro9qi0w-1.jpg",
+      "freya-god-of-war-6ro9qi0w-2.jpg",
+      "freya-god-of-war-6ro9qi0w-3.jpg",
+      "freya-god-of-war-6ro9qi0w-4.jpg",
+      "freya-god-of-war-6ro9qi0w-5.jpg",
+      "freya-god-of-war-6ro9qi0w-6.jpg",
+      "freya-god-of-war-6ro9qi0w-7.jpg"
+    ]
+  },
+  {
+    "id": "freya-god-of-war-nsfw-figure-colecionavel-3508",
+    "nome": "Freya God Of War NSFW - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "God of war",
+    "preco": 850,
+    "escala": "1:4",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 35cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "freya-god-of-war-nsfw-6sgtw7e6-1.jpg",
+      "freya-god-of-war-nsfw-6sgtw7e6-2.jpg",
+      "freya-god-of-war-nsfw-6sgtw7e6-3.jpg",
+      "freya-god-of-war-nsfw-6sgtw7e6-4.jpg"
+    ]
+  },
+  {
+    "id": "frieren-sousou-no-frieren-figure-colecionavel-1903",
+    "nome": "Frieren Sousou no frieren - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 950,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 37cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "frieren-soso-no-frieren-stl-for-3d-printing-6t26y4y7-1.jpg",
+      "frieren-soso-no-frieren-stl-for-3d-printing-6t26y4y7-2.jpg",
+      "frieren-soso-no-frieren-stl-for-3d-printing-6t26y4y7-3.jpg",
+      "frieren-soso-no-frieren-stl-for-3d-printing-6t26y4y7-4.jpg",
+      "frieren-soso-no-frieren-stl-for-3d-printing-6t26y4y7-5.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "frieren-sousou-no-frieren-figure-colecionavel-6t26y4y7-6.jpg"
+    ],
+    "precoAntigo": 1100
   }
 ];
 
