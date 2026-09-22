@@ -58,7 +58,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Reze",
     "codigo": "0012",
-    "etapa": "aguardando"
+    "etapa": "impressao"
   },
   {
     "nome": "Yani neko diorama",
@@ -88,7 +88,21 @@ const FILA_PRODUCAO = [
     "etapa": "aguardando",
     "imagem": "fila/thumb-e0575536-eff6-4f9a-9605-f6d010c0320a.webp",
     "produtoId": "valus-the-first-colossus-figure-colecionavel-4712"
+  },
+  {
+    "nome": "Valus the First colossus - Figure colecionavel",
+    "codigo": "HKM-3E92618F",
+    "etapa": "aguardando",
+    "imagem": "fila/thumb-b22ab961-9930-43c5-8f33-f5a86f6a88d5.webp",
+    "produtoId": "valus-the-first-colossus-figure-colecionavel-4712"
+  },
+  {
+    "nome": "ICO And Yorda - Figure colecionavel",
+    "codigo": "HKM-7FEE4C15",
+    "etapa": "aguardando",
+    "imagem": "fila/thumb-d58132e9-1cb5-4a2d-a117-399f8ba84aaf.webp",
+    "produtoId": "ico-and-yorda-figure-colecionavel-4914"
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "17/09/2026";
+const ULTIMA_ATUALIZACAO_FILA = "22/09/2026";
