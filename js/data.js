@@ -12310,6 +12310,43 @@ const PRODUTOS = [
       "produto-thi61xnj-5.jpg",
       "produto-thi61xnj-6.jpg"
     ]
+  },
+  {
+    "id": "poppy-heat-wave-figure-colecionavel-5320",
+    "nome": "Poppy heat wave - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Lol",
+    "preco": 580,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 17cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-tln8q3ef-1.jpg",
+      "produto-tln8q3ef-2.jpg",
+      "produto-tln8q3ef-3.jpg",
+      "produto-tln8q3ef-4.jpg",
+      "produto-tln8q3ef-5.jpg",
+      "produto-tln8q3ef-6.jpg",
+      "produto-tln8q3ef-7.jpg",
+      "produto-tln8q3ef-8.jpg"
+    ],
+    "precoAntigo": 600
   }
 ];
 

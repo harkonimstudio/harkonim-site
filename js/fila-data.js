@@ -68,7 +68,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Ghislaine",
     "codigo": "HKM-W011",
-    "etapa": "aguardando"
+    "etapa": "impressao"
   },
   {
     "nome": "Yani neko sitted",
@@ -105,4 +105,4 @@ const FILA_PRODUCAO = [
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "22/09/2026";
+const ULTIMA_ATUALIZACAO_FILA = "26/09/2026";
