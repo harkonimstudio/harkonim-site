@@ -179,14 +179,14 @@ const PRODUTOS = [
     "nome": "Link Ocarina of time - Figure colecionavel",
     "categoria": "Games",
     "subcategoria": "Zelda",
-    "preco": 1000,
+    "preco": 1140,
     "escala": "1:9",
     "material": "100% Resina",
     "altura": "Aproximadamente 26cm",
     "status": "sob-encomenda",
     "destaque": true,
     "destaque2": false,
-    "promocao": false,
+    "promocao": true,
     "nsfw": false,
     "descricao": "",
     "cuidados": [
@@ -214,7 +214,8 @@ const PRODUTOS = [
       "produto-wcn0csqu-13.jpg",
       "produto-wcn0csqu-14.jpg"
     ],
-    "precoAntigo": 1200
+    "precoAntigo": 1200,
+    "_precoBasePromocao": 1200
   },
   {
     "id": "zero-two-figure-colecionavel-8109",
@@ -3421,7 +3422,7 @@ const PRODUTOS = [
     "nome": "Zelda and the torch - Figure colecionavel",
     "categoria": "Games",
     "subcategoria": "Zelda",
-    "preco": 550,
+    "preco": 617.5,
     "escala": "1:12",
     "material": "100% Resina",
     "altura": "Aproximadamente 20cm",
@@ -3452,7 +3453,8 @@ const PRODUTOS = [
       "produto-y2sdibm9-9.jpg",
       "produto-y2sdibm9-10.jpg"
     ],
-    "precoAntigo": 650
+    "precoAntigo": 650,
+    "_precoBasePromocao": 650
   },
   {
     "id": "ash-and-the-lapras-diorama-figure-colecionavel-1271",
@@ -3691,14 +3693,14 @@ const PRODUTOS = [
     "nome": "Link The hero of time - Figure colecionavel",
     "categoria": "Games",
     "subcategoria": "Zelda",
-    "preco": 900,
+    "preco": 855,
     "escala": "1:6",
     "material": "100% Resina",
     "altura": "Aproximadamente 29cm",
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
-    "promocao": false,
+    "promocao": true,
     "nsfw": false,
     "descricao": "",
     "cuidados": [
@@ -3721,7 +3723,9 @@ const PRODUTOS = [
       "produto-1zebmqta-8.jpg",
       "produto-1zebmqta-9.jpg",
       "produto-1zebmqta-10.jpg"
-    ]
+    ],
+    "_precoBasePromocao": 900,
+    "precoAntigo": 900
   },
   {
     "id": "slan-the-demon-figure-colecionavel-6489",
@@ -10902,14 +10906,14 @@ const PRODUTOS = [
     "nome": "Ganondorf The Demon King - Figure colecionavel",
     "categoria": "Games",
     "subcategoria": "Zelda",
-    "preco": 700,
+    "preco": 665,
     "escala": "1:6",
     "material": "100% Resina",
     "altura": "Aproximadamente 30cm",
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
-    "promocao": false,
+    "promocao": true,
     "nsfw": false,
     "nsfwAviso": false,
     "descricao": "",
@@ -10930,7 +10934,9 @@ const PRODUTOS = [
       "ganondorf-the-demon-king-the-legend-of-zelda-stl-ready-for-3d-printing-qwjfi1k4-5.jpg",
       "ganondorf-the-demon-king-the-legend-of-zelda-stl-ready-for-3d-printing-qwjfi1k4-6.jpg",
       "ganondorf-the-demon-king-the-legend-of-zelda-stl-ready-for-3d-printing-qwjfi1k4-7.jpg"
-    ]
+    ],
+    "_precoBasePromocao": 700,
+    "precoAntigo": 700
   },
   {
     "id": "genichiro-ashina-sekiro-figure-colecionavel-1810",
@@ -12198,6 +12204,111 @@ const PRODUTOS = [
       "ketheric-thorm-seewj33v-8.jpg",
       "ketheric-thorm-seewj33v-10.jpg",
       "ketheric-thorm-seewj33v-11.jpg"
+    ]
+  },
+  {
+    "id": "anakin-samurai-figure-colecionavel-2471",
+    "nome": "Anakin Samurai - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "STAR WARS",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "Não inclui leds! o sabre é feito em resina transparente vermelha!",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-tdy13ilo-1.jpg",
+      "produto-tdy13ilo-2.jpg",
+      "produto-tdy13ilo-3.jpg",
+      "produto-tdy13ilo-4.jpg",
+      "produto-tdy13ilo-5.jpg",
+      "produto-tdy13ilo-6.jpg",
+      "produto-tdy13ilo-7.jpg"
+    ]
+  },
+  {
+    "id": "claire-by-ca3d-figure-colecionavel-6138",
+    "nome": "Claire By Ca3d - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 700,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-tgav22g2-1.jpg",
+      "produto-tgav22g2-2.jpg",
+      "produto-tgav22g2-3.jpg",
+      "produto-tgav22g2-4.jpg",
+      "produto-tgav22g2-5.jpg",
+      "produto-tgav22g2-6.jpg",
+      "produto-tgav22g2-7.jpg",
+      "produto-tgav22g2-8.jpg"
+    ]
+  },
+  {
+    "id": "bulma-bunny-figure-colecionavel-3856",
+    "nome": "Bulma Bunny - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Dragon ball",
+    "preco": 700,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-thi61xnj-1.jpg",
+      "produto-thi61xnj-2.jpg",
+      "produto-thi61xnj-3.jpg",
+      "produto-thi61xnj-4.jpg",
+      "produto-thi61xnj-5.jpg",
+      "produto-thi61xnj-6.jpg"
     ]
   }
 ];
