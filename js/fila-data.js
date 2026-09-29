@@ -78,7 +78,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Pokemons lifesize",
     "codigo": "HKM-FDA7EB98",
-    "etapa": "aguardando",
+    "etapa": "impressao",
     "imagem": "",
     "produtoId": ""
   },
@@ -105,4 +105,4 @@ const FILA_PRODUCAO = [
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "26/09/2026";
+const ULTIMA_ATUALIZACAO_FILA = "29/09/2026";

@@ -150,7 +150,7 @@ const PRODUTOS = [
     "material": "100% Resina",
     "altura": "Aproximadamente 14cm",
     "status": "sob-encomenda",
-    "destaque": true,
+    "destaque": false,
     "destaque2": false,
     "promocao": false,
     "nsfw": false,
@@ -172,7 +172,8 @@ const PRODUTOS = [
       "yani-neko-chainsmoker-cat-wazicilj-5.png",
       "yani-neko-chainsmoker-cat-wazicilj-6.png",
       "yani-neko-chainsmoker-cat-wazicilj-7.png"
-    ]
+    ],
+    "nsfwAviso": false
   },
   {
     "id": "link-ocarina-of-time-figure-colecionavel-8665",
@@ -3501,7 +3502,7 @@ const PRODUTOS = [
     "material": "100% Resina",
     "altura": "Aproximadamente 12cm",
     "status": "sob-encomenda",
-    "destaque": true,
+    "destaque": false,
     "destaque2": false,
     "promocao": false,
     "nsfw": false,
@@ -3523,7 +3524,8 @@ const PRODUTOS = [
       "produto-y4h7gu2o-6.jpg",
       "produto-y4h7gu2o-7.jpg",
       "produto-y4h7gu2o-8.jpg"
-    ]
+    ],
+    "nsfwAviso": false
   },
   {
     "id": "nico-robin-bikini-figure-colecionavel-1515",
@@ -10103,7 +10105,7 @@ const PRODUTOS = [
     "id": "elizabeth-comstock-9-variants-figure-colecionavel-2730",
     "nome": "Elizabeth Comstock ( 9+ Variants ) - Figure colecionavel",
     "categoria": "Games",
-    "subcategoria": "Bioshock",
+    "subcategoria": "BIOSHOCK",
     "preco": 650,
     "escala": "1:9",
     "material": "100% Resina",
@@ -12251,7 +12253,7 @@ const PRODUTOS = [
     "material": "100% Resina",
     "altura": "Aproximadamente 28cm",
     "status": "sob-encomenda",
-    "destaque": false,
+    "destaque": true,
     "destaque2": false,
     "promocao": false,
     "nsfw": false,
@@ -12347,6 +12349,46 @@ const PRODUTOS = [
       "produto-tln8q3ef-8.jpg"
     ],
     "precoAntigo": 600
+  },
+  {
+    "id": "big-daddy-and-little-sister-deluxe-figure-colecionavel-6146",
+    "nome": "Big daddy and little sister deluxe - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "BIOSHOCK",
+    "preco": 1200,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 35cm",
+    "status": "sob-encomenda",
+    "destaque": true,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-vl2tmkk3-2.jpg",
+      "produto-vl2tmkk3-1.jpg",
+      "produto-vl2tmkk3-3.jpg",
+      "produto-vl2tmkk3-4.jpg",
+      "produto-vl2tmkk3-5.jpg",
+      "produto-vl2tmkk3-6.jpg",
+      "produto-vl2tmkk3-7.jpg",
+      "produto-vl2tmkk3-8.jpg",
+      "produto-vl2tmkk3-9.jpg",
+      "produto-vl2tmkk3-10.jpg",
+      "produto-vl2tmkk3-11.jpg",
+      "produto-vl2tmkk3-12.jpg"
+    ]
   }
 ];
 
