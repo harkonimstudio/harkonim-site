@@ -12522,8 +12522,8 @@ const PRODUTOS = [
     "destaque": false,
     "destaque2": false,
     "promocao": false,
-    "nsfw": false,
-    "nsfwAviso": true,
+    "nsfw": true,
+    "nsfwAviso": false,
     "descricao": "",
     "cuidados": [
       "Produto delicado — não é brinquedo",
@@ -12541,10 +12541,7 @@ const PRODUTOS = [
       "kylie-griffin-ghostbusters-tt0t8pmc-4.jpg",
       "kylie-griffin-ghostbusters-tt0t8pmc-5.jpg",
       "kylie-griffin-ghostbusters-tt0t8pmc-6.jpg",
-      "kylie-griffin-ghostbusters-tt0t8pmc-7.jpg"
-    ],
-    "galeriaHibrida": true,
-    "imagensNsfw": [
+      "kylie-griffin-ghostbusters-tt0t8pmc-7.jpg",
       "kylie-griffin-ghostbusters-tt0t8pmc-8.jpg",
       "kylie-griffin-ghostbusters-tt0t8pmc-9.jpg",
       "kylie-griffin-ghostbusters-tt0t8pmc-10.jpg"
@@ -12634,7 +12631,7 @@ const PRODUTOS = [
     "destaque": false,
     "destaque2": false,
     "promocao": false,
-    "nsfw": false,
+    "nsfw": true,
     "nsfwAviso": false,
     "descricao": "",
     "cuidados": [
