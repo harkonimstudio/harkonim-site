@@ -7572,7 +7572,7 @@ const PRODUTOS = [
     "nome": "Lara Croft Angelina jolie - Figure colecionavel",
     "categoria": "Games",
     "subcategoria": "TOMB RAIDER",
-    "preco": 850,
+    "preco": 950,
     "escala": "1:9",
     "material": "100% Resina",
     "altura": "Aproximadamente 33cm",
@@ -7605,7 +7605,8 @@ const PRODUTOS = [
       "produto-1s4xc1df-2.jpg",
       "produto-1s4xc1df-3.jpg",
       "produto-1s4xc1df-7.jpg"
-    ]
+    ],
+    "precoAntigo": 1100
   },
   {
     "id": "big-daddy-and-little-sister-figure-colecionavel-0269",
@@ -12213,7 +12214,7 @@ const PRODUTOS = [
     "nome": "Anakin Samurai - Figure colecionavel",
     "categoria": "Filmes",
     "subcategoria": "STAR WARS",
-    "preco": 750,
+    "preco": 850,
     "escala": "1:6",
     "material": "100% Resina",
     "altura": "Aproximadamente 28cm",
