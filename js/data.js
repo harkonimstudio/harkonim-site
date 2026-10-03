@@ -12389,6 +12389,626 @@ const PRODUTOS = [
       "produto-vl2tmkk3-11.jpg",
       "produto-vl2tmkk3-12.jpg"
     ]
+  },
+  {
+    "id": "evie-stellar-blade-figure-colecionavel-2520",
+    "nome": "Evie Stellar Blade - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-1.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-2.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-3.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-4.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-5.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-6.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-7.jpg"
+    ]
+  },
+  {
+    "id": "kuroeda-plus-sized-elf-figure-colecionavel-3662",
+    "nome": "Kuroeda Plus Sized Elf - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kuroeda-plus-sized-elf-trw2wl2v-1.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-2.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-3.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-4.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-5.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-6.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-7.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-8.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-9.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-10.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-11.jpg",
+      "kuroeda-plus-sized-elf-trw2wl2v-12.jpg"
+    ]
+  },
+  {
+    "id": "kushina-momoji-version-figure-colecionavel-5227",
+    "nome": "Kushina Momoji Version - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Naruto",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kushina-momoji-version-tscgmwax-1.jpg",
+      "kushina-momoji-version-tscgmwax-3.jpg",
+      "kushina-momoji-version-tscgmwax-5.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "kushina-momoji-version-tscgmwax-2.jpg",
+      "kushina-momoji-version-tscgmwax-4.jpg",
+      "kushina-momoji-version-tscgmwax-6.jpg",
+      "kushina-momoji-version-tscgmwax-7.jpg",
+      "kushina-momoji-version-tscgmwax-8.jpg",
+      "kushina-momoji-version-tscgmwax-9.jpg",
+      "kushina-momoji-version-tscgmwax-10.jpg",
+      "kushina-momoji-version-tscgmwax-11.jpg",
+      "kushina-momoji-version-tscgmwax-12.jpg"
+    ]
+  },
+  {
+    "id": "kylie-griffin-ghostbusters-figure-colecionavel-4425",
+    "nome": "Kylie Griffin Ghostbusters - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 22cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kylie-griffin-ghostbusters-tt0t8pmc-1.jpg",
+      "kylie-griffin-ghostbusters-tt0t8pmc-2.jpg",
+      "kylie-griffin-ghostbusters-tt0t8pmc-3.jpg",
+      "kylie-griffin-ghostbusters-tt0t8pmc-4.jpg",
+      "kylie-griffin-ghostbusters-tt0t8pmc-5.jpg",
+      "kylie-griffin-ghostbusters-tt0t8pmc-6.jpg",
+      "kylie-griffin-ghostbusters-tt0t8pmc-7.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "kylie-griffin-ghostbusters-tt0t8pmc-8.jpg",
+      "kylie-griffin-ghostbusters-tt0t8pmc-9.jpg",
+      "kylie-griffin-ghostbusters-tt0t8pmc-10.jpg"
+    ]
+  },
+  {
+    "id": "lara-croft-diorama-figure-colecionavel-9272",
+    "nome": "Lara croft diorama - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "TOMB RAIDER",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lara-croft-3d-print-ttv2k5mb-1.jpg",
+      "lara-croft-3d-print-ttv2k5mb-2.jpg",
+      "lara-croft-3d-print-ttv2k5mb-3.jpg",
+      "lara-croft-3d-print-ttv2k5mb-4.jpg",
+      "lara-croft-3d-print-ttv2k5mb-5.jpg",
+      "lara-croft-3d-print-ttv2k5mb-6.jpg",
+      "lara-croft-3d-print-ttv2k5mb-7.jpg",
+      "lara-croft-3d-print-ttv2k5mb-8.jpg",
+      "lara-croft-3d-print-ttv2k5mb-9.jpg"
+    ],
+    "precoAntigo": 1000
+  },
+  {
+    "id": "link-the-hero-of-time-figure-colecionavel-5973",
+    "nome": "Link the hero of time! - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Zelda",
+    "preco": 580,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "link-the-legend-of-zelda-ocarina-of-time-tuqimwcv-1.jpg",
+      "link-the-legend-of-zelda-ocarina-of-time-tuqimwcv-3.jpg",
+      "link-the-legend-of-zelda-ocarina-of-time-tuqimwcv-4.jpg",
+      "link-the-legend-of-zelda-ocarina-of-time-tuqimwcv-6.jpg"
+    ],
+    "precoAntigo": 600
+  },
+  {
+    "id": "lola-bunny-basketball-figure-colecionavel-5589",
+    "nome": "Lola bunny basketball - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lola-bunny-stl-for-3d-printing-tve8tvpz-1.jpg",
+      "lola-bunny-stl-for-3d-printing-tve8tvpz-2.jpg",
+      "lola-bunny-stl-for-3d-printing-tve8tvpz-3.jpg",
+      "lola-bunny-stl-for-3d-printing-tve8tvpz-4.jpg",
+      "lola-bunny-stl-for-3d-printing-tve8tvpz-5.jpg",
+      "lola-bunny-stl-for-3d-printing-tve8tvpz-6.jpg",
+      "lola-bunny-stl-for-3d-printing-tve8tvpz-7.jpg"
+    ]
+  },
+  {
+    "id": "lady-devil-may-cry-figure-colecionavel-2911",
+    "nome": "Lady Devil May Cry - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "DMC",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lady-devil-may-cry-tw12gj9e-1.jpg",
+      "lady-devil-may-cry-tw12gj9e-2.jpg",
+      "lady-devil-may-cry-tw12gj9e-3.jpg",
+      "lady-devil-may-cry-tw12gj9e-4.jpg",
+      "lady-devil-may-cry-tw12gj9e-5.jpg",
+      "lady-devil-may-cry-tw12gj9e-6.jpg",
+      "lady-devil-may-cry-tw12gj9e-7.jpg",
+      "lady-devil-may-cry-tw12gj9e-8.jpg"
+    ]
+  },
+  {
+    "id": "lady-maria-bloodborne-diorama-figure-colecionavel-2267",
+    "nome": "Lady Maria Bloodborne diorama - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Souslike",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lady-maria-bloodborne-twm75vnk-1.jpg",
+      "lady-maria-bloodborne-twm75vnk-3.jpg",
+      "lady-maria-bloodborne-twm75vnk-5.jpg",
+      "lady-maria-bloodborne-twm75vnk-6.jpg",
+      "lady-maria-bloodborne-twm75vnk-7.jpg",
+      "lady-maria-bloodborne-twm75vnk-8.jpg"
+    ]
+  },
+  {
+    "id": "lara-croft-abe3d-figure-colecionavel-8705",
+    "nome": "Lara Croft Abe3d - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "TOMB RAIDER",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lara-croft-stl-tx8tktk3-1.jpg",
+      "lara-croft-stl-tx8tktk3-2.jpg",
+      "lara-croft-stl-tx8tktk3-3.jpg",
+      "lara-croft-stl-tx8tktk3-4.jpg",
+      "lara-croft-stl-tx8tktk3-5.jpg",
+      "lara-croft-stl-tx8tktk3-6.jpg"
+    ]
+  },
+  {
+    "id": "lara-croft-hunter-figure-colecionavel-9057",
+    "nome": "Lara Croft hunter - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "TOMB RAIDER",
+    "preco": 580,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 24cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lara-croft-2-txt7yopz-1.jpg",
+      "lara-croft-2-txt7yopz-2.jpg",
+      "lara-croft-2-txt7yopz-3.jpg",
+      "lara-croft-2-txt7yopz-4.jpg",
+      "lara-croft-2-txt7yopz-5.jpg",
+      "lara-croft-2-txt7yopz-6.jpg",
+      "lara-croft-2-txt7yopz-7.jpg",
+      "lara-croft-2-txt7yopz-8.jpg",
+      "lara-croft-2-txt7yopz-9.jpg"
+    ],
+    "precoAntigo": 600
+  },
+  {
+    "id": "lara-croft-classic-hunter-figure-colecionagel-4679",
+    "nome": "Lara Croft Classic hunter - Figure colecionagel",
+    "categoria": "Games",
+    "subcategoria": "TOMB RAIDER",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lara-croft-abe3d-u2oxbnj2-13.jpg",
+      "lara-croft-abe3d-u2oxbnj2-1.jpg",
+      "lara-croft-abe3d-u2oxbnj2-2.jpg",
+      "lara-croft-abe3d-u2oxbnj2-3.jpg",
+      "lara-croft-abe3d-u2oxbnj2-4.jpg",
+      "lara-croft-abe3d-u2oxbnj2-5.jpg",
+      "lara-croft-abe3d-u2oxbnj2-6.jpg",
+      "lara-croft-abe3d-u2oxbnj2-7.jpg",
+      "lara-croft-abe3d-u2oxbnj2-8.jpg",
+      "lara-croft-abe3d-u2oxbnj2-9.jpg",
+      "lara-croft-abe3d-u2oxbnj2-10.jpg",
+      "lara-croft-abe3d-u2oxbnj2-11.jpg",
+      "lara-croft-abe3d-u2oxbnj2-12.jpg",
+      "lara-croft-abe3d-u2oxbnj2-14.jpg",
+      "lara-croft-abe3d-u2oxbnj2-15.jpg",
+      "lara-croft-abe3d-u2oxbnj2-16.jpg"
+    ]
+  },
+  {
+    "id": "lara-croft-classic-sexy-version-figure-colecionavel-5108",
+    "nome": "Lara croft classic sexy version - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "TOMB RAIDER",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lara-croft-from-tomb-raider-u3otcm4i-1.jpg",
+      "lara-croft-from-tomb-raider-u3otcm4i-2.jpg",
+      "lara-croft-from-tomb-raider-u3otcm4i-3.jpg",
+      "lara-croft-from-tomb-raider-u3otcm4i-4.jpg",
+      "lara-croft-from-tomb-raider-u3otcm4i-5.jpg"
+    ]
+  },
+  {
+    "id": "lara-treasure-hunter-underworld-figure-colecionavel-4635",
+    "nome": "Lara Treasure Hunter underworld - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "TOMB RAIDER",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "lara-treasure-hunter-u4dmzud8-1.jpg",
+      "lara-treasure-hunter-u4dmzud8-2.jpg",
+      "lara-treasure-hunter-u4dmzud8-3.jpg",
+      "lara-treasure-hunter-u4dmzud8-4.jpg",
+      "lara-treasure-hunter-u4dmzud8-5.jpg",
+      "lara-treasure-hunter-u4dmzud8-6.jpg"
+    ]
+  },
+  {
+    "id": "leina-defeats-queens-blade-figure-colecionavel-6208",
+    "nome": "Leina Defeats Queens Blade - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "leina-defeats-queens-blade-u50eqpjy-1.jpg",
+      "leina-defeats-queens-blade-u50eqpjy-2.jpg",
+      "leina-defeats-queens-blade-u50eqpjy-3.jpg",
+      "leina-defeats-queens-blade-u50eqpjy-4.jpg",
+      "leina-defeats-queens-blade-u50eqpjy-5.jpg",
+      "leina-defeats-queens-blade-u50eqpjy-6.jpg",
+      "leina-defeats-queens-blade-u50eqpjy-7.jpg",
+      "leina-defeats-queens-blade-u50eqpjy-8.jpg",
+      "leina-defeats-queens-blade-u50eqpjy-9.jpg"
+    ]
+  },
+  {
+    "id": "leon-resident-evil-requiem-figure-colecionavel-3706",
+    "nome": "Leon Resident evil requiem - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Resident evil",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "leon-residual-evil-requiem-u5wkjbia-1.jpg",
+      "leon-residual-evil-requiem-u5wkjbia-2.jpg",
+      "leon-residual-evil-requiem-u5wkjbia-3.jpg",
+      "leon-residual-evil-requiem-u5wkjbia-4.jpg",
+      "leon-residual-evil-requiem-u5wkjbia-5.jpg",
+      "leon-residual-evil-requiem-u5wkjbia-6.jpg"
+    ]
+  },
+  {
+    "id": "link-tears-of-the-kingdom-figure-colecionavel-4050",
+    "nome": "Link Tears Of The Kingdom - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Zelda",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "link-tears-of-the-kingdom-u6ou89q0-1.jpg",
+      "link-tears-of-the-kingdom-u6ou89q0-4.jpg",
+      "link-tears-of-the-kingdom-u6ou89q0-5.jpg"
+    ]
   }
 ];
 
