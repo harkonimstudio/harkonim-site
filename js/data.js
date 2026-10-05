@@ -5361,14 +5361,14 @@ const PRODUTOS = [
     "nome": "Pennywise Girl + nsfw - Figure colecionavel",
     "categoria": "Filmes",
     "subcategoria": "Terror",
-    "preco": 750,
+    "preco": 765,
     "escala": "1:9",
     "material": "100% Resina",
     "altura": "Aproximdamente 29cm",
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
-    "promocao": false,
+    "promocao": true,
     "nsfw": false,
     "nsfwAviso": true,
     "descricao": "",
@@ -5397,7 +5397,8 @@ const PRODUTOS = [
     "imagensNsfw": [
       "it-joker-character-by-esm-x6wrazvq-28.jpg",
       "it-joker-character-by-esm-x6wrazvq-30.jpg"
-    ]
+    ],
+    "_precoBasePromocao": 850
   },
   {
     "id": "ichigo-bleach-figure-colecionavel-4810",
@@ -7717,14 +7718,14 @@ const PRODUTOS = [
     "nome": "Alien Xenomorph on pedestal - Figure colecionavel",
     "categoria": "Filmes",
     "subcategoria": "Terror",
-    "preco": 950,
+    "preco": 855,
     "escala": "1:9",
     "material": "100% Resina",
     "altura": "Aproximadamente 29cm",
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
-    "promocao": false,
+    "promocao": true,
     "nsfw": false,
     "nsfwAviso": false,
     "descricao": "",
@@ -7747,7 +7748,9 @@ const PRODUTOS = [
       "alien-xenomorph-3d-print-a6zakmy7-7.jpg",
       "alien-xenomorph-3d-print-a6zakmy7-8.jpg",
       "alien-xenomorph-3d-print-a6zakmy7-9.jpg"
-    ]
+    ],
+    "_precoBasePromocao": 950,
+    "precoAntigo": 950
   },
   {
     "id": "absolute-wonder-woman-figure-colecionavel-4436",
@@ -8711,14 +8714,14 @@ const PRODUTOS = [
     "nome": "Coraline Figure colecionavel",
     "categoria": "Filmes",
     "subcategoria": "Terror",
-    "preco": 600,
+    "preco": 540,
     "escala": "1:9",
     "material": "100% Resina",
     "altura": "Aproximadamente 27cm",
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
-    "promocao": false,
+    "promocao": true,
     "nsfw": false,
     "nsfwAviso": false,
     "descricao": "",
@@ -8739,7 +8742,9 @@ const PRODUTOS = [
       "coraline-3d-print-at375p7p-6.jpg",
       "coraline-3d-print-at375p7p-7.jpg",
       "coraline-3d-print-at375p7p-8.jpg"
-    ]
+    ],
+    "_precoBasePromocao": 600,
+    "precoAntigo": 600
   },
   {
     "id": "chainsaw-man-reze-nsfw-figure-colecionavel-3989",
@@ -10838,14 +10843,14 @@ const PRODUTOS = [
     "nome": "Ghostface - Figure colecionavel",
     "categoria": "Filmes",
     "subcategoria": "Terror",
-    "preco": 600,
+    "preco": 540,
     "escala": "1:6",
     "material": "100% Resina",
     "altura": "Aproximadamente 30cm",
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
-    "promocao": false,
+    "promocao": true,
     "nsfw": false,
     "nsfwAviso": false,
     "descricao": "",
@@ -10866,7 +10871,9 @@ const PRODUTOS = [
       "ghostface-3d-print-qv63z2c1-5.jpg",
       "ghostface-3d-print-qv63z2c1-6.jpg",
       "ghostface-3d-print-qv63z2c1-7.jpg"
-    ]
+    ],
+    "_precoBasePromocao": 600,
+    "precoAntigo": 600
   },
   {
     "id": "gaara-naruto-figure-colecionavel-1728",
@@ -11861,14 +11868,14 @@ const PRODUTOS = [
     "nome": "Jason voorhees - Figure colecionavel",
     "categoria": "Filmes",
     "subcategoria": "Terror",
-    "preco": 750,
+    "preco": 675,
     "escala": "1:6",
     "material": "100% Resina",
     "altura": "Aproximadamente 28cm",
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
-    "promocao": false,
+    "promocao": true,
     "nsfw": false,
     "nsfwAviso": false,
     "descricao": "",
@@ -11891,7 +11898,9 @@ const PRODUTOS = [
       "jason-3d-print-s19zb5io-7.jpg",
       "jason-3d-print-s19zb5io-8.jpg",
       "jason-3d-print-s19zb5io-9.jpg"
-    ]
+    ],
+    "_precoBasePromocao": 750,
+    "precoAntigo": 750
   },
   {
     "id": "jill-valentine-sitted-figure-colecionavel-1355",

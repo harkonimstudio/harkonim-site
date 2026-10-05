@@ -58,7 +58,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Reze",
     "codigo": "0012",
-    "etapa": "impressao"
+    "etapa": "pintura"
   },
   {
     "nome": "Yani neko diorama",
@@ -68,7 +68,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Ghislaine",
     "codigo": "HKM-W011",
-    "etapa": "impressao"
+    "etapa": "pintura"
   },
   {
     "nome": "Yani neko sitted",
@@ -105,4 +105,4 @@ const FILA_PRODUCAO = [
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "29/09/2026";
+const ULTIMA_ATUALIZACAO_FILA = "05/10/2026";
