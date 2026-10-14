@@ -102,7 +102,21 @@ const FILA_PRODUCAO = [
     "etapa": "aguardando",
     "imagem": "fila/thumb-d58132e9-1cb5-4a2d-a117-399f8ba84aaf.webp",
     "produtoId": "ico-and-yorda-figure-colecionavel-4914"
+  },
+  {
+    "nome": "Juri han + abyssal nurse",
+    "codigo": "HKM-A1D848E2",
+    "etapa": "aguardando",
+    "imagem": "",
+    "produtoId": ""
+  },
+  {
+    "nome": "Custom Figure manto negro",
+    "codigo": "HKM-BBD5EC62",
+    "etapa": "aguardando",
+    "imagem": "",
+    "produtoId": ""
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "05/10/2026";
+const ULTIMA_ATUALIZACAO_FILA = "14/10/2026";
