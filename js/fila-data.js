@@ -116,7 +116,14 @@ const FILA_PRODUCAO = [
     "etapa": "aguardando",
     "imagem": "",
     "produtoId": ""
+  },
+  {
+    "nome": "Abyssal nurse - Figure colecionavel",
+    "codigo": "HKM-77AA33FC",
+    "etapa": "aguardando",
+    "imagem": "fila/thumb-1adb648d-6271-4ea1-9ce0-ad5eb055d40e.webp",
+    "produtoId": "abyssal-nurse-figure-colecionavel-0071"
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "14/10/2026";
+const ULTIMA_ATUALIZACAO_FILA = "16/10/2026";

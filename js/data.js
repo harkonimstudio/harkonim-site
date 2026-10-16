@@ -13016,6 +13016,41 @@ const PRODUTOS = [
       "link-tears-of-the-kingdom-u6ou89q0-4.jpg",
       "link-tears-of-the-kingdom-u6ou89q0-5.jpg"
     ]
+  },
+  {
+    "id": "saria-zelda-ocarina-of-time-remake-9900",
+    "nome": "Saria - Zelda ocarina of time remake",
+    "categoria": "Originais Harkonim",
+    "subcategoria": "",
+    "preco": 450,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 18cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "saria-zelda-ocarina-of-time-remake-g3dfgep7-1.jpg",
+      "saria-zelda-ocarina-of-time-remake-g3dfgep7-2.jpg",
+      "saria-zelda-ocarina-of-time-remake-g3dfgep7-3.jpg",
+      "saria-zelda-ocarina-of-time-remake-g3dfgep7-4.jpg",
+      "saria-zelda-ocarina-of-time-remake-g3dfgep7-5.jpg",
+      "saria-zelda-ocarina-of-time-remake-g3dfgep7-6.jpg",
+      "saria-zelda-ocarina-of-time-remake-g3dfgep7-7.jpg"
+    ]
   }
 ];
 
