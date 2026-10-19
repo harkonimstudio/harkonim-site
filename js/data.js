@@ -13022,10 +13022,10 @@ const PRODUTOS = [
     "nome": "Saria - Zelda ocarina of time remake",
     "categoria": "Originais Harkonim",
     "subcategoria": "",
-    "preco": 450,
+    "preco": 550,
     "escala": "1:12",
     "material": "100% Resina",
-    "altura": "Aproximadamente 18cm",
+    "altura": "Aproximadamente 20cm",
     "status": "sob-encomenda",
     "destaque": false,
     "destaque2": false,
@@ -13050,7 +13050,8 @@ const PRODUTOS = [
       "saria-zelda-ocarina-of-time-remake-g3dfgep7-5.jpg",
       "saria-zelda-ocarina-of-time-remake-g3dfgep7-6.jpg",
       "saria-zelda-ocarina-of-time-remake-g3dfgep7-7.jpg"
-    ]
+    ],
+    "precoAntigo": 550
   }
 ];
 
