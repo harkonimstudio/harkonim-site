@@ -13052,6 +13052,39 @@ const PRODUTOS = [
       "saria-zelda-ocarina-of-time-remake-g3dfgep7-7.jpg"
     ],
     "precoAntigo": 550
+  },
+  {
+    "id": "adult-malon-zelda-ocarina-of-time-original-harkonim-9252",
+    "nome": "Adult malon - Zelda ocarina of time original harkonim!",
+    "categoria": "Originais Harkonim",
+    "subcategoria": "",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-0daulqi7-3.jpg",
+      "produto-0daulqi7-1.jpg",
+      "produto-0daulqi7-2.jpg",
+      "produto-0daulqi7-4.jpg",
+      "produto-0daulqi7-5.jpg"
+    ]
   }
 ];
 
