@@ -12263,7 +12263,7 @@ const PRODUTOS = [
     "material": "100% Resina",
     "altura": "Aproximadamente 28cm",
     "status": "sob-encomenda",
-    "destaque": true,
+    "destaque": false,
     "destaque2": false,
     "promocao": false,
     "nsfw": false,
