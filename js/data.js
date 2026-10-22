@@ -13085,6 +13085,564 @@ const PRODUTOS = [
       "produto-0daulqi7-4.jpg",
       "produto-0daulqi7-5.jpg"
     ]
+  },
+  {
+    "id": "figure-colecionavel-80s-fitness-tinkerbell-5190",
+    "nome": "Figure colecionavel - 80s Fitness Tinkerbell",
+    "categoria": "Filmes",
+    "subcategoria": "Disney",
+    "preco": 530,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 15cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "80s-fitness-tinkerbell-nsfw-variant-k9e3gbja-2.jpg",
+      "80s-fitness-tinkerbell-nsfw-variant-k9e3gbja-1.jpg",
+      "80s-fitness-tinkerbell-nsfw-variant-k9e3gbja-3.jpg",
+      "80s-fitness-tinkerbell-nsfw-variant-k9e3gbja-4.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-adult-toph-nsfw-1172",
+    "nome": "Figure colecionavel - Adult toph NSFW",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "adult-toph-kblosnvw-7.jpg",
+      "adult-toph-kblosnvw-10.jpg",
+      "adult-toph-kblosnvw-9.jpg",
+      "adult-toph-kblosnvw-1.jpg",
+      "adult-toph-kblosnvw-2.jpg",
+      "adult-toph-kblosnvw-3.jpg",
+      "adult-toph-kblosnvw-4.jpg",
+      "adult-toph-kblosnvw-5.jpg",
+      "adult-toph-kblosnvw-6.jpg",
+      "adult-toph-kblosnvw-8.jpg",
+      "adult-toph-kblosnvw-11.jpg"
+    ],
+    "precoAntigo": 950
+  },
+  {
+    "id": "figure-colecionavel-aerith-solo-nsfw-4994",
+    "nome": "Figure colecionavel - Aerith solo NSFW",
+    "categoria": "Games",
+    "subcategoria": "Final fantasy",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproxidamente 23cm de largura",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "aerith-solo-kem06x85-1.jpg",
+      "aerith-solo-kem06x85-2.jpg",
+      "aerith-solo-kem06x85-3.jpg",
+      "aerith-solo-kem06x85-4.jpg",
+      "aerith-solo-kem06x85-5.jpg",
+      "aerith-solo-kem06x85-6.jpg",
+      "aerith-solo-kem06x85-7.jpg",
+      "aerith-solo-kem06x85-8.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-ai-hayasaka-kaguya-sama-love-is-war-7504",
+    "nome": "Figure colecionavel - Ai Hayasaka Kaguya Sama Love Is War",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 23cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ai-hayasaka-kaguya-sama-love-is-war-kfijvc7k-1.jpg",
+      "ai-hayasaka-kaguya-sama-love-is-war-kfijvc7k-2.jpg",
+      "ai-hayasaka-kaguya-sama-love-is-war-kfijvc7k-3.jpg",
+      "ai-hayasaka-kaguya-sama-love-is-war-kfijvc7k-6.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-bondage-birthday-tinkerbell-8360",
+    "nome": "Figure colecionavel - Bondage Birthday Tinkerbell",
+    "categoria": "Filmes",
+    "subcategoria": "Disney",
+    "preco": 550,
+    "escala": "1:12",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 14cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bondage-birthday-tinkerbell-kgqa8zt8-1.jpg",
+      "bondage-birthday-tinkerbell-kgqa8zt8-2.jpg",
+      "bondage-birthday-tinkerbell-kgqa8zt8-3.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-bunny-ade-nikke-0080",
+    "nome": "Figure colecionavel - Bunny Ade Nikke",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "bunny-ade-nikke-khaufwzx-1.jpg",
+      "bunny-ade-nikke-khaufwzx-2.jpg",
+      "bunny-ade-nikke-khaufwzx-3.jpg",
+      "bunny-ade-nikke-khaufwzx-4.jpg",
+      "bunny-ade-nikke-khaufwzx-5.jpg"
+    ],
+    "precoAntigo": 1000
+  },
+  {
+    "id": "figure-colecionavel-carmilla-castlevania-9522",
+    "nome": "Figure colecionavel - Carmilla Castlevania",
+    "categoria": "Games",
+    "subcategoria": "Castlevania",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "AProximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "carmilla-castlevania-kih92w0b-1.jpg",
+      "carmilla-castlevania-kih92w0b-2.jpg",
+      "carmilla-castlevania-kih92w0b-3.jpg",
+      "carmilla-castlevania-kih92w0b-4.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-coco-nsfw-1740",
+    "nome": "Figure colecionavel - Coco Nsfw",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "aproximadamente 20cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "coco-nsfw-kj4mheqh-1.jpg",
+      "coco-nsfw-kj4mheqh-2.jpg",
+      "coco-nsfw-kj4mheqh-3.jpg",
+      "coco-nsfw-kj4mheqh-4.jpg",
+      "coco-nsfw-kj4mheqh-5.jpg",
+      "coco-nsfw-kj4mheqh-6.jpg",
+      "coco-nsfw-kj4mheqh-7.jpg",
+      "coco-nsfw-kj4mheqh-8.jpg",
+      "coco-nsfw-kj4mheqh-9.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-dragoniku-4576",
+    "nome": "Figure colecionavel - Dragoniku",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "dragoniku-kk7ly32g-1.jpg",
+      "dragoniku-kk7ly32g-2.jpg",
+      "dragoniku-kk7ly32g-3.jpg",
+      "dragoniku-kk7ly32g-4.jpg",
+      "dragoniku-kk7ly32g-5.jpg",
+      "dragoniku-kk7ly32g-6.jpg",
+      "dragoniku-kk7ly32g-7.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-evie-stellar-blade-2-2772",
+    "nome": "Figure colecionavel - Evie Stellar Blade 2",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "evie-stellar-blade-2-game-figure-for-3d-printing-kl2u2n7k-1.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-kl2u2n7k-2.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-kl2u2n7k-3.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-kl2u2n7k-4.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-kl2u2n7k-5.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-kl2u2n7k-6.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-kl2u2n7k-7.jpg",
+      "evie-stellar-blade-2-game-figure-for-3d-printing-kl2u2n7k-8.jpg"
+    ],
+    "precoAntigo": 900
+  },
+  {
+    "id": "figure-colecionavel-fern-hotspring-4026",
+    "nome": "Figure colecionavel - Fern (Hotspring)",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 20cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "fern-hotspring-klzk67y9-1.jpg",
+      "fern-hotspring-klzk67y9-2.jpg",
+      "fern-hotspring-klzk67y9-3.jpg",
+      "fern-hotspring-klzk67y9-4.jpg",
+      "fern-hotspring-klzk67y9-5.jpg",
+      "fern-hotspring-klzk67y9-6.jpg",
+      "fern-hotspring-klzk67y9-7.jpg",
+      "fern-hotspring-klzk67y9-8.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-premium-frieren-and-treasure-7290",
+    "nome": "Figure colecionavel premium - Frieren and treasure",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 1300,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "frieren-kmkfrh1q-3.jpg",
+      "frieren-kmkfrh1q-5.jpg",
+      "frieren-kmkfrh1q-8.jpg",
+      "frieren-kmkfrh1q-11.jpg",
+      "frieren-kmkfrh1q-13.jpg",
+      "frieren-kmkfrh1q-15.jpg",
+      "frieren-kmkfrh1q-17.jpg",
+      "frieren-kmkfrh1q-27.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-frieren-beyond-journey-s-end-7019",
+    "nome": "Figure colecionavel - Frieren Beyond Journey's End",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "frieren-beyond-journey-s-end-anime-figure-for-3d-printing-kozu38h9-1.jpg",
+      "frieren-beyond-journey-s-end-anime-figure-for-3d-printing-kozu38h9-2.jpg",
+      "frieren-beyond-journey-s-end-anime-figure-for-3d-printing-kozu38h9-3.jpg",
+      "frieren-beyond-journey-s-end-anime-figure-for-3d-printing-kozu38h9-4.jpg",
+      "frieren-beyond-journey-s-end-anime-figure-for-3d-printing-kozu38h9-5.jpg",
+      "frieren-beyond-journey-s-end-anime-figure-for-3d-printing-kozu38h9-6.jpg",
+      "frieren-beyond-journey-s-end-anime-figure-for-3d-printing-kozu38h9-7.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-frieren-and-fern-x-tentacle-mimic-chest-nsfw-4974",
+    "nome": "Figure colecionavel - Frieren And Fern X Tentacle Mimic Chest (NSFW)",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 850,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 20cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "frieren-and-fern-x-tentacle-mimic-chest-nsfw-kpmr97ou-1.jpg",
+      "frieren-and-fern-x-tentacle-mimic-chest-nsfw-kpmr97ou-4.jpg",
+      "frieren-and-fern-x-tentacle-mimic-chest-nsfw-kpmr97ou-5.jpg",
+      "frieren-and-fern-x-tentacle-mimic-chest-nsfw-kpmr97ou-6.jpg",
+      "frieren-and-fern-x-tentacle-mimic-chest-nsfw-kpmr97ou-7.jpg",
+      "frieren-and-fern-x-tentacle-mimic-chest-nsfw-kpmr97ou-8.jpg"
+    ]
+  },
+  {
+    "id": "figure-colecionavel-frieren-angel-8904",
+    "nome": "Figure colecionavel - Frieren Angel",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "frieren-angel-kqnrm9od-1.jpg",
+      "frieren-angel-kqnrm9od-2.jpg",
+      "frieren-angel-kqnrm9od-3.jpg",
+      "frieren-angel-kqnrm9od-4.jpg",
+      "frieren-angel-kqnrm9od-5.jpg",
+      "frieren-angel-kqnrm9od-6.jpg",
+      "frieren-angel-kqnrm9od-7.jpg"
+    ],
+    "precoAntigo": 850
+  },
+  {
+    "id": "figure-colecionavel-talia-yang-cyberpunk-edgerunners-9926",
+    "nome": "Figure colecionavel - Talia yang Cyberpunk edgerunners",
+    "categoria": "Filmes",
+    "subcategoria": "Cyberpunk",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": true,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "figure-colecionavel-talia-yang-cyberpunk-edgerunners-kymooac9-7.jpg",
+      "figure-colecionavel-talia-yang-cyberpunk-edgerunners-kymooac9-6.jpg",
+      "figure-colecionavel-talia-yang-cyberpunk-edgerunners-kymooac9-5.jpg",
+      "figure-colecionavel-talia-yang-cyberpunk-edgerunners-kymooac9-4.jpg",
+      "figure-colecionavel-talia-yang-cyberpunk-edgerunners-kymooac9-3.jpg",
+      "figure-colecionavel-talia-yang-cyberpunk-edgerunners-kymooac9-1.jpg",
+      "figure-colecionavel-talia-yang-cyberpunk-edgerunners-kymooac9-2.jpg"
+    ]
   }
 ];
 

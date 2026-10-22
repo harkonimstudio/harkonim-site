@@ -8,14 +8,14 @@ const FILA_PRODUCAO = [
   {
     "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0001",
-    "etapa": "impressao",
+    "etapa": "pintura",
     "imagem": "fila/thumb-1c94f018-001f-4c8d-a669-e523b24ecc3c.webp",
     "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
     "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0002",
-    "etapa": "impressao",
+    "etapa": "pintura",
     "imagem": "fila/thumb-086aa264-e112-4e3b-9c7a-08b40e25c5e6.webp",
     "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
@@ -27,7 +27,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0006",
-    "etapa": "acabamento",
+    "etapa": "pintura",
     "imagem": "fila/thumb-8dea4875-709b-4ee7-8965-685bcebb2f14.webp",
     "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
@@ -48,7 +48,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Rias gremory",
     "codigo": "0010",
-    "etapa": "impressao"
+    "etapa": "embalagem"
   },
   {
     "nome": "yani neko diorama",
@@ -58,7 +58,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Reze",
     "codigo": "0012",
-    "etapa": "pintura"
+    "etapa": "embalagem"
   },
   {
     "nome": "Yani neko diorama",
@@ -68,7 +68,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "Ghislaine",
     "codigo": "HKM-W011",
-    "etapa": "pintura"
+    "etapa": "embalagem"
   },
   {
     "nome": "Yani neko sitted",
@@ -126,4 +126,4 @@ const FILA_PRODUCAO = [
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "16/10/2026";
+const ULTIMA_ATUALIZACAO_FILA = "22/10/2026";
