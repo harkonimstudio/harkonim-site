@@ -13336,7 +13336,7 @@ const PRODUTOS = [
     "destaque": false,
     "destaque2": false,
     "promocao": false,
-    "nsfw": false,
+    "nsfw": true,
     "nsfwAviso": false,
     "descricao": "",
     "cuidados": [
