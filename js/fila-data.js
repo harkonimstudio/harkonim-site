@@ -8,21 +8,16 @@ const FILA_PRODUCAO = [
   {
     "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0001",
-    "etapa": "pintura",
+    "etapa": "embalagem",
     "imagem": "fila/thumb-1c94f018-001f-4c8d-a669-e523b24ecc3c.webp",
     "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
     "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0002",
-    "etapa": "pintura",
+    "etapa": "embalagem",
     "imagem": "fila/thumb-086aa264-e112-4e3b-9c7a-08b40e25c5e6.webp",
     "produtoId": "yani-neko-chainsmoker-cat-9491"
-  },
-  {
-    "nome": "Violet evergarden",
-    "codigo": "0003",
-    "etapa": "embalagem"
   },
   {
     "nome": "Yani neko - Chainsmoker cat",
@@ -85,14 +80,14 @@ const FILA_PRODUCAO = [
   {
     "nome": "Valus the First colossus - Figure colecionavel",
     "codigo": "HKM-B317B49E",
-    "etapa": "aguardando",
+    "etapa": "pintura",
     "imagem": "fila/thumb-e0575536-eff6-4f9a-9605-f6d010c0320a.webp",
     "produtoId": "valus-the-first-colossus-figure-colecionavel-4712"
   },
   {
     "nome": "Valus the First colossus - Figure colecionavel",
     "codigo": "HKM-3E92618F",
-    "etapa": "aguardando",
+    "etapa": "pintura",
     "imagem": "fila/thumb-b22ab961-9930-43c5-8f33-f5a86f6a88d5.webp",
     "produtoId": "valus-the-first-colossus-figure-colecionavel-4712"
   },
@@ -126,4 +121,4 @@ const FILA_PRODUCAO = [
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "22/10/2026";
+const ULTIMA_ATUALIZACAO_FILA = "30/10/2026";

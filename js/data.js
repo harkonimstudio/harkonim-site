@@ -13643,6 +13643,78 @@ const PRODUTOS = [
       "figure-colecionavel-talia-yang-cyberpunk-edgerunners-kymooac9-1.jpg",
       "figure-colecionavel-talia-yang-cyberpunk-edgerunners-kymooac9-2.jpg"
     ]
+  },
+  {
+    "id": "maelle-clair-obscur-figure-colecionavel-7044",
+    "nome": "Maelle - Clair obscur Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 850,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-wvcjnpcp-1.jpg",
+      "produto-wvcjnpcp-9.jpg",
+      "produto-wvcjnpcp-10.jpg",
+      "produto-wvcjnpcp-11.jpg",
+      "produto-wvcjnpcp-12.jpg",
+      "maelle-clair-obscur-figure-colecionavel-wvcjnpcp-6.jpg",
+      "maelle-clair-obscur-figure-colecionavel-wvcjnpcp-7.jpg",
+      "maelle-clair-obscur-figure-colecionavel-wvcjnpcp-8.jpg",
+      "maelle-clair-obscur-figure-colecionavel-wvcjnpcp-9.jpg",
+      "maelle-clair-obscur-figure-colecionavel-wvcjnpcp-10.jpg"
+    ]
+  },
+  {
+    "id": "vampire-countess-figure-colecionavel-9673",
+    "nome": "Vampire Countess - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "produto-wx2wh30x-1.jpg",
+      "produto-wx2wh30x-2.jpg",
+      "produto-wx2wh30x-3.jpg",
+      "produto-wx2wh30x-4.jpg",
+      "produto-wx2wh30x-6.jpg",
+      "produto-wx2wh30x-7.jpg"
+    ]
   }
 ];
 
