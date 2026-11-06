@@ -29,26 +29,21 @@ const FILA_PRODUCAO = [
   {
     "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0008",
-    "etapa": "acabamento",
+    "etapa": "pintura",
     "imagem": "fila/thumb-3c9b1318-1217-476d-8348-f81387fb3588.webp",
     "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
     "nome": "Yani neko - Chainsmoker cat",
     "codigo": "0009",
-    "etapa": "acabamento",
+    "etapa": "pintura",
     "imagem": "fila/thumb-0edfd7fb-5bc2-4e24-8599-fc4a12254cd0.webp",
     "produtoId": "yani-neko-chainsmoker-cat-9491"
   },
   {
-    "nome": "Rias gremory",
-    "codigo": "0010",
-    "etapa": "embalagem"
-  },
-  {
     "nome": "yani neko diorama",
     "codigo": "0011",
-    "etapa": "impressao"
+    "etapa": "acabamento"
   },
   {
     "nome": "Reze",
@@ -59,11 +54,6 @@ const FILA_PRODUCAO = [
     "nome": "Yani neko diorama",
     "codigo": "0013",
     "etapa": "impressao"
-  },
-  {
-    "nome": "Ghislaine",
-    "codigo": "HKM-W011",
-    "etapa": "embalagem"
   },
   {
     "nome": "Yani neko sitted",
@@ -94,7 +84,7 @@ const FILA_PRODUCAO = [
   {
     "nome": "ICO And Yorda - Figure colecionavel",
     "codigo": "HKM-7FEE4C15",
-    "etapa": "aguardando",
+    "etapa": "acabamento",
     "imagem": "fila/thumb-d58132e9-1cb5-4a2d-a117-399f8ba84aaf.webp",
     "produtoId": "ico-and-yorda-figure-colecionavel-4914"
   },
@@ -121,4 +111,4 @@ const FILA_PRODUCAO = [
   }
 ];
 
-const ULTIMA_ATUALIZACAO_FILA = "30/10/2026";
+const ULTIMA_ATUALIZACAO_FILA = "06/11/2026";

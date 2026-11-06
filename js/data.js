@@ -12401,41 +12401,6 @@ const PRODUTOS = [
     ]
   },
   {
-    "id": "evie-stellar-blade-figure-colecionavel-2520",
-    "nome": "Evie Stellar Blade - Figure colecionavel",
-    "categoria": "Games",
-    "subcategoria": "Variados",
-    "preco": 750,
-    "escala": "1:6",
-    "material": "100% Resina",
-    "altura": "Aproximadamente 30cm",
-    "status": "sob-encomenda",
-    "destaque": false,
-    "destaque2": false,
-    "promocao": false,
-    "nsfw": false,
-    "nsfwAviso": false,
-    "descricao": "",
-    "cuidados": [
-      "Produto delicado — não é brinquedo",
-      "Evitar quedas e impactos",
-      "Limpeza apenas com pano seco ou levemente úmido"
-    ],
-    "informacoes": [
-      "Peça indicada para exposição",
-      "Produto artesanal e exclusivo"
-    ],
-    "imagens": [
-      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-1.jpg",
-      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-2.jpg",
-      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-3.jpg",
-      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-4.jpg",
-      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-5.jpg",
-      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-6.jpg",
-      "evie-stellar-blade-2-game-figure-for-3d-printing-tqxvuu3p-7.jpg"
-    ]
-  },
-  {
     "id": "kuroeda-plus-sized-elf-figure-colecionavel-3662",
     "nome": "Kuroeda Plus Sized Elf - Figure colecionavel",
     "categoria": "Animes",
@@ -13714,6 +13679,718 @@ const PRODUTOS = [
       "produto-wx2wh30x-4.jpg",
       "produto-wx2wh30x-6.jpg",
       "produto-wx2wh30x-7.jpg"
+    ]
+  },
+  {
+    "id": "deedlit-lodoss-war-figure-colecionavel-8013",
+    "nome": "Deedlit - lodoss war - figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 1100,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "deedlit-lodoss-war-stl-for-3d-printing-8bz0pukm-1.jpg",
+      "deedlit-lodoss-war-stl-for-3d-printing-8bz0pukm-2.jpg",
+      "deedlit-lodoss-war-stl-for-3d-printing-8bz0pukm-3.jpg",
+      "deedlit-lodoss-war-stl-for-3d-printing-8bz0pukm-4.jpg",
+      "deedlit-lodoss-war-stl-for-3d-printing-8bz0pukm-5.jpg"
+    ]
+  },
+  {
+    "id": "ghost-hatsune-miku-figure-colecionavel-5633",
+    "nome": "Ghost Hatsune Miku - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ghost-hatsune-miku-3d-print-model-8ecsru8g-1.jpg",
+      "ghost-hatsune-miku-3d-print-model-8ecsru8g-2.jpg",
+      "ghost-hatsune-miku-3d-print-model-8ecsru8g-3.jpg",
+      "ghost-hatsune-miku-3d-print-model-8ecsru8g-4.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "ghost-hatsune-miku-3d-print-model-8ecsru8g-5.jpg",
+      "ghost-hatsune-miku-3d-print-model-8ecsru8g-7.jpg",
+      "ghost-hatsune-miku-3d-print-model-8ecsru8g-8.jpg"
+    ]
+  },
+  {
+    "id": "goth-frieren-figure-colecionavel-7811",
+    "nome": "Goth Frieren - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "goth-frieren-8fay9igd-1.jpg",
+      "goth-frieren-8fay9igd-2.jpg",
+      "goth-frieren-8fay9igd-3.jpg",
+      "goth-frieren-8fay9igd-4.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "goth-frieren-8fay9igd-5.jpg",
+      "goth-frieren-8fay9igd-6.jpg"
+    ]
+  },
+  {
+    "id": "soft-goth-frieren-figure-colecionavel-8013",
+    "nome": "Soft goth Frieren - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Frieren",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "goth-frieren-frieren-beyond-journey-s-end-8fztmf1m-1.jpg",
+      "goth-frieren-frieren-beyond-journey-s-end-8fztmf1m-2.jpg",
+      "goth-frieren-frieren-beyond-journey-s-end-8fztmf1m-3.jpg",
+      "goth-frieren-frieren-beyond-journey-s-end-8fztmf1m-5.jpg",
+      "goth-frieren-frieren-beyond-journey-s-end-8fztmf1m-6.jpg"
+    ]
+  },
+  {
+    "id": "granblue-fantasy-diorama-anne-grea-1393",
+    "nome": "Granblue Fantasy Diorama Anne & Grea",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 1000,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "granblue-fantasy-diorama-anne-grea-8tegwas6-1.jpg",
+      "granblue-fantasy-diorama-anne-grea-8tegwas6-2.jpg",
+      "granblue-fantasy-diorama-anne-grea-8tegwas6-3.jpg",
+      "granblue-fantasy-diorama-anne-grea-8tegwas6-4.jpg",
+      "granblue-fantasy-diorama-anne-grea-8tegwas6-5.jpg"
+    ],
+    "precoAntigo": 1300
+  },
+  {
+    "id": "greyrat-wives-bunny-roxy-eris-sylphy-figure-colecionavel-3155",
+    "nome": "Greyrat Wives Bunny Roxy, Eris & Sylphy - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "MUSHOKU TENSEI",
+    "preco": 950,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 26cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "greyrat-wives-bunny-roxy-eris-sylphy-8un9u0fs-1.jpg",
+      "greyrat-wives-bunny-roxy-eris-sylphy-8un9u0fs-2.jpg",
+      "greyrat-wives-bunny-roxy-eris-sylphy-8un9u0fs-3.jpg",
+      "greyrat-wives-bunny-roxy-eris-sylphy-8un9u0fs-4.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "greyrat-wives-bunny-roxy-eris-sylphy-8un9u0fs-5.jpg"
+    ]
+  },
+  {
+    "id": "guts-berserk-female-version-figure-colecionavel-4207",
+    "nome": "Guts Berserk Female version - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Berserk",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "guts-berserk-female-remaigining-stl-3d-statue-8vjhqutc-1.jpg",
+      "guts-berserk-female-remaigining-stl-3d-statue-8vjhqutc-2.jpg",
+      "guts-berserk-female-remaigining-stl-3d-statue-8vjhqutc-3.jpg",
+      "guts-berserk-female-remaigining-stl-3d-statue-8vjhqutc-4.jpg",
+      "guts-berserk-female-remaigining-stl-3d-statue-8vjhqutc-5.jpg",
+      "guts-berserk-female-remaigining-stl-3d-statue-8vjhqutc-6.jpg"
+    ]
+  },
+  {
+    "id": "hauting-ground-demento-figure-colecionavel-1811",
+    "nome": "Hauting ground (demento) - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 900,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 17cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-1.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-2.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-3.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-4.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-5.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-6.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-7.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-8.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-9.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-10.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-11.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-12.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-13.jpg",
+      "haunting-ground-demento-1-6-statue-full-cults-version-8w7elt7h-14.jpg"
+    ]
+  },
+  {
+    "id": "heather-silent-hill-3-figure-colecionavel-8314",
+    "nome": "Heather silent hill 3 - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 800,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "heather-silent-hill-3-full-store-version-sculpstation-8x0jzqgl-1.jpg",
+      "heather-silent-hill-3-full-store-version-sculpstation-8x0jzqgl-2.jpg",
+      "heather-silent-hill-3-full-store-version-sculpstation-8x0jzqgl-3.jpg",
+      "heather-silent-hill-3-full-store-version-sculpstation-8x0jzqgl-4.jpg",
+      "heather-silent-hill-3-full-store-version-sculpstation-8x0jzqgl-5.jpg",
+      "heather-silent-hill-3-full-store-version-sculpstation-8x0jzqgl-6.jpg",
+      "heather-silent-hill-3-full-store-version-sculpstation-8x0jzqgl-7.jpg"
+    ]
+  },
+  {
+    "id": "helen-girls-frontline-2-exilium-4767",
+    "nome": "Helen Girls' Frontline 2 Exilium",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 800,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "helen-girls-frontline-2-exilium-8ygoxfrk-1.jpg",
+      "helen-girls-frontline-2-exilium-8ygoxfrk-2.jpg",
+      "helen-girls-frontline-2-exilium-8ygoxfrk-3.jpg",
+      "helen-girls-frontline-2-exilium-8ygoxfrk-4.jpg",
+      "helen-girls-frontline-2-exilium-8ygoxfrk-5.jpg"
+    ]
+  },
+  {
+    "id": "hiiragi-utena-figure-colecionavel-7560",
+    "nome": "Hiiragi Utena - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 750,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "hiiragi-utena-fan-art-8z07qnzu-1.jpg",
+      "hiiragi-utena-fan-art-8z07qnzu-2.jpg",
+      "hiiragi-utena-fan-art-8z07qnzu-3.jpg",
+      "hiiragi-utena-fan-art-8z07qnzu-4.jpg"
+    ]
+  },
+  {
+    "id": "hollow-knight-premium-3d-print-0473",
+    "nome": "Hollow Knight Premium 3D Print",
+    "categoria": "Games",
+    "subcategoria": "Hollow knight",
+    "preco": 680,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 23cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "hollow-knight-premium-3d-print-8zpi3l4z-1.jpg",
+      "hollow-knight-premium-3d-print-8zpi3l4z-2.jpg",
+      "hollow-knight-premium-3d-print-8zpi3l4z-3.jpg",
+      "hollow-knight-premium-3d-print-8zpi3l4z-4.jpg"
+    ],
+    "precoAntigo": 750
+  },
+  {
+    "id": "incubus-samael-and-alessa-silent-hill-figure-colecionavel-2772",
+    "nome": "Incubus samael and alessa - Silent hill figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 1100,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 33cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "incubus-samael-x-alessa-silent-hill-full-patreon-ver-90udnkb1-1.jpg",
+      "incubus-samael-x-alessa-silent-hill-full-patreon-ver-90udnkb1-2.jpg",
+      "incubus-samael-x-alessa-silent-hill-full-patreon-ver-90udnkb1-3.jpg",
+      "incubus-samael-x-alessa-silent-hill-full-patreon-ver-90udnkb1-4.jpg",
+      "incubus-samael-x-alessa-silent-hill-full-patreon-ver-90udnkb1-5.jpg"
+    ]
+  },
+  {
+    "id": "ilulu-maid-dragon-figure-colecionavel-7206",
+    "nome": "Ilulu maid dragon - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 24cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "ilulu-fan-art-91qx3yk9-1.jpg",
+      "ilulu-fan-art-91qx3yk9-2.jpg",
+      "ilulu-fan-art-91qx3yk9-3.jpg",
+      "ilulu-fan-art-91qx3yk9-4.jpg",
+      "ilulu-fan-art-91qx3yk9-5.jpg"
+    ]
+  },
+  {
+    "id": "isaac-clarke-dead-space-fanart-6579",
+    "nome": "Isaac Clarke Dead Space Fanart",
+    "categoria": "Games",
+    "subcategoria": "Variados",
+    "preco": 1200,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 28cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "isaac-clarke-dead-space-fanart-929sratx-1.jpg",
+      "isaac-clarke-dead-space-fanart-929sratx-2.jpg",
+      "isaac-clarke-dead-space-fanart-929sratx-3.jpg",
+      "isaac-clarke-dead-space-fanart-929sratx-4.jpg",
+      "isaac-clarke-dead-space-fanart-929sratx-5.jpg",
+      "isaac-clarke-dead-space-fanart-929sratx-6.jpg",
+      "isaac-clarke-dead-space-fanart-929sratx-7.jpg"
+    ]
+  },
+  {
+    "id": "james-sunderland-figure-colecionavel-5867",
+    "nome": "James Sunderland - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 700,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "james-sunderland-92wgo2lk-1.jpg",
+      "james-sunderland-92wgo2lk-2.jpg",
+      "james-sunderland-92wgo2lk-3.jpg",
+      "james-sunderland-92wgo2lk-4.jpg",
+      "james-sunderland-92wgo2lk-5.jpg"
+    ]
+  },
+  {
+    "id": "judy-nsfw-maw-maw-figure-colecionavel-1809",
+    "nome": "Judy Nsfw Maw Maw - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 600,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 22cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "judy-nsfw-maw-maw-93bc69tu-1.jpg",
+      "judy-nsfw-maw-maw-93bc69tu-2.jpg",
+      "judy-nsfw-maw-maw-93bc69tu-3.jpg",
+      "judy-nsfw-maw-maw-93bc69tu-4.jpg",
+      "judy-nsfw-maw-maw-93bc69tu-5.jpg",
+      "judy-nsfw-maw-maw-93bc69tu-6.jpg",
+      "judy-nsfw-maw-maw-93bc69tu-7.jpg"
+    ],
+    "precoAntigo": 750
+  },
+  {
+    "id": "kurisu-figure-colecionavel-8855",
+    "nome": "Kurisu - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 1100,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 30cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kurisu-94q0ehx5-1.jpg",
+      "kurisu-94q0ehx5-2.jpg",
+      "kurisu-94q0ehx5-3.jpg",
+      "kurisu-94q0ehx5-4.jpg",
+      "kurisu-94q0ehx5-5.jpg",
+      "kurisu-94q0ehx5-6.jpg",
+      "kurisu-94q0ehx5-7.jpg",
+      "kurisu-94q0ehx5-8.jpg",
+      "kurisu-94q0ehx5-9.jpg",
+      "kurisu-94q0ehx5-10.jpg",
+      "kurisu-94q0ehx5-11.jpg"
+    ]
+  },
+  {
+    "id": "kuroeda-plus-sized-elf-figure-colecionavel-1484",
+    "nome": "Kuroeda Plus Sized Elf - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Variados",
+    "preco": 700,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": true,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kuroeda-plus-sized-elf-95iuz2qv-1.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-2.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-3.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-4.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-5.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-6.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-7.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-8.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-9.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-10.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-11.jpg",
+      "kuroeda-plus-sized-elf-95iuz2qv-12.jpg"
+    ]
+  },
+  {
+    "id": "kushina-momoji-figure-colecionavel-6033",
+    "nome": "Kushina Momoji - Figure colecionavel",
+    "categoria": "Animes",
+    "subcategoria": "Naruto",
+    "preco": 650,
+    "escala": "1:9",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": true,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "kushina-momoji-version-960cwy32-1.jpg",
+      "kushina-momoji-version-960cwy32-3.jpg",
+      "kushina-momoji-version-960cwy32-5.jpg"
+    ],
+    "galeriaHibrida": true,
+    "imagensNsfw": [
+      "kushina-momoji-version-960cwy32-2.jpg",
+      "kushina-momoji-version-960cwy32-4.jpg",
+      "kushina-momoji-version-960cwy32-6.jpg",
+      "kushina-momoji-version-960cwy32-7.jpg",
+      "kushina-momoji-version-960cwy32-8.jpg",
+      "kushina-momoji-version-960cwy32-9.jpg",
+      "kushina-momoji-version-960cwy32-10.jpg",
+      "kushina-momoji-version-960cwy32-11.jpg",
+      "kushina-momoji-version-960cwy32-12.jpg"
     ]
   }
 ];
