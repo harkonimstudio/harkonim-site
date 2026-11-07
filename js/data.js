@@ -12401,89 +12401,6 @@ const PRODUTOS = [
     ]
   },
   {
-    "id": "kuroeda-plus-sized-elf-figure-colecionavel-3662",
-    "nome": "Kuroeda Plus Sized Elf - Figure colecionavel",
-    "categoria": "Animes",
-    "subcategoria": "Variados",
-    "preco": 650,
-    "escala": "1:9",
-    "material": "100% Resina",
-    "altura": "Aproximadamente 26cm",
-    "status": "sob-encomenda",
-    "destaque": false,
-    "destaque2": false,
-    "promocao": false,
-    "nsfw": true,
-    "nsfwAviso": false,
-    "descricao": "",
-    "cuidados": [
-      "Produto delicado — não é brinquedo",
-      "Evitar quedas e impactos",
-      "Limpeza apenas com pano seco ou levemente úmido"
-    ],
-    "informacoes": [
-      "Peça indicada para exposição",
-      "Produto artesanal e exclusivo"
-    ],
-    "imagens": [
-      "kuroeda-plus-sized-elf-trw2wl2v-1.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-2.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-3.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-4.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-5.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-6.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-7.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-8.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-9.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-10.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-11.jpg",
-      "kuroeda-plus-sized-elf-trw2wl2v-12.jpg"
-    ]
-  },
-  {
-    "id": "kushina-momoji-version-figure-colecionavel-5227",
-    "nome": "Kushina Momoji Version - Figure colecionavel",
-    "categoria": "Animes",
-    "subcategoria": "Naruto",
-    "preco": 600,
-    "escala": "1:9",
-    "material": "100% Resina",
-    "altura": "Aproximadamente 26cm",
-    "status": "sob-encomenda",
-    "destaque": false,
-    "destaque2": false,
-    "promocao": false,
-    "nsfw": false,
-    "nsfwAviso": true,
-    "descricao": "",
-    "cuidados": [
-      "Produto delicado — não é brinquedo",
-      "Evitar quedas e impactos",
-      "Limpeza apenas com pano seco ou levemente úmido"
-    ],
-    "informacoes": [
-      "Peça indicada para exposição",
-      "Produto artesanal e exclusivo"
-    ],
-    "imagens": [
-      "kushina-momoji-version-tscgmwax-1.jpg",
-      "kushina-momoji-version-tscgmwax-3.jpg",
-      "kushina-momoji-version-tscgmwax-5.jpg"
-    ],
-    "galeriaHibrida": true,
-    "imagensNsfw": [
-      "kushina-momoji-version-tscgmwax-2.jpg",
-      "kushina-momoji-version-tscgmwax-4.jpg",
-      "kushina-momoji-version-tscgmwax-6.jpg",
-      "kushina-momoji-version-tscgmwax-7.jpg",
-      "kushina-momoji-version-tscgmwax-8.jpg",
-      "kushina-momoji-version-tscgmwax-9.jpg",
-      "kushina-momoji-version-tscgmwax-10.jpg",
-      "kushina-momoji-version-tscgmwax-11.jpg",
-      "kushina-momoji-version-tscgmwax-12.jpg"
-    ]
-  },
-  {
     "id": "kylie-griffin-ghostbusters-figure-colecionavel-4425",
     "nome": "Kylie Griffin Ghostbusters - Figure colecionavel",
     "categoria": "Filmes",
@@ -14147,7 +14064,7 @@ const PRODUTOS = [
     "destaque": false,
     "destaque2": false,
     "promocao": false,
-    "nsfw": false,
+    "nsfw": true,
     "nsfwAviso": false,
     "descricao": "",
     "cuidados": [
@@ -14248,7 +14165,7 @@ const PRODUTOS = [
     "destaque": false,
     "destaque2": false,
     "promocao": false,
-    "nsfw": false,
+    "nsfw": true,
     "nsfwAviso": false,
     "descricao": "",
     "cuidados": [
@@ -14391,6 +14308,37 @@ const PRODUTOS = [
       "kushina-momoji-version-960cwy32-10.jpg",
       "kushina-momoji-version-960cwy32-11.jpg",
       "kushina-momoji-version-960cwy32-12.jpg"
+    ]
+  },
+  {
+    "id": "zelda-the-legend-of-zelda-figure-colecionavel-1935",
+    "nome": "Zelda The Legend Of Zelda - Figure colecionavel",
+    "categoria": "Games",
+    "subcategoria": "Zelda",
+    "preco": 750,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproxaimdamente 27cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "zelda-the-legend-of-zelda-tnn02rp6-1.jpg",
+      "zelda-the-legend-of-zelda-tnn02rp6-2.jpg",
+      "zelda-the-legend-of-zelda-tnn02rp6-4.jpg"
     ]
   }
 ];
