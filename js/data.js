@@ -14340,6 +14340,45 @@ const PRODUTOS = [
       "zelda-the-legend-of-zelda-tnn02rp6-2.jpg",
       "zelda-the-legend-of-zelda-tnn02rp6-4.jpg"
     ]
+  },
+  {
+    "id": "chel-eldorado-stylized-figure-colecionavel-2716",
+    "nome": "Chel - Eldorado Stylized - Figure colecionavel",
+    "categoria": "Filmes",
+    "subcategoria": "Variados",
+    "preco": 650,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "aproximadamente 25cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "cheldorado-tfq4umzs-5.jpg",
+      "cheldorado-tfq4umzs-1.jpg",
+      "cheldorado-tfq4umzs-2.jpg",
+      "cheldorado-tfq4umzs-3.jpg",
+      "cheldorado-tfq4umzs-4.jpg",
+      "cheldorado-tfq4umzs-6.jpg",
+      "cheldorado-tfq4umzs-7.jpg",
+      "cheldorado-tfq4umzs-8.jpg",
+      "cheldorado-tfq4umzs-9.jpg",
+      "cheldorado-tfq4umzs-10.jpg",
+      "cheldorado-tfq4umzs-11.jpg"
+    ]
   }
 ];
 
