@@ -1766,7 +1766,7 @@ const PRODUTOS = [
     "nome": "Pyramid head Wicked - Figure colecionavel",
     "categoria": "Games",
     "subcategoria": "Silent hill",
-    "preco": 800,
+    "preco": 1300,
     "escala": "1:6",
     "material": "100% Resina",
     "altura": "Aproximadamente 29cm",
@@ -1801,7 +1801,8 @@ const PRODUTOS = [
       "pyramid-head-wicked-figure-colecionavel-sopu1bnu-13.jpg",
       "pyramid-head-wicked-figure-colecionavel-sopu1bnu-14.jpg",
       "pyramid-head-wicked-figure-colecionavel-sopu1bnu-15.jpg"
-    ]
+    ],
+    "nsfwAviso": false
   },
   {
     "id": "diorama-silent-hill-2-figure-colecionavel-1178",
@@ -2922,7 +2923,7 @@ const PRODUTOS = [
     "nome": "Pyramid head woman - Figure colecionavel",
     "categoria": "Games",
     "subcategoria": "Silent hill",
-    "preco": 780,
+    "preco": 950,
     "escala": "1:6",
     "material": "100% Resina",
     "altura": "Aproximadamente 30cm",
@@ -2954,7 +2955,8 @@ const PRODUTOS = [
       "produto-e2g131rl-10.jpg",
       "produto-e2g131rl-11.jpg"
     ],
-    "precoAntigo": 900
+    "precoAntigo": 1200,
+    "nsfwAviso": false
   },
   {
     "id": "lying-figure-silent-hill-2-figure-colecionavel-9931",
