@@ -14379,6 +14379,43 @@ const PRODUTOS = [
       "cheldorado-tfq4umzs-10.jpg",
       "cheldorado-tfq4umzs-11.jpg"
     ]
+  },
+  {
+    "id": "figure-pyramid-head-silent-hill-2-pronta-entrega-5366",
+    "nome": "Figure Pyramid head Silent hill 2 - Pronta entrega",
+    "categoria": "Games",
+    "subcategoria": "Silent hill",
+    "preco": 900,
+    "escala": "1:6",
+    "material": "100% Resina",
+    "altura": "Aproximadamente 29cm",
+    "status": "sob-encomenda",
+    "destaque": false,
+    "destaque2": false,
+    "promocao": false,
+    "nsfw": false,
+    "nsfwAviso": false,
+    "descricao": "",
+    "cuidados": [
+      "Produto delicado — não é brinquedo",
+      "Evitar quedas e impactos",
+      "Limpeza apenas com pano seco ou levemente úmido"
+    ],
+    "informacoes": [
+      "Peça indicada para exposição",
+      "Produto artesanal e exclusivo"
+    ],
+    "imagens": [
+      "figure-pyramid-head-silent-hill-2-pronta-entrega-2nshxohp-6.jpg",
+      "figure-pyramid-head-silent-hill-2-pronta-entrega-2nshxohp-1.jpg",
+      "figure-pyramid-head-silent-hill-2-pronta-entrega-2nshxohp-2.jpg",
+      "figure-pyramid-head-silent-hill-2-pronta-entrega-2nshxohp-3.jpg",
+      "figure-pyramid-head-silent-hill-2-pronta-entrega-2nshxohp-4.jpg",
+      "figure-pyramid-head-silent-hill-2-pronta-entrega-2nshxohp-5.jpg",
+      "figure-pyramid-head-silent-hill-2-pronta-entrega-2nshxohp-7.jpg",
+      "figure-pyramid-head-silent-hill-2-pronta-entrega-2nshxohp-8.jpg"
+    ],
+    "precoAntigo": 1200
   }
 ];
 
